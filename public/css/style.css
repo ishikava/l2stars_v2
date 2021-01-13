@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Play';
+    src: url('/fonts/Play-Regular.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Play', sans-serif;
+    color: #fff;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: #060304;
+}
+
+a:hover, a:focus {
+    color: #80b7e2;
+}
+
+.top{
+    position: relative;
+}
+
+.brand {
+    height: 350px;
+}
+
+.logo{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 250px;
+    z-index: 999;
+}
+
+.scene {
+    background-color: #0f0c0c;
+    border: solid 1px #141415;
+    padding-top: 15px;
+}
+
+nav, .footerheader {
+    border-top: solid 1px rgba(128, 183, 226, 0.15);
+    border-bottom: solid 1px rgba(128, 183, 226, 0.15);
+    background-color: rgba(128, 183, 226, 0.03);
+}
+
+.menuitem {
+    color: #fff;
+    font-size: 1.3em;
+    display: inline-block;
+    position: relative;
+    padding: 6px 15px 7px;
+}
+
+.smallextlink {
+    font-size: 0.6em;
+}
+
+.menuitema i {
+    font-size: 0.7em;
+}
+
+.menuiteminner {
+    padding: 15px;
+    background-color: #131113;
+    position: absolute;
+    display: none;
+    margin-top: 7px;
+    min-width: 700px;
+    z-index: 1000;
+    border: solid 1px rgba(128, 183, 226, 0.3);
+    border-top: solid 1px rgba(128, 183, 226, 0.15);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menuiteminner a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 7px 12px;
+    white-space: nowrap;
+}
+
+.cat {
+    width: 100%;
+    padding: 5px;
+}
+
+.menuitema {
+    color: #fff;
+}

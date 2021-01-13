@@ -1,0 +1,123 @@
+ELVEN ELDER
+
+ 
+Минимальные требования 
+
+40 уровень 
+затраты на телепортацию - около 300.000а,  20 SoE (на всякий случай) 
+заклинания Wind Strike, Disrupt Undead (желательно Sleep и Root) 
+запас Soulshot, Blessed Spiritshot 
+
+Среднее время прохождения: 6 часов 
+
+
+
+Прохождение
+
+Телепортируемся в Giran.
+
+1. Ищем в церкви Priest Bandellos, разговариваем с ним, получаем Report of Perrin.
+Телепортируемся в Dion.
+2. В гильдии бойцов ищем Master Cardien, разговариваем с ней, получаем Cardien's Letter.
+Телепортируемся в Gludio. Телепортируемся в Gludin.
+3. К северу от доков ищем Perrin, разговариваем с ним. Появляется Tatoma, убиваем его. Снова разговариваем с Perrin.
+4. К югу от доков у маяка ищем Allana, разговариваем с ней.
+Телепортируемся в Elf Village.
+5. В главном здании ищем Hierarch Asterios, разговариваем с ним, выбираем любую строчку, получаем Moonflower Charm и Tetrarch's Letter.
+Бежим на юг к Iris Lake.
+6. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail Diagram.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+7. В кузнице ищем Blacksmith Pushkin (здравствуйте, Александр Cенсеич!), разговариваем с ним, получаем Pushkin's List.
+Используем SoE. Бежим в Death Pass.
+8. Охотимся на Wyrm, пока не получим 20 Wyrm Talon.
+9. Охотимся на Guardian Basilisk, пока не получим 10 Pure Mithril Ore.
+Телепортируемся в Dion. Телепортируемся в Gludio.
+10. К западу от города ищем Father Gupu, разговариваем с ней, выбираем <Refuse to pay 100.000a>.
+Бежим в Ant Nest.
+11. Охотимся на Ant Soldier, пока не соберем 20 Ant Soldier Acid.
+Используем SoE.
+12. Ищем в гильдии бойцов Master Sorius, разговариваем с ним, получаем Order of Sorius.
+Телепортируемся в Dion. Телепортируемся в Giran.
+13. В кузнице ищем Blacksmith Pushkin, разговариваем с ним, получаем Pure Mithril Cup.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+14. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 1.
+Используем SoE. Телепортируемся в Gludin. Бежим в Orc Barracks.
+15. К северу от дороги на ранчо ищем Hermit Santiago, разговариваем с ним, получаем Voucher of Trial.
+16. В конце дороги ищем Daurin Hammercrush, разговариваем с ним.
+17. Появятся 2 Lizardman Agent и Lizardman Lord. ПЕРВЫМ убиваем Lizardman Lord , получаем Secret Letter1.
+Если после убийства всех 3 ничего не выпало, то придется начинать задание сначала.
+18. В конце дороги ищем Daurin Hammercrush, разговариваем с ним.
+Используем SoE. Телепортируемся в Darkelf Village.
+Бежим к Altar of Rites.
+19. У алтаря ищем Arkenia, разговариваем с ней, получаем Arkenia's Contract и Arkenia's Instructions.
+20. Неподалеку от алтаря ищем Mysterious Dark Elf, разговариваем с ним.
+21. Появятся 3 Lizardman Assassin, убиваем их, получаем Secret Letter2.
+Бежим в Swampland.
+22. Ищем Mysterious Dark Elf, разговариваем с ним.
+23. Появятся 3 Lizardman Sniper, убиваем их, получаем Secret Letter3.
+Бежим к Altar of Rites.
+24. Ищем Mysterious Dark Elf, разговариваем с ним.
+25. Появятся 2 Lizardman Wizard и Lizardman Warlord, убиваем их, получаем Secret Letter4.
+26. К юго-западу ищем Saint Kristina, разговариваем с ней, получаем Cristina's Letter.
+Используем SoE. Телепортируемся в Gludin.
+27. В церкви ищем Priest Adonius, разговариваем с ним, получаем Adonius List.
+Телепортируемся в Gludio.
+28. В гильдии бойцов ищем Master Sorius, разговариваем с ним.
+Бежим к Cruma Tower
+29. Охотимся на Marsh Spider, пока не соберем 20 Spider Ichors.
+Используем SoE. Телепортируемся в Giran.
+30. К северо-востоку от города охотимся на Harpy, пока не соберем 20 Harpy's Down.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Orc Village.
+31. Ищем в главном здании Seer Tanapi, разговариваем с ним.
+Бежим в Cave of Trials. На мосту падаем в воду направо, на развилке сворачиваем направо, бежим до упора.
+32. Ищем Ancestor Martankus, разговариваем с ним.
+Используем SoE. Телепортируемся в Gludin. Бежим в Forgotten Temple. От входа бежим направо вниз, затем пробегаем 4-5 залов, потом сворачиваем налево.
+33. Охотимся на Lava Salamander, пока не получим Essence of Flame.
+Используем SoE. Телепортируемся в Orc Village. Бежим в Cave of Trials.
+34. Ищем Ancestor Martankus, разговариваем с ним, получаем Spirit of Flame.
+Используем SoE. Телепортируемся в Gludin. Телепортируемся в Dwarf Village.
+35. Ищем Gauri Twinklerock, разговариваем с ним.
+36. Ищем Priest of Earth Gerald, разговариваем с ней, выбираем <Refuse to pay 100.000a>.
+37. Ищем Wanderer Dorff, разговариваем с ним, получаем Grey Badge.
+Телепортируемся в Gludin.
+38. В церкви ищем Priest Adonius, разговариваем с ним, получаем Andariel's Scipture Copy.
+Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+39. Ищем Arkenia, разговариваем с ней, получаем Stardust.
+Используем SoE. Бежим на юг к Iris Lake.
+40. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 2.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+41. Ищем в церкви Priest Prim, разговариваем с ним.
+Телепортируемся в Hunter Village.
+42. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Isael's Instructions.
+Телепортируемся в Oren.
+43. К северо-западу от города охотимся на Leto Lizardman Shaman и Leto Lizardman Overlord, пока не соберем Talin's Spear Blade, Talin's Spear Shaft, Talin's Spear Aquamarine, Talin's Spear Peridot, Talin's Spear Amethyst, Talin's Spear Ruby.
+Используем SoE. Телепортируемся в Hunter Village.
+44. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Talin's Spear и Isael's Letter.
+Телепортируемся Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin. Телепортируемся на Talking Island.
+45. Ищем в церкви Priest Petron, разговариваем с ним, получаем Paint of Nahir.
+Бежим в Elven Ruins.
+46. Ищем Nahir, убиваем его с помощью Wind Strike, Vampiric Touch, Ice Bolt, пока не получим Hair of Nahir.
+Используем SoE.
+47. Ищем в церкви Priest Petron, разговариваем с ним, получаем Statue of Einhasad.
+Телепортируемся в Gludin. Телепортируемся в Elf Village.
+48. Ищем Andellia, разговариваем с ней.
+Бежим к водопаду возле Swampland.
+49. Охотимся на Black Willow, пока не получим Debris of Willow.
+50. Ищем неподалеку от этого места Uruha, разговариваем с ней, получаем Book of Darkness.
+Используем SoE.
+51. Разговариваем с Andellia, выбираем <Burn the Book of Darkness>.
+Бежим на юг к Iris Lake.
+52. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail of Purity.
+53. Южнее обсерватории ищем Unicorn of Eva, убиваем его с помощью Talin's Spear, получаем Tears of the Unicorn.
+54. Возвращаемся к Thalia, разговариваем с ней, получаем Water of Life.
+Используем SoE.
+55. Ищем Hierarch Asterios в главном здании, разговариваем с ним, получаем Camomile Charm.
+Телепортируемся в Gludin. Телепортируемся к South Entrance to Wasteland.
+56. Ищем Wiseman Casian, разговариваем с ним, получаем Book of Sage.
+Используем SoE. Бежим в Orc Barracks.
+57. Ищем на ранчо Hermit Santiago, разговариваем с ним, получаем Mark of Pilgrim.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion.
+58. В гильдии бойцов ищем Master Cardien, разговариваем с ним, получаем Mark of Life.
+Телепортируемся в Giran.
+59. В церкви ищем Priest Bandellos, разговариваем с ним, получаем Mark of Healer.
+60. В церкви ищем High Priest Maximillian, разговариваем с ним и становимся Elven Elder.

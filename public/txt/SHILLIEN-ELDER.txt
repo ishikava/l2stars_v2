@@ -1,0 +1,129 @@
+SHILLIEN ELDER
+
+ 
+Минимальные требования 
+
+40 уровень 
+затраты на телепортацию - около 300.000а,  20 SoE (на всякий случай) 
+заклинания Wind Strike, Disrupt Undead (желательно Sleep и Root) 
+запас Soulshot, Blessed Spiritshot 
+
+Среднее время прохождения: 6 часов 
+
+
+Прохождение
+
+Телепортируемся в Giran.
+
+1. Ищем в церкви Priest Pupina, разговариваем с ним, получаем Book of Reform.
+2. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Letter 1.
+3. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Metheus' Funeral Jar.
+Бежим в Execution Grounds.
+4. Охотимся на Hangman Tree, получаем Kasandra's Remains.
+5. Убиваем Nameless Revenant с помощью заклинания Disrupt Undead, пока не соберем 7 Ripped Diary.
+6. Появится Aruraune. Убиваем ее, получаем Huge Nail.
+Бежим в Giran.
+7. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Herbalism Textbook.
+8. Ищем в церкви Priest Pupina, разговариваем с ним, получаем Letter of Introduction.
+Телепортируемся в Dion.
+9. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получаем Ixia's List.
+Бежим в Floran. Бежим на юго-запад к Monster Derby Track.
+10. Ищем Preacher Sla, говорим с ним, выбираем <Yes>, выбираем <Yes>, получаем Sla's Letter.
+Бежим в Wasteland.
+11. Охотимся на Tyrant и Tyrant Kingpin, пока не получим 10 Tyrant's Blood.
+Используем SoE. Бежим к Cruma Tower
+12. Охотимся на любых Marsh Stakato, пока не получим 10 Nightshade Root.
+13. Охотимся на Marsh Spider, пока не соберем 10 Marsh Spider Fluids.
+Используем SoE. Бежим в Execution Grounds.
+14. Охотимся на Dead Seeker, пока не соберем 10 Dead Seeker Dung.
+Бежим в Giran.
+15. К северо-востоку от города охотимся на Medusa, пока не соберем 10 Medusa's Ichor.
+Используем SoE. Телепортируемся в Dion.
+16. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получим Belladonna.
+Телепортируемся в Giran.
+17. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Alder's Skull1.
+18. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Alder's Skull2.
+19. Разговариваем с Adler's Spirit.
+20. В гильдии волшебников ищем Magister Roa, разговариваем с ней, выбираем <Even with you hands put on, the moon will shine> получаем Alder's Receipt.
+Телепортируемся в Dion. Телепортируемся в Gludio. Бежим в Orc Barracks.
+21. К северу от дороги на ранчо ищем Hermit Santiago, разговариваем с ним, получаем Voucher of Trial.
+Используем SoE.
+22.  Ищем на складе Warehouse Keeper Norman, разговариваем с ним, получаем Revelations Manuscript.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+23. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Recommendation.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+24. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Thifiell's Letter и Palus Charm.
+Телепортируемся к Altar of Rites.
+25. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Note.
+26. Ищем Bloody Pixy, разговариваем с ней, получаем Pixy Garnet.
+27. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Seed.
+Используем SoE. Бежим в Swampland.
+28. К юго-востоку ищем Katari, разговариваем с ней.
+29. В этот момент появляются Ol Mahum Inspector и Ol Mahum Pilgrim. Убиваем Ol Mahum Inspector, Ol Mahum Pilgrim НЕ ТРОГАЕМ!
+30. Разговариваем с Ol Mahum Pilgrim, получаем за спасение Ol Mahums Money.
+31. Разговариваем с Katari.
+32. В этот момент появляется Ol Mahum Betrayer и начинает убегать. Используем на него заклинание Root и убиваем его, получаем Letter of Betrayer.
+33. Разговариваем с Katari, получаем Katari's Letter.
+Бежим в Swampland.
+34. Охотимся на Black Willow Lurker, пока не получим Black Willow Leaf.
+Используем SoE. Телепортируемся в Gludio.
+35. Ищем Preacher Sla, разговариваем с ним, получаем 3 Greetings.
+Используем SoE. Телепортируемся в Orc Village.
+36. Ищем в главном здании Seer Tanapi, разговариваем с ним.
+Бежим на юго-восток от деревни.
+37. Ищем Kakan, разговариваем с ней. Появится Crimsha Werewolf, убиваем его с помощью заклинания Wind Strike.
+38. Разговариваем с Kakan, получаем Kakans Letter.
+Бежим в Cave of Trials. На мосту падаем в воду направо, на развилке сворачиваем направо, бежим до упора.
+39. Ищем Ancestor Martankus, разговариваем с ним.
+Используем SoE. Телепортируемся в Gludin. Бежим в Forgotten Temple. От входа бежим направо вниз, затем пробегаем 4-5 залов, потом сворачиваем налево.
+40. Охотимся на Lava Salamander, пока не получим Essence of Flame.
+Используем SoE. Телепортируемся в Orc Village. Бежим в Cave of Trials.
+41. Ищем Ancestor Martankus, разговариваем с ним, получаем Spirit of Flame.
+Используем SoE. Телепортируемся в Gludin. Телепортируемся в Dwarf Village.
+42. Ищем Gauri Twinklerock, разговариваем с ним.
+43. Ищем Priestess of Earth Geraldine, разговариваем с ней, выбираем <Refuse to pay 100.000a>.
+44. Ищем Wanderer Dorff, разговариваем с ним, получаем Grey Badge.
+45. Ищем по дороге Nyakuri, разговариваем с ней. Появится Lizardman, убиваем его.
+46. Разговариваем с Nyakuri, получаем Nyakuri's Letter (возможно придется поговорить 2 раза подряд из-за глюка).
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+47. К северу от города охотимся на Breka Orc Overlord, пока не соберем 10 Breka Overlord Skull.
+Используем SoE. Телепортируемся в Oren. Телепортируемся в Plains of the Lizardmen
+48. На северо-западе охотимся на Leto Lizardman Overlord, пока не соберем 10 Leto Overlord Skull.
+Используем SoE. Телепортируемся в Hunter Village.
+49. К северо-востоку от деревни охотимся на Karul Bugbear, пока не соберем 10 Karul Bugbear Skull.
+Используем SoE. Телепортируемся к Hardin Academy.
+50. На северо-востоке охотимся на Grandis, пока не соберем 10 Grandis's Skull.
+Используем SoE.
+51. Ищем в церкви Priest Primus, разговариваем с ним.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin. Телепортируемся на Talking Island.
+52. Ищем в церкви Priest Petron, разговариваем с ним, получаем Paint of Nahir.
+Бежим к водопаду около Elven Ruins.
+53. Ищем Ramus, разговариваем с ним, получаем Undead List.
+Бежим в Elven Ruins.
+54. Ищем Nahir, убиваем его, пока не получим Hair of Nahir.
+55. Охотимся на Silent Horror, Skeleton Marksman, Skeleton Lord, Misery Skeleton, Skeleton Archer, пока не соберем Bone Fragment4, Bone Fragment5, Bone Fragment6, Bone Fragment7, Bone Fragment8.
+Бежим к водопаду около Elven Ruins.
+56. Ищем Ramus, разговариваем с ним, получаем Ramus' Letter.
+Используем SoE.
+57. Ищем в церкви Priest Petron, разговариваем с ним, получаем Statue of Einhasad.
+Телепортируемся в Gludin. Телепортируемся в Elf Village.
+58. Ищем Andellia, разговариваем с ней.
+Используем SoE. Телепортируемся к Altar of Rites.
+59. Ищем Bloody Pixy, разговариваем с ней, получаем Red Fairy Dust.
+60. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Sap.
+61. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Letter.
+Бежим к водопаду возле Swampland.
+62. Охотимся на Black Willow, пока не получим Debris of Willow.
+63. Ищем неподалеку от этого места Uruha, разговариваем с ней, получаем Book of Darkness.
+Используем SoE.
+64. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Mark of Fate.
+Телепортируемся в Gludio. Телепортируемся в Elf Village.
+65. Разговариваем с Andellia, выбираем <Burn the Book of Darkness>.
+Телепортируемся в Gludio. Телепортируемся в Dion. Бежим на юго-запад.
+66. Ищем Preacher Sla, разговариваем с ним, получаем Mark of Reformer.
+Бежим дальше в Wasteland.
+67. Ищем Wiseman Casian, разговариваем с ним, получаем Book of Sage.
+Используем SoE. Бежим в Orc Barracks.
+68. Ищем на ранчо Hermit Santiago, разговариваем с ним, получаем Mark of Pilgrim.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+69. В гильдии темных эльфов ищем Grand Master Angus, разговариваем с ним и становимся Shillien Elder.

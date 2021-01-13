@@ -1,0 +1,185 @@
+ELEMENTAL SUMMONER
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 30 SoE (на всякий случай) 
+запас Blessed Spiritshot, Crystal D grade
+
+Среднее время прохождения: 12 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Dion.
+
+1. В гильдии бойцов ищем Master Cardien, разговариваем с ней, получаем Cardien's Letter.
+2. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil1.
+3. Ищем в церкви High Priest Sylvain, разговариваем с ним, получаем High Priest's Sigil1.
+4. Ищем в магазине магии Maria, разговариваем с ней, получаем Maria's Letter1.
+5. Ищем у южных ворот Captain Lucas, разговариваем с ним, получаем Lucas's Letter.
+6. Ищем в магазине магии Maria, разговариваем с ней, получаем Marya's Letter2.
+Бежим в Floran.
+7. У северных ворот ищем Astrologer Creta, разговариваем с ней, выбираем <Ask about thief>, получаем Creta's Letter1.
+Бежим в Dion.
+8. Ищем в магазине магии Maria, разговариваем с ней, получаем Lucilla's Handbag.
+Бежим в Floran.
+9. У северных ворот ищем Astrologer Creta, разговариваем с ним, получаем Creta's Painting1.
+Бежим в Dion.
+10. Ищем в магазине магии Maria, разговариваем с ней, получаем Creta's Painting2.
+11. Ищем у южных ворот Captain Lucas, разговариваем с ним, получаем Creta's Painting3.
+Телепортируемся в Giran. Телепортируемся в Oren.
+12. К западу от города охотимся на Leto Lizardman Warrior, пока не соберем 5 Brown Scroll Scrap.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion.
+13. Ищем в магазине магии Maria, разговариваем с ней, получаем Crystal of Purity1.
+14. Ищем в церкви High Priest Sylvain, разговариваем с ним, получаем Symbol of Sylvain.
+15. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil2.
+Телепортируемся в Gludio. Телепортируемся в Elf Village.
+16. В главном здании ищем Hierarch Asterios, разговариваем с ним, выбираем любую строчку, получаем Moonflower Charm и Tetrarch's Letter.
+Бежим на юг к Iris Lake.
+17. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail Diagram.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+18. В кузнице ищем Blacksmith Pushkin (здравствуйте, Александр Cенсеич!), разговариваем с ним, получаем Pushkin's List.
+19. В гильдии магов ищем Grand Magister Jurek, разговариваем с ним, получаем Grand Magister's Sigil и Jurek's List.
+20. На севере от города охотимся на Breka Orc Shaman, пока не получим 5 Shaman's Necklace.
+Используем SoE. Бежим в Death Pass.
+21. Охотимся на Wyrm, пока не получим 20 Wyrm Talon.
+22. Охотимся на Guardian Basilisk, пока не получим 10 Pure Mithril Ore.
+Бежим к входу в Dragon Valley.
+23. Охотимся на Shackle, пока не получим 2 Shackle's Scalp.
+Используем SoE.
+24. К югу от города охотимся на Monster Eye Destroyer, пока не получим 5 Monster Eye Destroyer Skin.
+Используем SoE.
+25. В гильдии магов ищем Grand Magister Jurek, разговариваем с ним, получаем Symbol of Jurek.
+Телепортируемся в Dion.
+26. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil3.
+Телепортируемся в Gludio. Бежим в Ant Nest.
+27. Охотимся на Ant Soldier, пока не соберем 20 Ant Soldier Acid.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Giran.
+28. В кузнице ищем Blacksmith Pushkin, разговариваем с ним, получаем Pure Mithril Cup.
+Телепортируемся в Hunter Village.
+29. Ищем Wiseman Cronos, разговариваем с ним, выбираем любые строки, получаем Cronos Sigil и Cronos Letter.
+Телепортируемся в Giran.
+30. В гильдии магов ищем Magister Dieter, разговариваем с ним, получаем Dieter's Key.
+Телепортируемся в Dion. Бежим в Floran.
+31. У северных ворот ищем Astrologer Creta, разговариваем с ним, получаем Creta's Letter2.
+Бежим в Wasteland. Используем SoE. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+32. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 1.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+33. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Contract и Arkenia's Instructions.
+Используем SoE. Телепортируемся в Gludin.
+34. В церкви ищем Priest Adonius, разговариваем с ним, получаем Adonius List.
+35. В магазине магии ищем High Summoner Galatea, разговариваем с ней, получаем Galatea's Letter.
+Телепортируемся в Gludio. Бежим к Cruma Tower
+36. Охотимся на Marsh Spider, пока не соберем 20 Spider Ichors.
+Используем SoE. Телепортируемся в Giran.
+37. В гильдии магов ищем Magister Dieter, разговариваем с ним, получаем Creta's Letter2.
+38. К северо-востоку от города охотимся на Harpy, пока не соберем 20 Harpy's Down.
+Используем SoE. Телепортируемся в Hunter Village.
+39. Ищем в магазине оружия Trader Edroc, разговариваем с ним, получаем Raut's Letter Envelope.
+Телепортируемся в Giran. Телепортируемся в Dion.
+40. Ищем в магазине магии Trader Lara, разговариваем с ней, получаем случайным образом Lara's List1, Lara's List2, Lara's List3, Lara's List4 или Lara's List5.
+Lara's List1:
+Телепортируемся в Giran. Телепортируемся в Oren.
+К северо-западу от города охотимся на Leto Lizardman Warrior, Leto Lizardman Shaman и Leto Lizardman Overlord, пока не соберем 30 Leto Lizardman Amulet.
+Бежим в Sea of Spores.
+Охотимся на Giant Fungus, пока не соберем 30 Sac of Redspores.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion.
+Lara's List2:
+Телепортируемся в Giran. Телепортируемся в Hunter Village.
+К востоку от города охотимся на Karul Bugbear, пока не соберем 30 Karul Bugbear Totem.
+Используем SoE. Телепортируемся в Ivory Tower.
+В яме охотимся на Manashen Gargoyle, пока не соберем 30 Shards of Manashen.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion.
+Lara's List3:
+Телепортируемся в Giran.
+К северу от города охотимся на Breka Orc Shaman, Breka Orc Overlord, пока не соберем 30 Breka Orc Totem.
+Используем SoE. Бежим в Death Pass.
+Охотимся на Fettered Soul, пока не соберем 30 Crimson Bloodstone.
+Используем SoE. Телепортируемся в Dion.
+Lara's List4:
+Телепортируемся в Giran. Телепортируемся к Hardin Academy.
+К северо-западу охотимся на Windsus, пока не соберем 30 Tusk of Windsus.
+Используем SoE. Телепортируемся в Dion. Бежим в Wasteland.
+Охотимся на Tyrant и Tyrant Kingpin, пока не соберем 30 Talons of Tyrant.
+Используем SoE. Телепортируемся в Dion.
+Lara's List5:
+Телепортируемся в Giran. Бежим в Death Pass.
+Охотимся на Wyrm, пока не соберем 30 Fangs of Wyrm.
+Используем SoE. Телепортируемся в Dion. Бежим в Ant Nest.
+Охотимся на Ant Noble и Ant Noble Leader, пока не соберем 30 Wings of Droneant.
+Используем SoE. Телепортируемся в Dion.
+41. Ищем в магазине магии Trader Lara, разговариваем с ней, получаем 2 Beginner's Arcana.
+42. Необходимо собрать как минимум 6 Beginner's Arcana.
+Внимание: Если вы не сможете победить одного из Summonerов, то придется добывать еще Beginner's Arcana.
+Телепортируемся в Gludio. Телепортируемся в Gludin.
+43. В церкви ищем Priest Adonius, разговариваем с ним, получаем Andariel's Scipture Copy.
+44. Ищем на складе Warehouse Keeper Raut, разговариваем с ним, получаем Scripture Chapter 1 и Strong Liquor.
+45. В доках ищем Drunkard Triff, разговариваем с ним, получаем Treaf's Ring.
+Телепортируемся на Talking Island.
+46. На западном побережье ищем Summoner Almors, разговариваем ним, получаем Crystal of Starting. Появляется Paco the Cat
+Вызываем свое существо, которое будет сражаться, получаем Crystal of Inprogress. Начинаем сражение.
+Здесь не могу сказать, как должно происходить сражение, поэтому придется выяснять опытным путем.
+В случае нечестной победы получаем Crystal of Foul. Можно сразиться еще раз.
+В случае поражения получаем Crystal of Defeat. Придется добывать еще Beginner's Arcana.
+В случае победы получаем Crystal of Victory.
+47. Разговариваем с Summoner Almors, получаем Almors's Arcana.
+Используем SoE. Телепортируемся в Gludin. Телепортируемся к South Entrance to Wasteland.
+48. Ищем Summoner Basillia разговариваем с ней. Побеждаем вызванного Mimi the Cat. Разговариваем с Summoner Basillia , получаем Basillia's Arcana.
+Используем SoE. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+49. Ищем Arkenia, разговариваем с ней, получаем Stardust.
+Используем SoE. Бежим на юг к Iris Lake.
+50. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 2.
+Используем SoE. Бежим к Elven Fortress.
+51. Южнее ищем Summoner Celestiel, разговариваем с ней. Побеждаем вызванного Unicorn Phantasm. Разговариваем с Summoner Celestiel, получаем Celestiel's Arcana .
+Используем SoE. Телепортируемся в Gludio. Бежим к Cruma Tower
+52. Ищем Summoner Belthus, разговариваем с ним. Побеждаем вызванного Shadow Turen. Разговариваем с Summoner Belthus, получаем Belthus's Arcana.
+Используем SoE. Бежим в Floran.
+53. К востоку ищем Summoner Camoniell, разговариваем с ним. Побеждаем вызванного Unicorn Racer. Разговариваем с Summoner Camoniell, получаем Camoniell Arcana.
+Бежим в Giran Harbor. Телепортируемся в Giran.
+54. На северо-востоке от города ищем Summoner Brynthea, разговариваем с ней. Побеждаем вызванного Silhouette Tilpo. Разговариваем с Summoner Brynthea, получаем Brynthea's Arcana.
+Используем SoE.
+55. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, получаем Valkon's Request.
+Телепортируемся в Dion.
+56. Ищем в магазине магии Maria, разговариваем с ней, получаем Crystal of Purity2.
+Телепортируемся в Giran. Телепортируемся к Hardin Academy.
+57. На северо-востоке охотимся на Grandis, пока не получим Scripture Chapter 3.
+Используем SoE.
+58. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, получаем Scripture Chapter 2.
+Телепортируемся в Dion.
+59. Ищем в кузнице Blacksmith Poitan, разговариваем с ним, получаем Poitan's Notes.
+Бежим в Wasteland.
+60. Ищем Wiseman Casian, разговариваем с ним, получаем Kasian's List.
+Используем SoE. Телепортируемся в Dion. Бежим в Execution Grounds.
+61. Охотимся на Ghoul, пока не соберем 10 Ghoul's Skin.
+Бежим в Giran.
+62. К северо-востоку от города охотимся на Medusa, пока не соберем 12 Medusa's Blood.
+Используем SoE. Телепортируемся к Hardin Academy.
+63. На северо-западе охотимся на Fettered Soul, пока не соберем 5 Fettered Soul's Ichor.
+Используем SoE. Телепортируемся в Hunter Village.
+64. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Isael's Instructions.
+Телепортируемся в Ivory Tower. Бежим в яму под башней.
+65. Охотимся на Enchanted Gargoyle, пока не соберем 5 Enchanted Gargoyle Nail.
+Используем SoE.
+66. К северо-западу от города охотимся на Leto Lizardman Shaman и Leto Lizardman Overlord, пока не соберем Talin's Spear Blade, Talin's Spear Shaft, Talin's Spear Aquamarine, Talin's Spear Peridot, Talin's Spear Amethyst, Talin's Spear Ruby.
+Используем SoE. Телепортируемся в Hunter Village.
+67. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Talin's Spear и Isael's Letter.
+Телепортируемся в Giran. Телепортируемся в Dion. Бежим в Wasteland.
+68. Ищем Wiseman Casian, разговариваем с ним, получаем Scripture Chapter 4.
+Используем SoE. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+69. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail of Purity.
+70. Южнее обсерватории ищем Unicorn of Eva, убиваем его с помощью Talin's Spear, получаем Tears of the Unicorn.
+71. Возвращаемся к Thalia, разговариваем с ней, получаем Water of Life.
+Используем SoE.
+72. Ищем Hierarch Asterios в главном здании, разговариваем с ним, получаем Camomile Charm.
+Телепортируемся в Gludin.
+73. В магазине магии ищем High Summoner Galatea, разговариваем с ней, получаем Mark of Summoner.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+74. В гильдии магов ищем Magister Dieter, разговариваем с ним.
+Телепортируемся в Hunter Village.
+75. Ищем Wiseman Cronos, разговариваем с ним, получаем Symbol of Cronos.
+Телепортируемся в Giran. Телепортируемся в Dion.
+76. В гильдии бойцов ищем Master Cardien, разговариваем с ним, получаем Mark of Life.
+77. Ищем в церкви Magister Mirien, разговариваем с ним, получаем Mark of Scholar.
+78. Ищем в гильдии волшебников Grand Magister Jurek, разговариваем с ним и становимся Elemental Summoner.

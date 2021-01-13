@@ -1,0 +1,145 @@
+ABYSS WALKER
+
+ 
+
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE (на всякий случай) 
+запас Soulshot
+
+Среднее время прохождения: 9 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Hunter Village.
+
+1. Ищем в гильдии бойцов Master Luther, разговариваем с ним, получаем Luther Letter.
+Телепортируемся в Giran.
+2. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Letter 1.
+3. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Metheus' Funeral Jar.
+4. В гильдии бойцов ищем Master Dufner, разговариваем с ним, получаем Dufner's Letter.
+Телепортируемся в Dion.
+5. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем Terry's Orders.
+Бежим в Execution Grounds.
+6. Охотимся на Neer Ghoul Berserker, пока не получим Mysterious Runestone.
+7. Охотимся на Hangman Tree, пока не получим Kasandra's Remains.
+Используем SoE.
+8. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем лицензию на отстрел.
+Телепортируемся в Giran.
+9. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Herbalism Textbook.
+Телепортируемся в Dion.
+10. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получаем Ixia's List.
+Бежим в Execution Grounds.
+11. Охотимся на Dead Seeker, пока не соберем 10 Dead Seeker Dung.
+Бежим в Partisan's Hideaway.
+12. Охотимся на Ol Mahum Captain, пока не получим Ol Mahum Runestone.
+Бежим к Cruma Tower
+13. Охотимся на любых Marsh Stakato, пока не получим 10 Nightshade Root.
+14. Охотимся на Marsh Spider, пока не соберем 10 Marsh Spider Fluids.
+Используем SoE. Бежим в Floran.
+15. Ищем Alex к востоку от Floran, разговариваем с ним, получаем Alex's Warrant.
+16. Ищем у развилки на 2 моста к юго-западу от деревни Militiaman Leirynn, разговариваем с ней, получаем Leirynn's Order1.
+Бежим к Giran Harbor. Идем по северо-восточной дороге.
+17. Охотимся на Delu Lizardman Shaman, пока не соберем 10 Delu Totem.
+Бежим к Giran Harbor. Телепортируемся в Dion. Бежим в Floran.
+18. Ищем Militiaman Leirynn, разговариваем с ней, получаем Leirynn's Order2.
+Бежим в область, где вели отстрел шаманов.
+19. Ищем Delu Chief Kalkis к юго-западу, убиваем его, получаем Chief Kalkis Fang и Strange Map.
+Бежим к Giran Harbor. Телепортируемся в Dion. Бежим в Floran.
+20. Ищем Militiaman Leirynn, разговариваем с ней, получаем Leirynn's Report.
+21. Ищем Alex к востоку от Floran, разговариваем с ним, получаем Lambert's Map, Alex's Letter и Alex's Order.
+Бежим в Wasteland.
+22. Охотимся на Tyrant и Tyrant Kingpin, пока не получим 10 Tyrant's Blood.
+Используем SoE.
+23. Ищем в юго-западном углу города за зданиями Drunkard Borys, разговариваем с ним.
+Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+24. Ищем Tyra (или Tweety, или Trader Twyla), разговариваем с ней, получаем Tyra's Contract.
+Бежим в Orc Barracks.
+25. Охотимся на Turek Orc Warlord, пока не получим Turek Runestone.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+26. К северу от города охотимся на Turak Bugbear Warrior, пока не получим Turak Bugbear Runestone.
+27. К северо-востоку от города охотимся на Medusa, пока не соберем 10 Medusa's Ichor.
+Используем SoE. Телепортируемся в Dion. Бежим в Ant Nest.
+28. Охотимся на Ant Captain, пока не получим Ant Runestone .
+Используем SoE. Телепортируемся в Dion.
+29. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем Terry's Box и Terry's Letter.
+30. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получим Belladonna.
+Телепортируемся в Giran.
+31. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Alder's Skull1.
+32. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Alder's Skull2.
+33. Разговариваем с Adler's Spirit.
+34. В гильдии волшебников ищем Magister Roa, разговариваем с ней, выбираем <Even with you hands put on, the moon will shine> получаем Alder's Receipt.
+Телепортируемся в Hunter Village.
+35. Ищем в магазине оружия Trader Victor, разговариваем с ним, выбираем <Alterbar Karrios>, получаем Victor's Request.
+Телепортируемся в Giran.
+36. К северо-востоку от города охотимся на Medusa, пока не соберем 10 Medusa's Scales.
+Используем SoE. Телепортируемся в Hunter Village.
+37. Ищем Trader Victor, разговариваем с ним, получаем Analysis Request и Silens Runestone.
+Телепортируемся в Ivory Tower. Телепортируемся на 2й этаж башни.
+38. Ищем Magister Marina, разговариваем с ней, выбираем <Promise help>, получаем Marina's Letter.
+Используем SoE. Бежим в Sea of Spores.
+39. Охотимся на Giant Fungus, пока не соберем 10 Red Spore Dust.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+40. Ищем Tyra, разговариваем с ней, получаем Malrukian Wine.
+Используем SoE. Телепортируемся в Gludio.
+41. Ищем Drunkard Borys, разговариваем с ним, получаем Old Order.
+Телепортируемся в Dwarf Village.
+42. В кузнице ищем Blacksmith Brunon, разговариваем с ним, получаем Experiment Tool.
+Телепортируемся в Gludin.
+43. Ищем на складе Warehouse Keeper Norman, разговариваем с ним, получаем Revelations Manuscript.
+Телепортируемся к South Entrance to Wasteland.
+44. Ищем Bodyguard Jax, разговариваем с ним, получаем Jax's Diary.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+45. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Recommendation.
+Используем SoE. Телепортируемся в Ivory Tower. Телепортируемся на 2й этаж башни.
+46. Ищем Magister Marina, разговариваем с ней, получаем Analysis Results.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion.
+47. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем List of Host.
+Бежим в Ant Nest.
+48. Охотимся на Ant Warrior Captain, пока не получим Abyss Runestone3.
+Используем SoE. Телепортируемся в Darkelf Village.
+49. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Thifiell's Letter и Palus Charm.
+Телепортируемся к Altar of Rites.
+50. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Note.
+51. Ищем Bloody Pixy, разговариваем с ней, получаем Pixy Garnet.
+52. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Seed.
+Используем SoE. Бежим в Swampland.
+53. Охотимся на Black Willow Lurker, пока не получим Black Willow Leaf.
+Используем SoE. Телепортируемся в Gludio. Бежим к Cruma Tower
+54. Охотимся на Marsh Stakato Drone, пока не получим Abyss Runestone2.
+Используем SoE. Бежим в Execution Grounds.
+55. Охотимся на Hangman Tree, пока не соберем 4 Torn Map Piece2. Они автоматически превратятся в Makel's Map.
+Используем SoE. Телепортируемся в Giran. Бежим в Death Pass.
+56. Охотимся на Road Scavenger, пока не соберем 4 Torn Map Piece1. Они автоматически превратятся в Solt's Map.
+Используем SoE.
+57. К северо-востоку от города охотимся на Breka Orc Overlord, пока не получим Abyss Runestone1.
+58. К северо-востоку от города охотимся на Breka Orc Overlord, пока не соберем 10 Breka Overlord Skull.
+Используем SoE. Телепортируемся в Hunter Village.
+59. К западу от города охотимся на Leto Lizardman Warrior, пока не получим Abyss Runestone4.
+Используем SoE. Телепортируемся к Hardin Academy.
+60. На северо-востоке охотимся на Grandis, пока не соберем 10 Grandis's Skull.
+Используем SoE. Телепортируемся в Hunter Village.
+61. К северо-востоку от деревни охотимся на Karul Bugbear, пока не соберем 10 Karul Bugbear Skull.
+Используем SoE. Телепортируемся в Oren.
+62. На северо-западе охотимся на Leto Lizardman Overlord, пока не соберем 10 Leto Overlord Skull.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+63. Ищем Bloody Pixy, разговариваем с ней, получаем Red Fairy Dust.
+64. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Sap.
+65. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Letter.
+Используем SoE.
+66. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Mark of Fate.
+Телепортируемся в Gludin. Телепортируемся к South Entrance to Wasteland.
+67. Ищем Bodyguard Jax, разговариваем с ним, получаем Combined Map.
+Используем SoE. Телепортируемся в Dion.
+68. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем Terry's Report.
+69. Ищем дерево к югу от города по желтой точке на радаре (на карте красный флажок), разговариваем с ним, получаем Rusted Key1.
+70. Разговариваем с появившимся Strong Wooden Chest (ну я же говорю – странные), получаем 20 Gold Bar.
+Бежим в Floran.
+71. Ищем Alex, разговариваем с ним, получаем Alex's Recommend.
+Бежим в Dion. Телепортируемся в Giran. Телепортируемся в Hunter Village.
+72. Ищем в гильдии бойцов Master Luther, разговариваем с ним, получаем Mark of Searcher.
+Телепортируемся в Giran.
+73. Ищем в гильдии бойцов Master Dufner, разговариваем с ним, получаем Mark of Seeker.
+74. Ищем в гильдии темных эльфов Grand Master Angus, разговариваем с ним и становимся Abyss Walker.

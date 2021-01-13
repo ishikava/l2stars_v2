@@ -1,0 +1,173 @@
+SPELLHOWLER
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 30 SoE (на всякий случай) 
+запас Blessed Spiritshot
+
+Среднее время прохождения: 12 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Giran.
+
+1. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Letter 1.
+2. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Metheus' Funeral Jar.
+Телепортируемся в Dion.
+3. Ищем в церкви Bard Rukal, разговариваем с ним, получаем Rukal's Letter.
+4. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil1.
+5. Ищем в церкви High Priest Sylvain, разговариваем с ним, получаем High Priest's Sigil1.
+6. Ищем в магазине магии Maria, разговариваем с ней, получаем Maria's Letter1.
+7. Ищем у южных ворот Captain Lucas, разговариваем с ним, получаем Lucas's Letter.
+8. Ищем в магазине магии Maria, разговариваем с ней, получаем Marya's Letter2.
+Бежим в Floran.
+9. У северных ворот ищем Astrologer Creta, разговариваем с ней, выбираем <Ask about thief>, получаем Creta's Letter1.
+Бежим в Dion.
+10. Ищем в магазине магии Maria, разговариваем с ней, получаем Lucilla's Handbag.
+Бежим в Floran.
+11. У северных ворот ищем Astrologer Creta, разговариваем с ним, получаем Creta's Painting1.
+Бежим в Dion.
+12. Ищем в магазине магии Maria, разговариваем с ней, получаем Creta's Painting2.
+13. Ищем у южных ворот Captain Lucas, разговариваем с ним, получаем Creta's Painting3.
+Бежим в Execution Grounds.
+14. Охотимся на Hangman Tree, получаем Kasandra's Remains.
+Бежим в Giran.
+15. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Herbalism Textbook.
+Телепортируемся в Oren.
+16. К западу от города охотимся на Leto Lizardman Warrior, пока не соберем 5 Brown Scroll Scrap.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion.
+17. Ищем в магазине магии Maria, разговариваем с ней, получаем Crystal of Purity1.
+18. Ищем в церкви High Priest Sylvain, разговариваем с ним, получаем Symbol of Sylvain.
+19. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil2.
+20. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получаем Ixia's List.
+Телепортируемся в Gludio. Телепортируемся в Gludin.
+21. Ищем в церкви Parina, разговариваем с ней, получаем Parina's Letter.
+Телепортируемся к South Entrance to Wasteland.
+22. Ищем Wiseman Casian, разговариваем с ним, получаем Lilac Charm.
+23. Охотимся на Tyrant и Tyrant Kingpin, пока не получим 10 Tyrant's Blood.
+Используем SoE. Бежим к Fellmere Lakes.
+24. Охотимся на Singing Flower Phantasm, пока не получим Golden Seed1.
+Используем SoE. Бежим к Cruma Tower
+25. Охотимся на любых Marsh Stakato, пока не получим 10 Nightshade Root.
+26. Охотимся на Marsh Spider, пока не соберем 10 Marsh Spider Fluids.
+Используем SoE. Бежим в Execution Grounds.
+27. Охотимся на Dead Seeker, пока не соберем 10 Dead Seeker Dung.
+Бежим в Giran.
+28. В гильдии магов ищем Grand Magister Jurek, разговариваем с ним, получаем Grand Magister's Sigil и Jurek's List.
+29. На севере от города охотимся на Breka Orc Shaman, пока не получим 5 Shaman's Necklace.
+30. К северо-востоку от города охотимся на Medusa, пока не соберем 10 Medusa's Ichor.
+Используем SoE. Бежим к входу в Dragon Valley.
+31. Охотимся на Shackle, пока не получим 2 Shackle's Scalp.
+Используем SoE.
+32. К югу от города охотимся на Monster Eye Destroyer, пока не получим 5 Monster Eye Destroyer Skin.
+33. На юго-западе охотимся на Singing Flower Darkling, пока не получим Golden Seed3.
+Используем SoE.
+34. В гильдии магов ищем Grand Magister Jurek, разговариваем с ним, получаем Symbol of Jurek.
+Телепортируемся в Dion.
+35. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получим Belladonna.
+36. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil3.
+Телепортируемся в Giran. Телепортируемся в Hunter Village.
+37. Ищем Wiseman Cronos, разговариваем с ним, выбираем любые строки, получаем Cronos Sigil и Cronos Letter.
+Телепортируемся в Ivory Tower.
+38. На северо-западе охотимся на Singing Flower Nightmare, пока не получим Golden Seed2.
+Используем SoE. Телепортируемся в Giran.
+39. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Alder's Skull1.
+40. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Alder's Skull2.
+41. Разговариваем с Adler's Spirit.
+42. В гильдии волшебников ищем Magister Roa, разговариваем с ней, выбираем <Even with you hands put on, the moon will shine> получаем Alder's Receipt.
+43. В гильдии волшебников ищем Magister Dieter, разговариваем с ним, получаем Dieter's Key.
+Телепортируемся в Dion. Бежим в Floran.
+44. У северных ворот ищем Astrologer Creta, разговариваем с ней, получаем Creta's Letter2.
+Бежим в Wasteland.
+45. Ищем Wiseman Casian, разговариваем с ним.
+Используем SoE. Телепортируемся в Dion.
+46. Ищем в церкви Bard Rukal, разговариваем с ним, получаем Score of Elements.
+Телепортируемся в Gludio. Бежим в Ruins of Despair.
+47. Ищем Fire Salamander, разговариваем с ним, получаем Salamander Charm.
+Бежим в Wasteland.
+48. Ищем Wind Sylph, разговариваем с ним, получаем Sylph Charm.
+Используем SoE. Бежим к Fellmere Lakes.
+49. Ищем Water Undine, разговариваем с ним, получаем Undine Charm.
+Бежим в Ruins of Agony.
+50. Ищем Earth Snake, разговариваем с ним, получаем Serpent Charm.
+Используем SoE. Бежим к Cruma Tower
+51. Охотимся на любых Marsh Stakato и Toad Lord, пока не получим 20 Waterdrops of Dazzlement.
+Используем SoE. Телепортируемся в Giran.
+52. В гильдии магов ищем Magister Dieter, разговариваем с ним, получаем Creta's Letter2.
+Телепортируемся в Hunter Village.
+53. Ищем в магазине оружия Trader Edroc, разговариваем с ним, получаем Raut's Letter Envelope.
+Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+54. Ищем на складе Warehouse Keeper Norman, разговариваем с ним, получаем Revelations Manuscript.
+55. Ищем на складе Warehouse Keeper Raut, разговариваем с ним, получаем Scripture Chapter 1 и Strong Liquor.
+56. В доках ищем Drunkard Triff, разговариваем с ним, получаем Treaf's Ring.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+57. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, получаем Valkon's Request.
+58. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Recommendation.
+Телепортируемся в Dion.
+59. Ищем в магазине магии Maria, разговариваем с ней, получаем Crystal of Purity2.
+Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+60. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Thifiell's Letter и Palus Charm.
+Телепортируемся к Altar of Rites.
+61. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Note.
+62. Ищем Bloody Pixy, разговариваем с ней, получаем Pixy Garnet.
+63. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Seed.
+Бежим в Swampland.
+64. Охотимся на Black Willow Lurker, пока не получим Black Willow Leaf.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+65. К северу от города охотимся на Breka Orc Overlord, пока не соберем 10 Breka Overlord Skull.
+Используем SoE.
+66. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, получаем Scripture Chapter 2.
+Телепортируемся в Oren.
+67. На северо-западе охотимся на Leto Lizardman Overlord, пока не соберем 10 Leto Overlord Skull.
+Используем SoE. Телепортируемся в Hunter Village.
+68. К северо-востоку от деревни охотимся на Karul Bugbear, пока не соберем 10 Karul Bugbear Skull.
+Используем SoE. Телепортируемся к Hardin Academy.
+69. На северо-востоке охотимся на Grandis, пока не соберем 10 Grandis's Skull.
+70. На северо-востоке охотимся на Grandis, пока не получим Scripture Chapter 3.
+Используем SoE. Телепортируемся в Dion.
+71. Ищем в кузнице Blacksmith Poitan, разговариваем с ним, получаем Poitan's Notes.
+Бежим в Wasteland.
+72. Ищем Wiseman Casian, разговариваем с ним, получаем Kasian's List.
+Используем SoE. Телепортируемся в Dion. Бежим в Execution Grounds.
+73. Охотимся на Ghoul, пока не соберем 10 Ghoul's Skin.
+Бежим в Giran.
+74. К северо-востоку от города охотимся на Wyrm, пока не соберем 10 Wyrm's Wingbone.
+75. К северо-востоку от города охотимся на Harpy, пока не соберем 20 Harpy's Feather.
+76. К северо-востоку от города охотимся на Medusa, пока не соберем 12 Medusa's Blood.
+Используем SoE. Телепортируемся к Hardin Academy.
+77. На северо-западе охотимся на Windsus, пока не получим 10 Windsus Mane.
+78. На северо-западе охотимся на Fettered Soul, пока не соберем 5 Fettered Soul's Ichor.
+Телепортируемся в Ivory Tower. Бежим в яму под башней.
+79. Охотимся на Ghost Fire, пока не получим 5 Flame Crystal.
+80. Охотимся на Enchanted Monster Eye, пока не соберем 10 En Monster Eye Shell.
+81. Охотимся на Enchanted Iron Golem, пока не соберем 10 En Irongolem Scrap.
+82. Охотимся на Enchanted Stone Golem, пока не соберем 10 En Stonegolem Scrap.
+83. Охотимся на Enchanted Gargoyle, пока не соберем 5 Enchanted Gargoyle Nail.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Бежим в Ruins of Despair.
+84. Ищем Fire Salamander, разговариваем с ним, получаем Tone of Fire.
+Бежим в Wasteland.
+85. Ищем Wind Sylph, разговариваем с ним, получаем Tone of Wind.
+Используем SoE. Телепортируемся к South Entrance to Wasteland.
+86. Ищем Wiseman Casian, разговариваем с ним, получаем Scripture Chapter 4.
+Используем SoE. Бежим в Ruins of Agony.
+87. Ищем Earth Snake, разговариваем с ним, получаем Tone of Earth.
+Бежим к Fellmere Lakes.
+88. Ищем Water Undine, разговариваем с ним, получаем Tone of Water.
+Используем SoE. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+89. Ищем Bloody Pixy, разговариваем с ней, получаем Red Fairy Dust.
+90. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Sap.
+91. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Letter.
+Используем SoE.
+92. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Mark of Fate.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+93. В гильдии магов ищем Magister Dieter, разговариваем с ним.
+Телепортируемся в Hunter Village.
+94. Ищем Wiseman Cronos, разговариваем с ним, получаем Symbol of Cronos.
+Телепортируемся в Giran. Телепортируемся в Dion.
+95. Ищем в церкви Magister Mirien, разговариваем с ним, получаем Mark of Scholar.
+96. Ищем в церкви Bard Rukal, разговариваем с ним, получаем Mark of Magus.
+Телепортируемся в Giran.
+97. В гильдии темных эльфов ищем Grand Master Angus, разговариваем с ним и становимся Spellhowler.

@@ -1,0 +1,121 @@
+TYRANT
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE (на всякий случай) 
+запас Soulshot
+
+Среднее время прохождения: 9 часов
+
+ 
+Прохождение
+
+Телепортируемся в Giran.
+
+1. У северных ворот ищем Prefect Vokian, разговариваем с ним, получаем Vokian's Order.
+Бежим в Death Pass.
+2. Охотимся на Guardian Basilisk, пока не соберем 10 Guardian Basilisk Fang.
+Используем SoE. Телепортируемся в Oren. Телепортируемся в Ivory Tower.
+3. В яме охотимся на Manashen Gargoyle, пока не соберем 10 Manashen Shard.
+Используем SoE.
+4. В гильдии бойцов в юго-западном углу города ищем Duelist Kaien, разговариваем с ним, получаем Order Gludio, Order Dion, Order Giran, Order Oren и Order Aden.
+Телепортируемся в Giran. Телепортируемся в Dion.
+5. Ищем напротив входа на склад Kash, разговариваем с ним.
+Телепортируемся в Gludio. Телепортируемся в Elf Village. Бежим на запад к водопаду в зоне темных эльфов.
+6. В пещере под водопадом убиваем телохранителей Cave Basilisk и саму Shyslassys, получаем Broken Key. Появится Chest of Shyslassys, разговариваем с ним, выбираем <Use key>, получаем Scroll of Shyslassy.
+Используем SoE. Телепортируемся в Gludio. Бежим в Wasteland.
+7. Охотимся на Tyrant и Tyrant Kingpin, пока не соберем 10 Tyrant Talon .
+8. Охотимся на Puncher, пока не соберем 10 Puncher's Shard.
+Бежим в Ant Nest.
+9. Охотимся на Noble Ant Leader, пока не соберем 10 Noble Ant's Feeler.
+Используем SoE. Бежим к Cruma Tower.
+10. Охотимся на Marsh Stakato Drone, пока не соберем 10 Drone's Chitin.
+Бежим в Dion.
+11. Ищем напротив входа на склад Kash, разговариваем с ним, получаем Letter of Kash.
+Бежим в Execution Grounds.
+12. Охотимся на Dead Seeker, пока не соберем 10 Dead Seeker Fang.
+Бежим в Giran.
+13. У северных ворот ищем Prefect Vokian, разговариваем с ним, получаем Necklace of Authority и Vokian's Order 2.
+Телепортируемся в Dion.
+14. Ищем Gandi Chief Chianta, разговариваем с ним, получаем Chiantas Order1 .
+Телепортируемся в Giran.
+15. У северных ворот ищем Seer Manakia, разговариваем с ним, получаем Manakia's Letter и Manakia's Letter2.
+16. Ищем у восточного моста Martien, разговариваем с ним.
+17. К северо-востоку от города ищем Breka Chief Voltar, разговариваем с ним, получаем Glove of Voltar.
+18. Появятся Vultus son of Voltar и Pashinka son of Voltar, убиваем обоих, получаем Vultus Head и Pashinka Head.
+19. Возвращаемся к Breka Chief Voltar, разговариваем с ним, получаем Scepter of Breka.
+20. К северо-востоку от города охотимся на Breka Orc Overlord, пока не соберем 10 Overlord Necklace.
+Используем SoE. Телепортируемся в Giran Harbor. Бежим на запад до треугольника из дорог.
+21. На берегу моря ищем Enku Chief Kepra, разговариваем с ним, получаем Glove of Kepra.
+22. Появятся Enku Orc Shaman и Enku Orc Champion с Enku Orc Overlord во главе, убиваем сначала всех телохранителей, затем Enku Orc Overlord, получаем Enku Orc Overlord Head.
+23. Возвращаемся к Enku Chief Kepra, разговариваем с ним, получаем Scepter of Enku.
+У восточной стороны треугольника из дорог ищем вход в пещеру.
+24. В пещере под холмом убиваем телохранителей Cave Basilisk и саму Gorr, получаем Watchers Eye1.
+Используем SoE. Бежим в Dion. Телепортируемся в Giran. Телепортируемся к Hardin Academy.
+25. К северо-западу охотимся на Fettered Soul, пока не соберем 10 Fettered Soul's Chain.
+Используем SoE. Телепортируемся в Hunter Village.
+26. К северо-востоку от деревни охотимся на Tamlin Orc, пока не соберем 10 Tamrin Orc's Ring.
+27. К северо-востоку от деревни охотимся на Tamlin Orc Archer, пока не соберем 10 Tamrin Orc's Arrow.
+Используем SoE. Телепортируемся в Ivory Tower.
+28. В яме охотимся на Enchanted Monster Eye, пока не соберем 10 Tempered Eye Meat.
+Используем SoE.
+29. К северо-западу от города охотимся на Leto Lizardman Overlord, пока не соберем 10 Chief's Amulet .
+Используем SoE.
+30. В гильдии бойцов ищем Duelist Kaien, разговариваем с ним, получаем Final Order.
+Телепортируемся в Giran.
+31. Ищем у восточного моста Martien, разговариваем с ним.
+Телепортируемся в Giran Harbor. Бежим на запад до треугольника из дорог. У восточной стороны треугольника ищем вход в пещеру.
+32. В пещере под холмом убиваем сначала телохранителей Cave Basilisk, а затем и саму Baraham, получаем Watchers Eye2.
+33. Появится Raldo, разговариваем с ним.
+Если Raldo все же не появился, то продолжаем убивать Cave Basilisk, пока не появится Baraham, затем убиваем и его. Процедуру придется повторять, пока не появится Raldo.
+Используем SoE. Бежим в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+34. В восточной части деревни ищем Prefect Kasman, разговариваем с ним, выбираем <Learn about Vuku Orc>, получаем Kasman's Letter1.
+35. В восточной части деревни ищем Prefect Kasman, разговариваем с ним, выбираем <Learn about Turek Orc>, получаем Kasman's Letter2.
+36. В восточной части деревни ищем Prefect Kasman, разговариваем с ним, выбираем <Learn about Lennunt Orc>, получаем Kasman's Letter3.
+Телепортируемся к South Entrance to Wasteland.
+37. К востоку на песчаном побережье ищем Leunt Chief Harak, разговариваем с ним, получаем Scepter of Tunath.
+Используем SoE. Бежим в Orc Barracks.
+38. В центре лагеря у больших камней ищем Turek Chief Burai, разговариваем с ним, получаем Glove of Burai.
+39. Появятся 2 Makum Bugbear Warrior, убиваем их, получаем 2 Makum Bugbear Head.
+40. Возвращаемся к Turek Chief Burai, разговариваем с ним, получаем Scepter of Turek.
+Используем SoE. Телепортируемся в Gludio.
+41. Точно к востоку от города через реку ищем Vuku Chief Driko, разговариваем с ним, получаем Driko's Contract.
+Бежим к Cruma Tower.
+42. Охотимся на Marsh Stakato Drone, пока не соберем 30 Stakato Drone Husk1.
+Телепортируемся в Cruma Tower.
+43. Охотимся на Krator, пока не соберем 3 Krator's Shard.
+44. Охотимся на Excuro, пока не соберем 3 Excuro's Skin.
+Используем SoE.
+45. Возвращаемся к Vuku Chief Driko, разговариваем с ним, получаем Scepter of Vuku.
+Бежим в Dion.
+46. Ищем Gandi Chief Chianta, разговариваем с ним, получаем Chiantas Order3.
+Телепортируемся в Giran. Телепортируемся в Hardin Academy.
+47. К северо-востоку в горах охотимся на Grandis, пока не соберем 3 Grandi's Skin.
+Телепортируемся в Giran. Телепортируемся в Hunter Village.
+48. К северо-востоку от деревни охотимся на Tamlin Orc и Tamlin Orc Archer, пока не соберем 20 Tamlin Orc Skull.
+49. К северо-востоку от деревни охотимся на Lakin, пока не соберем 3 Lakin's Mace.
+Используем SoE. Телепортируемся в Oren.
+50. В окрестностях охотимся на любых Timak Orc, пока не соберем 20 Timak Orc Head.
+51. К северо-западу охотимся на Timak Orc Overlord, пока не соберем 3 Timak Orc's Belt.
+Используем SoE.
+52. В гильдии бойцов ищем Duelist Kaien, разговариваем с ним, получаем Mark of Duelist.
+Телепортируемся в Giran. Телепортируемся в Dion.
+53. Ищем Gandi Chief Chianta, разговариваем с ним.
+Телепортируемся в Gludio. Телепортируемся в Orc Village.
+54. На 1м этаже главного здания ищем Seer Tanapi, разговариваем с ним, получаем Tanapi's Order1.
+Бежим к Cave of Trials.
+55. В окрестностях пещеры охотимся на Ragna Orc Seer и Ragna Orc Overlord, пока не появится Revenant of Tantos Chief.
+56. Убиваем Revenant of Tantos Chief, получаем Scepter of Tantos.
+Используем SoE.
+57. На 1м этаже главного здания ищем Seer Tanapi, разговариваем с ним, получаем Ceremonial Box.
+58. На 2м этаже главного здания ищем Flame Lord Kakai, разговариваем с ним, получаем Mark of Glory.
+Телепортируемся в Gludin. Телепортируемся в Dwarf Village.
+59. Ищем Gray Pillar's Filaur, разговариваем с ним.
+Телепортируемся к Northern Coast. Бежим в Mithril Mines. Бежим в самую глубь, пока не добежим до огромной круглой пещеры, добираемся до ее дна, и выбегаем в огромную пещеру (там есть второй выход, но если Вы случайно свернете в него, то все равно попадете в круглую пещеру). Из огромной пещеры выбираемся наверх. Бежим по мостам, пока не доберемся до подземного острова.
+60. Убиваем сначала телохранителя, а затем и саму Queen of Succubus.
+61. Появится Raldo, разговариваем с ним, получаем Mark of Challenger.
+Если Raldo все же не появился, то продолжаем убивать сначала телохранителя, а затем и саму Queen of Succubus, пока не появится Raldo.
+Изредка Queen of Succubus и ее телохранитель падают с острова вниз в воду. Если Вы обнаружите, что это так – прыгайте за ними, убейте их, а затем бегите в огромную пещеру и назад на остров.
+Используем SoE. Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+62. У северных ворот ищем High Prefect Penatus, разговариваем с ним и становимся Tyrant.

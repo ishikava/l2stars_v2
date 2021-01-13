@@ -1,0 +1,115 @@
+SWORDSINGER
+
+ 
+
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE (на всякий случай) 
+запас Soulshot
+
+Среднее время прохождения: 9 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Oren.
+
+1. В гильдии бойцов в юго-западном углу города ищем Duelist Kaien, разговариваем с ним, получаем Order Gludio, Order Dion, Order Giran, Order Oren и Order Aden.
+Телепортируемся в Giran. Телепортируемся в Dion.
+2. В гильдии бойцов ищем Master Cardien, разговариваем с ней, получаем Cardien's Letter.
+3. Ищем напротив входа на склад Kash, разговариваем с ним.
+Телепортируемся в Gludio. Телепортируемся в Elf Village.
+4. В главном здании ищем Hierarch Asterios, разговариваем с ним, выбираем любую строчку, получаем Moonflower Charm и Tetrarch's Letter.
+Бежим на юг к Iris Lake.
+5. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail Diagram.
+Используем SoE. Бежим на запад к водопаду в зоне темных эльфов.
+6. В пещере под водопадом убиваем телохранителей Cave Basilisk и саму Shyslassys, получаем Broken Key. Появится Chest of Shyslassys, разговариваем с ним, выбираем <Use key>, получаем Scroll of Shyslassy.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+7. В кузнице ищем Blacksmith Pushkin (здравствуйте, Александр Cенсеич!), разговариваем с ним, получаем Pushkin's List.
+Используем SoE. Бежим в Death Pass.
+8. Охотимся на Wyrm, пока не получим 20 Wyrm Talon.
+9. Охотимся на Guardian Basilisk, пока не получим 10 Pure Mithril Ore.
+Используем SoE. Телепортируемся в Dion. Бежим в Wasteland.
+10. Охотимся на Puncher, пока не соберем 10 Puncher's Shard.
+Бежим в Ant Nest.
+11. Охотимся на Ant Soldier, пока не соберем 20 Ant Soldier Acid.
+12. Охотимся на Noble Ant и Noble Ant Leader, пока не соберем 10 Noble Ant's Feeler.
+Используем SoE. Бежим к Cruma Tower
+13. Охотимся на Marsh Stakato Drone, пока не соберем 10 Drone's Chitin.
+Используем SoE.
+14. Ищем напротив входа на склад Kash, разговариваем с ним, получаем Letter of Kash.
+Бежим в Execution Grounds.
+15. Охотимся на Dead Seeker, пока не соберем 10 Dead Seeker Fang.
+Бежим в Giran.
+16. К северо-востоку от города охотимся на Breka Orc Overlord, пока не соберем 10 Overlord Necklace.
+Используем SoE.
+17. В кузнице ищем Blacksmith Pushkin, разговариваем с ним, получаем Pure Mithril Cup.
+18. Ищем у северного моста Martien, разговариваем с ним.
+Телепортируемся в Giran Harbor. Бежим на запад до треугольника из дорог. Бежим дальше на запад, перебегаем через холм.
+19. В пещере под холмом убиваем телохранителей Cave Basilisk и саму Gorr, получаем Watchers Eye1.
+Используем SoE. Бежим в Dion. Телепортируемся в Giran. Телепортируемся к Hardin Academy.
+20. К северо-западу охотимся на Fettered Soul, пока не соберем 10 Fettered Soul's Chain.
+Используем SoE. Телепортируемся в Hunter Village.
+21. К северо-востоку от деревни охотимся на Tamlin Orc, пока не соберем 10 Tamrin Orc's Ring.
+22. К северо-востоку от деревни охотимся на Tamlin Orc Archer, пока не соберем 10 Tamrin Orc's Arrow.
+Используем SoE. Телепортируемся в Ivory Tower.
+23. В яме охотимся на Enchanted Monster Eye, пока не соберем 10 Tempered Eye Meat.
+Используем SoE.
+24. К северо-западу от города охотимся на Leto Lizardman Overlord, пока не соберем 10 Chief's Amulet .
+Используем SoE.
+25. В гильдии бойцов ищем Duelist Kaien, разговариваем с ним, получаем Final Order.
+Телепортируемся в Giran.
+26. Ищем у северного моста Martien, разговариваем с ним.
+Телепортируемся в Giran Harbor. Бежим на запад до треугольника из дорог. У восточной стороны треугольника ищем вход в пещеру.
+27. В пещере под холмом убиваем сначала телохранителей Cave Basilisk, а затем и саму Baraham, получаем Watchers Eye2.
+28. Появится Raldo, разговариваем с ним.
+Если Raldo все же не появился, то продолжаем убивать Cave Basilisk, пока не появится Baraham, затем убиваем и его. Процедуру придется повторять, пока не появится Raldo.
+Используем SoE. Бежим в Dion. Телепортируемся в Gludio. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+29. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 1.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+30. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Contract и Arkenia's Instructions.
+Используем SoE. Телепортируемся в Gludin.
+31. В церкви ищем Priest Adonius, разговариваем с ним, получаем Adonius List.
+Телепортируемся в Gludio. Бежим к Cruma Tower
+32. Охотимся на Marsh Spider, пока не соберем 20 Spider Ichors.
+Телепортируемся на 1й этаж Cruma Tower.
+33. Охотимся на Krator, пока не соберем 3 Krator's Shard.
+34. Охотимся на Excuro, пока не соберем 3 Excuro's Skin.
+Используем SoE. Телепортируемся в Giran.
+35. К северо-востоку от города охотимся на Harpy, пока не соберем 20 Harpy's Down.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+36. В церкви ищем Priest Adonius, разговариваем с ним, получаем Andariel's Scipture Copy.
+Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+37. Ищем Arkenia, разговариваем с ней, получаем Stardust.
+Используем SoE. Бежим на юг к Iris Lake.
+38. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 2.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся к Hardin Academy.
+39. К северо-востоку в горах охотимся на Grandis, пока не соберем 3 Grandi's Skin.
+Телепортируемся в Hunter Village.
+40. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Isael's Instructions.
+41. К северо-востоку от деревни охотимся на Lakin, пока не соберем 3 Rakin's Mace.
+Используем SoE. Телепортируемся в Ivory Tower.
+42. К северу от башни охотимся на Timak Orc Overlord, пока не соберем 3 Timak Orc's Belt.
+Используем SoE.
+43. В гильдии бойцов ищем Duelist Kaien, разговариваем с ним, получаем Mark of Duelist.
+44. К северо-западу от города охотимся на Leto Lizardman Shaman и Leto Lizardman Overlord, пока не соберем Talin's Spear Blade, Talin's Spear Shaft, Talin's Spear Aquamarine, Talin's Spear Peridot, Talin's Spear Amethyst, Talin's Spear Ruby.
+Используем SoE. Телепортируемся в Hunter Village.
+45. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Talin's Spear и Isael's Letter.
+Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Dwarf Village.
+46. Ищем Gray Pillar's Filaur, разговариваем с ним.
+Телепортируемся к Northern Coast. Бежим в Mithril Mines. Бежим в самую глубь, пока не добежим до огромной круглой пещеры, добираемся до ее дна, и выбегаем в огромную пещеру (там есть второй выход, но если Вы случайно свернете в него, то все равно попадете в круглую пещеру). Из огромной пещеры выбираемся наверх. Бежим по мостам, пока не доберемся до подземного острова.
+47. Убиваем сначала телохранителя, а затем и саму Queen of Succubus.
+48. Появится Raldo, разговариваем с ним, получаем Mark of Challenger.
+Если Raldo все же не появился, то продолжаем убивать сначала телохранителя, а затем и саму Queen of Succubus, пока не появится Raldo.
+Изредка Queen of Succubus и ее телохранитель падают с острова вниз в воду. Если Вы обнаружите, что это так – прыгайте за ними, убейте их, а затем бегите в огромную пещеру и назад на остров.
+Используем SoE. Телепортируемся в Gludin. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+49. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail of Purity.
+50. Южнее обсерватории ищем Unicorn of Eva, убиваем его с помощью Talin's Spear, получаем Tears of the Unicorn.
+51. Возвращаемся к Thalia, разговариваем с ней, получаем Water of Life.
+Используем SoE.
+52. Ищем Hierarch Asterios в главном здании, разговариваем с ним, получаем Camomile Charm.
+Телепортируемся в Gludio. Телепортируемся в Dion.
+53. В гильдии бойцов ищем Master Cardien, разговариваем с ним, получаем Mark of Life.
+Телепортируемся Giran.
+54. В гильдии бойцов ищем Grand Master Hannavalt, разговариваем с ним и становимся Swordsinger.

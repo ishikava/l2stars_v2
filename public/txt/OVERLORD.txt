@@ -1,0 +1,134 @@
+OVERLORD
+
+ 
+Минимальные требования 
+
+40 уровень 
+затраты на телепортацию - около 300.000а,  20 SoE (на всякий случай) 
+заклинания заклинания Frost Flame, Blazing Quake (желательно Dreaming Spirit и Slow) 
+запас Soulshot, Blessed Spiritshot 
+
+Среднее время прохождения: 6 часов 
+
+
+
+Прохождение
+
+Телепортируемся в Giran.
+
+1. У северных ворот ищем Prefect Vokian, разговариваем с ним, получаем Vokian's Order.
+Бежим в Death Pass.
+2. Охотимся на Guardian Basilisk, пока не соберем 10 Guardian Basilisk Fang.
+Используем SoE. Телепортируемся в Oren. Телепортируемся в Ivory Tower.
+3. В яме охотимся на Manashen Gargoyle, пока не соберем 10 Manashen Shard.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Бежим в Orc Barracks.
+4. К северу от дороги на ранчо ищем Hermit Santiago, разговариваем с ним, получаем Voucher of Trial.
+Используем SoE. Телепортируемся в Orc Village.
+5. Ищем в главном здании Seer Tanapi, разговариваем с ним.
+Бежим в Cave of Trials. На мосту падаем в воду направо, на развилке сворачиваем направо, бежим до упора.
+6. Ищем Ancestor Martankus, разговариваем с ним.
+Используем SoE. Телепортируемся в Gludin. Бежим в Forgotten Temple. От входа бежим направо вниз, затем пробегаем 4-5 залов, потом сворачиваем налево.
+7. Охотимся на Lava Salamander, пока не получим Essence of Flame.
+Используем SoE. Телепортируемся к South Entrance to Wasteland. Бежим в Wasteland.
+8. Охотимся на Tyrant и Tyrant Kingpin, пока не соберем 10 Tyrant Talon .
+Используем SoE. Телепортируемся в Orc Village. Бежим в Cave of Trials.
+9. Ищем Ancestor Martankus, разговариваем с ним, получаем Spirit of Flame.
+Используем SoE.
+10. В главном здании ищем Flame Lord Kakai, разговариваем с ним, получаем Ordeal Necklace.
+11. В главном здании ищем Urutu Chief Hatos, разговариваем с ним, получаем Hato's Charm.
+12. В главном здании ищем Neruga Chief Tantus, разговариваем с ним, получаем Tantu's Charm.
+13. В главном здании ищем Atuba Chief Varkees, разговариваем с ним, получаем Varkee's Charm.
+14. В магазине оружия ищем Trader Jakal, разговариваем с ним, выбираем <Pay 1,000a>, получаем Neruga Axe Blade. Покупаем здесь же 1000 Bone Arrow."
+15. В кузнице Blacksmith Sumari, разговариваем с ним, получаем Sumari's Letter.
+16. В главном здании ищем Neruga Chief Tantus, разговариваем с ним, получаем Axe of Ceremony.
+Телепортируемся в Gludin. Телепортируемся в Dwarf Village.
+17. Ищем Gauri Twinklerock, разговариваем с ним.
+18. Ищем Priest of Earth Gerald, разговариваем с ней, выбираем <Refuse to pay 100.000a>."
+19. Ищем Wanderer Dorff, разговариваем с ним, получаем Grey Badge.
+Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion.
+20. Ищем Gandi Chief Chianta, разговариваем с ним, получаем Chianta's Charm.
+21. Ищем Seer Somak, разговариваем с ним, получаем Urutu Blade.
+Телепортируемся в Giran.
+22. У северных ворот ищем Prefect Vokian, разговариваем с ним, получаем Necklace of Authority и Vokian's Order 2.
+Телепортируемся в Dion.
+23. Ищем Gandi Chief Chianta, разговариваем с ним, получаем Chiantas Order1 .
+Телепортируемся в Giran.
+24. Ищем в церкви Priest Prim, разговариваем с ним.
+25. У северных ворот ищем Seer Manakia, разговариваем с ним, получаем Manakia's Letter и Manakia's Letter2.
+26. У северных ворот ищем Seer Manakia, разговариваем с ним, получаем Tantus Charm.
+27. К северо-востоку от города охотимся на Breka Orc Shaman и Breka Orc Overlord, пока не соберем 20 Breka Orc Fang.
+28. К северо-востоку от города ищем Breka Chief Voltar, разговариваем с ним, получаем Glove of Voltar.
+29. Появятся Vultus son of Voltar и Pashinka son of Voltar, убиваем обоих, получаем Vultus Head и Pashinka Head.
+30. Возвращаемся к Breka Chief Voltar, разговариваем с ним, получаем Scepter of Breka.
+Используем SoE. Телепортируемся в Oren.
+31. Ищем Dudamara Chief Takuna, разговариваем с ним, получаем Takuna's Charm.
+Телепортируемся в Giran. Телепортируемся в Giran Harbor. Бежим к треугольнику из дорог.
+32. На берегу моря ищем Enku Chief Kepra, разговариваем с ним, получаем Glove of Kepra.
+33. Появятся Enku Orc Shaman и Enku Orc Champion с Enku Orc Overlord во главе, убиваем сначала всех телохранителей, затем Enku Orc Overlord, получаем Enku Orc Overlord Head.
+34. Возвращаемся к Enku Chief Kepra, разговариваем с ним, получаем Scepter of Enku.
+Используем SoE. Бежим в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+35. В восточной части деревни ищем Prefect Kasman, разговариваем с ним, выбираем <Learn about Vuku Orc>, получаем Kasman's Letter1."
+36. В восточной части деревни ищем Prefect Kasman, разговариваем с ним, выбираем <Learn about Turek Orc>, получаем Kasman's Letter2."
+37. "В восточной части деревни ищем Prefect Kasman, разговариваем с ним, выбираем <Learn about Lennunt Orc>, получаем Kasman's Letter3."
+Телепортируемся на Talking Island.
+38. Ищем в церкви Priest Petron, разговариваем с ним, получаем Paint of Nahir.
+Бежим в Elven Ruins.
+39. Ищем Nahir, убиваем его с помощью Wind Strike, Vampiric Touch, Ice Bolt, пока не получим Hair of Nahir.
+Используем SoE.
+40. Ищем в церкви Priest Petron, разговариваем с ним, получаем Statue of Einhasad.
+Телепортируемся в Gludin. Телепортируемся в Elf Village.
+41. Ищем Andellia, разговариваем с ней.
+Бежим к водопаду возле Swampland.
+42. Охотимся на Black Willow, пока не получим Debris of Willow.
+43. Ищем неподалеку от этого места Uruha, разговариваем с ней, получаем Book of Darkness.
+Возвращаемся в Elf Village.
+44. Разговариваем с Andellia, выбираем <Burn the Book of Darkness>. "
+Телепортируемся в Gludin. Телепортируемся к South Entrance to Wasteland.
+45. К востоку на песчаном побережье ищем Leunt Chief Harak, разговариваем с ним, получаем Scepter of Tunath.
+Бежим в Wasteland.
+46. Ищем Wiseman Casian, разговариваем с ним, получаем Book of Sage.
+Используем SoE. Бежим в Orc Barracks.
+47. Ищем на ранчо Hermit Santiago, разговариваем с ним, получаем Mark of Pilgrim.
+48. В центре лагеря у больших камней ищем Turek Chief Burai, разговариваем с ним, получаем Glove of Burai.
+49. Появятся 2 Makum Bugbear Warrior, убиваем их, получаем 2 Makum Bugbear Head.
+50. Возвращаемся к Turek Chief Burai, разговариваем с ним, получаем Scepter of Turek.
+Используем SoE. Телепортируемся в Gludio.
+51. Точно к востоку от города через реку ищем Vuku Chief Driko, разговариваем с ним, получаем Driko's Contract.
+Бежим к Cruma Tower.
+52. В северо-западной части болот охотимся на Marsh Spider, пока не соберем 10 Marsh Spider Feeler и 10 Marsh Spider Feet.
+53. Охотимся на Marsh Stakato Drone, пока не соберем 30 Stakato Drone Husk1.
+54. Возвращаемся к Vuku Chief Driko, разговариваем с ним, получаем Scepter of Vuku.
+Бежим в Dion.
+55. Ищем Gandi Chief Chianta, разговариваем с ним, получаем Chiantas Order3.
+Телепортируемся в Giran. Телепортируемся в Hunter Village.
+56. К северо-востоку от деревни охотимся на Tamlin Orc и Tamlin Orc Archer, пока не соберем 20 Tamlin Orc Skull.
+Используем SoE. Телепортируемся в Oren.
+57. В окрестностях охотимся на любых Timak Orc, пока не соберем 20 Timak Orc Head.
+58. В окрестностях охотимся на любых Timak Orc, пока не соберем 10 Timak Orc Skull.
+Используем SoE. Телепортируемся в Ivory Tower.
+59. В яме охотимся на Enchanted Monster Eye, пока не соберем 20 Cornea of Enchanted Monster Eye.
+Используем SoE.
+60. Ищем Dudamara Chief Takuna, разговариваем с ним, получаем Handiwork Spider Brooch.
+Телепортируемся в Giran.
+61. У северных ворот ищем Seer Manakia, разговариваем с ним, получаем Manakia's Amulet.
+Телепортируемся в Dion.
+62. Ищем Gandi Chief Chianta, разговариваем с ним.
+63. Ищем Gandi Chief Chianta, разговариваем с ним, получаем Monster Eye Woodcarving.
+Телепортируемся в Gludio. Телепортируемся в Orc Village.
+64. В главном здании ищем Urutu Chief Hatos, разговариваем с ним, получаем Sword Into Skull.
+65. В главном здании ищем Atuba Chief Varkees, разговариваем с ним, получаем Huge Orc Fang.
+66. В главном здании ищем Flame Lord Kakai, разговариваем с ним, получаем Bear Fang Necklace.
+67. На 1м этаже главного здания ищем Seer Tanapi, разговариваем с ним, получаем Tanapi's Order1.
+Бежим в Cave of Trials. На мосту падаем в воду направо, на развилке сворачиваем направо, бежим до упора.
+68. Ищем Ancestor Martankus, разговариваем с ним, получаем Martanku's Charm.
+Бежим ко входу в Cave of Trials.
+69. В окрестностях охотимся на Ragna Orc Seer и Ragna Orc Overlord, пока не получим Ragna Orc Head и Ragna Chief Notice.
+70. В окрестностях пещеры охотимся на Ragna Orc Seer и Ragna Orc Overlord, пока не появится Revenant of Tantos Chief.
+71. Убиваем Revenant of Tantos Chief, получаем Scepter of Tantos.
+72. Возвращаемся к Ancestor Martankus, разговариваем с ним, получаем Immortal Flame.
+Используем SoE.
+73. На 1м этаже главного здания ищем Seer Tanapi, разговариваем с ним, получаем Ceremonial Box.
+74. На 2м этаже главного здания ищем Flame Lord Kakai, разговариваем с ним, получаем Mark of Glory.
+75. В главном здании ищем Flame Lord Kakai, разговариваем с ним, получаем Mark of Lord.
+Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+76. У северных ворот ищем High Prefect Penatus, разговариваем с ним и становимся Overlord.

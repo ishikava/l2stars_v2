@@ -1,0 +1,130 @@
+SILVER RANGER
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE (на всякий случай) 
+запас Soulshot
+Среднее время прохождения: 12 часов
+
+ 
+Прохождение
+
+Телепортируемся в Giran.
+
+1. В гильдии бойцов ищем Master Dufner, разговариваем с ним, получаем Dufner's Letter.
+Телепортируемся в Dion.
+2. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем Terry's Orders.
+3. В гильдии бойцов ищем Master Cardien, разговариваем с ней, получаем Cardien's Letter.
+Бежим в Execution Grounds.
+4. Охотимся на Neer Ghoul Berserker, пока не получим Mysterious Runestone.
+Используем SoE.
+5. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем лицензию на отстрел.
+Бежим в Partisan's Hideaway.
+6. Охотимся на Ol Mahum Captain, пока не получим Ol Mahum Runestone.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Elf Village.
+7. В главном здании ищем Hierarch Asterios, разговариваем с ним, выбираем любую строчку, получаем Moonflower Charm и Tetrarch's Letter.
+Бежим на юг к Iris Lake.
+8. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail Diagram.
+Используем SoE. Телепортируемся в Gludio. Бежим в Orc Barracks.
+9. Охотимся на Turek Orc Warlord, пока не получим Turek Runestone.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся в Giran.
+10. В кузнице ищем Blacksmith Pushkin (здравствуйте, Александр Cенсеич!), разговариваем с ним, получаем Pushkin's List.
+11. К северу от города охотимся на Turak Bugbear Warrior, пока не получим Turak Bugbear Runestone.
+Используем SoE. Бежим в Death Pass.
+12. Охотимся на Wyrm, пока не получим 20 Wyrm Talon.
+13. Охотимся на Guardian Basilisk, пока не получим 10 Pure Mithril Ore.
+Используем SoE. Телепортируемся в Hunter Village.
+14. В здании за gatekeeper ищем Guild President Bernard, разговариваем с ним, получаем Bernard's Introductory Letter.
+Телепортируемся в Giran. Телепортируемся в Dion. Бежим в Floran.
+15. К югу у мельницы ищем Sagittarius Hamil, разговариваем с ним, получаем Letter of Hamil1.
+Бежим по дороге на юго-запад.
+16. Ищем Sir Aron Tanford, разговариваем с ним.
+Бежим в Ant Nest.
+17. Охотимся на Ant Captain, пока не получим Ant Runestone .
+18. Охотимся на Ant Soldier, пока не соберем 20 Ant Soldier Acid.
+19. Охотимся на различных Ant, пока не соберем 10 First Hunter's Rune.
+Используем SoE. Телепортируемся в Dion.
+20. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем Terry's Box и Terry's Letter.
+Бежим в Floran.
+21. Ищем Sagittarius Hamil, разговариваем с ним, получаем Letter of Hamil2.
+Бежим в Dion. Телепортируемся в Giran.
+22. В кузнице ищем Blacksmith Pushkin, разговариваем с ним, получаем Pure Mithril Cup.
+23. У северных ворот ищем Prefect Vokian, разговариваем с ним.
+Телепортируемся в Hunter Village.
+24. Ищем в магазине оружия Trader Victor, разговариваем с ним, выбираем <Alterbar Karrios>, получаем Victor's Request.
+Телепортируемся в Giran.
+25. К северу от города охотимся на Breka Orc Overlord и Breka Orc Shaman, пока не соберем 10 Second Hunter's Rune. Они автоматически превратятся в Talisman of Snake.
+26. К северо-востоку от города охотимся на Medusa, пока не соберем 10 Medusa's Scales.
+Используем SoE.
+27. У северных ворот ищем Prefect Vokian, разговариваем с ним.
+Телепортируемся в Hunter Village.
+28. Ищем Trader Victor, разговариваем с ним, получаем Analysis Request и Silens Runestone.
+Телепортируемся в Ivory Tower. Телепортируемся на 2й этаж Ivory Tower.
+29. Ищем Magister Marina, разговариваем с ней, выбираем <Promise help>, получаем Marina's Letter.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Бежим в Floran.
+30. Ищем Sagittarius Hamil, разговариваем с ним, получаем Letter of Hamil.
+Бежим в Wasteland. Используем SoE. Телепортируемся в Dwarf Village.
+31. В кузнице ищем Blacksmith Brunon, разговариваем с ним, получаем Experiment Tool.
+Телепортируемся в Gludin. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+32. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 1.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+33. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Contract и Arkenia's Instructions.
+Используем SoE. Телепортируемся в Gludin.
+34. В церкви ищем Priest Adonius, разговариваем с ним, получаем Adonius List.
+Телепортируемся в Gludio. Бежим к Cruma Tower
+35. Охотимся на Marsh Spider, пока не соберем 20 Spider Ichors.
+Используем SoE. Телепортируемся в Giran.
+36. К северо-востоку от города охотимся на Harpy, пока не соберем 20 Harpy's Down.
+Используем SoE. Телепортируемся в Oren. Телепортируемся в Ivory Tower. Телепортируемся на 2й этаж башни.
+37. Ищем Magister Marina, разговариваем с ней, получаем Analysis Results.
+Телепортируемся на 3й этаж башни.
+38. Ищем Magister Gauen, разговариваем c ним.
+Телепортируемся на 1й этаж башни.
+39. В яме охотимся на Manashen Gargoyle, пока не получим Manashen's Horn.
+Используем SoE. Телепортируемся в Giran. Бежим в Death Pass.
+40. Охотимся на Road Scavenger, пока не получим Mithril Clip.
+Используем SoE.Телепортируемся в Dion.
+41. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем List of Host.
+Бежим в Ant Nest.
+42. Охотимся на Ant Warrior Captain, пока не получим Abyss Runestone3.
+Используем SoE. Телепортируемся в Gludin.
+43. В церкви ищем Priest Adonius, разговариваем с ним, получаем Andariel's Scipture Copy.
+Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+44. Ищем Arkenia, разговариваем с ней, получаем Stardust.
+Используем SoE. Бежим на юг к Iris Lake.
+45. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 2.
+Используем SoE.
+46. Покупаем 500 SoulShot: No Grade и 50 Wooden Arrow.
+Телепортируемся в Gludio. Бежим к Cruma Tower
+47. Охотимся на Marsh Stakato Drone, пока не получим Abyss Runestone1.
+48. Охотимся на Marsh Spider, пока не получим St Bowstring.
+49. Охотимся на Marsh Staccato Worker, пока не получим Staccato's Chitin.
+Используем SoE. Телепортируемся в Giran.
+50. К северо-востоку от города охотимся на Breka Orc Overlord, пока не получим Abyss Runestone2.
+Используем SoE. Телепортируемся в Hunter Village.
+51. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Isael's Instructions.Телепортируемся в Oren.
+Телепортируемся в Ivory Tower. Телепортируемся на 3й этаж Ivory Tower.
+52. Ищем Magister Gauen, разговариваем c ним, получаем Crescent Moon Bow и 10 Wooden Arrows.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Бежим в Floran.
+53. Ищем Sagittarius Hamil, разговариваем с ним.
+Бежим в Wasteland. Используем SoE. Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся в Oren.
+54. К западу от города охотимся на Leto Lizardman Warrior, пока не получим Abyss Runestone4.
+55. К северо-западу от города охотимся на Leto Lizardman Shaman и Leto Lizardman Overlord, пока не соберем Talin's Spear Blade, Talin's Spear Shaft, Talin's Spear Aquamarine, Talin's Spear Peridot, Talin's Spear Amethyst, Talin's Spear Ruby.
+56. На западе и северо-западе от города охотимся на любых Leto Lizardman, пока не появится Demon Kadesh. Убиваем демона с помощью Crescent Moon Bow.
+Используем SoE. Телепортируемся в Hunter Village.
+57. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Talin's Spear и Isael's Letter.
+Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+58. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail of Purity.
+59. Южнее обсерватории ищем Unicorn of Eva, убиваем его с помощью Talin's Spear, получаем Tears of the Unicorn.
+60. Возвращаемся к Thalia, разговариваем с ней, получаем Water of Life.
+Используем SoE.
+61. Ищем Hierarch Asterios в главном здании, разговариваем с ним, получаем Camomile Charm.
+Телепортируемся в Gludio. Телепортируемся в Dion. Бежим в Floran.
+62. Ищем Sagittarius Hamil, разговариваем с ним, получаем Mark of Sagittarius.
+Бежим в Dion.
+63. В гильдии бойцов ищем Master Terry, разговариваем с ним, получаем Terry's Report.
+64. В гильдии бойцов ищем Master Cardien, разговариваем с ним, получаем Mark of Life.
+Телепортируемся в Giran.
+65. В гильдии бойцов ищем Master Dufner, разговариваем с ним, получаем Mark of Seeker.
+66. В гильдии бойцов ищем Grand Master Hannavalt, разговариваем с ним и становимся Silver Ranger.

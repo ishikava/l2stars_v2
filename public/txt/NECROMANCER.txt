@@ -1,0 +1,177 @@
+NECROMANCER
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300к аден, 40 SoE на всякий случай 
+запас SpiritShot 
+
+Среднее время прохождения: 12 часов 
+
+
+
+Прохождение
+
+Телепортируемся в Dion.
+
+1. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil1.
+2. Ищем в церкви High Priest Sylvain, разговариваем с ним, получаем High Priest's Sigil1.
+3. Ищем в магазине магии Maria, разговариваем с ней, получаем Maria's Letter1.
+4. Ищем у южных ворот Captain Lucas, разговариваем с ним, получаем Lucas's Letter.
+5. Ищем в магазине магии Maria, разговариваем с ней, получаем Marya's Letter2.
+Бежим в Floran.
+6. У северных ворот ищем Astrologer Creta, разговариваем с ней, выбираем <Ask about thief>, получаем Creta's Letter1.
+Бежим в Dion.
+7. Ищем в магазине магии Maria, разговариваем с ней, получаем Lucilla's Handbag.
+Бежим в Floran.
+8. У северных ворот ищем Astrologer Creta, разговариваем с ним, получаем Creta's Painting1.
+Бежим в Dion.
+9. Ищем в магазине магии Maria, разговариваем с ней, получаем Creta's Painting2.
+10. Ищем у южных ворот Captain Lucas, разговариваем с ним, получаем Creta's Painting3.
+Телепортируемся в Giran. Бежим в Death Pass.
+11. Ищем Shadow Orim, разговариваем с ним, получаем Orim's Diagram.
+Используем SoE.
+12. В люксоре (магазин за кристаллы) ищем Trader Alexandria, разговариваем с ней, получаем Alexandria's Book.
+13. В гильдии волшебников ищем Magister Iker, разговариваем с ним, получаем Iker's List.
+Телепортируемся в Oren. Телепортируемся в Ivory Tower.
+14. В яме охотимся на Enchanted Stone Golem, пока не соберем 20 Enchanted Golem Heartstone.
+Используем SoE.
+15. В окрестностях города охотимся на любых Leto Lizardman, пока не соберем 20 Leto Lizardman Charm.
+16. К западу от города охотимся на Leto Lizardman Warrior, пока не соберем 5 Brown Scroll Scrap.
+Бежим в Sea of Spores.
+17. Охотимся на Dire Wyrm, пока не соберем 20 Dire Wyrm Fang.
+Используем SoE.
+18. Ищем в церкви High Priest Hollint, получаем Letter to Elf и Letter to Darkelf.
+Телепортируемся в Giran.
+19. В гильдии волшебников ищем Magister Iker, разговариваем с ним, получаем Aklantoth Gem 1.
+20. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Aklantoth Gem 2.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Elf Village.
+21. Ищем в главном здании Hierarch Asterios, разговариваем с ним, получаем Order of Asterios.
+Бежим на юго-запад.
+22. Охотимся на Dryad и Dryad Elder, пока не появится Actea of Verdant Wilds. Убиваем ее, получаем Seed of Verdure.
+Бежим дальше на юго-запад.
+23. Охотимся на Lirein и Lirein Elder, пока не появится Luell of Zephyr Winds. Убиваем ее, получаем Breath of Winds.
+Используем SoE.
+24. Ищем Hierarch Asterios, разговариваем с ним, получаем Scroll of Elf Trust.
+Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+25. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Letter of Thifiell.
+Телепортируемся в Gludio. Телепортируемся в Dion.
+26. Ищем в гильдии темных эльфов Magister Clayton, разговариваем с ним, получаем Order of Clayton.
+27. Ищем в магазине магии Maria, разговариваем с ней, получаем Crystal of Purity1.
+28. Ищем в церкви High Priest Sylvain, разговариваем с ним, получаем Symbol of Sylvain.
+29. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil2.
+Бежим в Ant Nest.
+30. Охотимся на Ant Recruit, Ant Patrol, Ant Solider, Ant Guard и Ant Warrior Captain пока не соберем 10 Giant Aphid. Они автоматически превратятся в Honey Dew.
+Используем SoE. Бежим к Cruma Tower
+31. Охотимся на любых Marsh Stakato, пока не соберем 10 Stakatos Fluid. Они автоматически превратятся в Stakato Ichor.
+Используем SoE.
+32. В магазине магии ищем Trader Lara, разговариваем с ней, получаем Lara's Memo 1.
+Бежим в Execution Grounds.
+33. В яме охотимся на Nameless Revenant, пока не получим Aklantoth Gem 3.
+Бежим в Giran.
+34. В гильдии волшебников ищем Grand Magister Jurek, разговариваем с ним, получаем Grand Magister's Sigil и Jurek's List.
+35. На севере от города охотимся на Breka Orc Shaman, пока не получим 5 Shaman's Necklace.
+Используем SoE. Бежим в Death Pass.
+36. Охотимся на Guardian Basilisk, пока не соберем 10 Blood of Guardian Basilisk. Они автоматически превратятся в Basilisk Plasma.
+Бежим к входу в Dragon Valley.
+37. Охотимся на Shackle, пока не получим 2 Shackle's Scalp.
+Используем SoE. Телепортируемся в Dion.
+38. Около Monster Derby Track охотимся на Monster Eye Destroyer, пока не получим 5 Monster Eye Destroyer Skin.
+Используем SoE. Телепортируемся в Giran.
+39. В гильдии волшебников ищем Grand Magister Jurek, разговариваем с ним, получаем Symbol of Jurek.
+Телепортируемся в Dion.
+40. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mirien's Sigil3.
+41. Ищем Magister Clayton, разговариваем с ним.
+Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+42. Ищем Tetrarch Thifiell, разговариваем с ним, получаем Scroll of Darkelf Trust.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся в Hunter Village.
+43. Ищем Wiseman Cronos, разговариваем с ним, выбираем любые строки, получаем Cronos Sigil и Cronos Letter.
+Телепортируемся в Oren.
+44. Ищем в церкви High Priest Hollint, разговариваем с ним, получаем Letter to Seresin.
+45. Ищем у церкви Cardinal Seresin, получаем Letter to Orc и Letter to Dwarf.
+Телепортируемся в Giran.
+46. В гильдии волшебников ищем Magister Dieter, разговариваем с ним, получаем Dieter's Key.
+Телепортируемся в Dion. Бежим в Floran.
+47. У северных ворот ищем Astrologer Creta, разговариваем с ним, получаем Creta's Letter2.
+Используем SoE. Телепортируемся в Giran.
+48. В гильдии волшебников ищем Magister Dieter, разговариваем с ним, получаем Dieter's Letter и Dieter's Diary.
+Телепортируемся в Hunter Village.
+49. Ищем в магазине оружия Trader Edroc, разговариваем с ним, получаем Raut's Letter Envelope.
+Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+50. Ищем на складе Warehouse Keeper Raut, разговариваем с ним, получаем Scripture Chapter 1 и Strong Liquor.
+51. В доках ищем Drunkard Triff, разговариваем с ним, получаем Treaf's Ring.
+Телепортируемся в Orc Village.
+52. В главном здании на 2м этаже ищем Flame Lord Kakai, разговариваем с ним, получаем Letter to Manakia.
+Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+53. У северных ворот ищем Seer Manakia, разговариваем с ней.
+54. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, получаем Valkon's Request.
+Телепортируемся в Dion.
+55. Ищем в магазине магии Maria, разговариваем с ней, получаем Crystal of Purity2.
+Телепортируемся в Giran.
+56. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, получаем Scripture Chapter 2.
+Телепортируемся к Hardin Academy.
+57. Охотимся на Windsus, пока не соберем 10 Lota's Parasite.
+58. На северо-востоке охотимся на Grandis, пока не получим Scripture Chapter 3.
+Используем SoE.
+59. Ищем Seer Manakia, разговариваем с ней, получаем Letter of Manakia.
+Телепортируемся в Dion.
+60. Ищем в кузнице Blacksmith Poitan, разговариваем с ним, получаем Poitan's Notes.
+Телепортируемся в Gludio. Телепортируемся в Orc Village.
+61. Ищем Flame Lord Kakai, разговариваем с ним, получаем Scroll of Orc Trust.
+Телепортируемся в Gludin. Телепортируемся в Dwarf Village.
+62. Ищем Iron Gate's Lockirin, разговариваем с ним.
+Телепортируемся в Gludin.
+63. В магазине магии ищем Trader Nestle, разговариваем с ней, получаем Nestle's Memo1.
+64. У юго-восточного выхода из деревни ищем Leopold, разговариваем с ним, получаем Leopold's Journal1.
+Телепортируемся к South Entrance to Wasteland. Бежим в Wasteland.
+65. Ищем Wiseman Casian, разговариваем с ним, получаем Kasian's List.
+66. Охотимся на Skeletal Mercenary, пока не получим Aklantoth Gem 4, Aklantoth Gem 5, Aklantoth Gem 6.
+Используем SoE. Бежим к Cruma Tower
+67. Ищем возле нее Maestro Nikola, разговариваем с ним, получаем Order of Nikola.
+Телепортируемся на 1й этаж Cruma Tower.
+68. Охотимся на Porta, пока не соберем 10 Heart of Porta.
+69. Возвращаемся к Maestro Nikola, разговариваем с ним.
+Используем SoE. Телепортируемся в Giran. Бежим в Death Pass.
+70. Ищем Shadow Orim, разговариваем с ним. Появится Drevanul Prince Zeruel, убиваем его, получаем Brimstone1.
+71. Ищем Shadow Orim, разговариваем с ним, получаем Orim's Instructions, Orim's Letter1 и Orim's Letter2.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Dwarf Village.
+72. Ищем Iron Gate's Lockirin, разговариваем с ним, получаем Scroll of Dwarf Trust.
+Телепортируемся в Gludin.
+73. Рядом с гильдией бойцов ищем Sir Klaus Vasper, разговариваем с ним, получаем Sir Vasper's Letter.
+Телепортируемся в Gludio. Телепортируемся в Dion. Бежим в Execution Grounds.
+74. Охотимся на Ghoul, пока не соберем 10 Ghoul's Skin.
+Бежим в Giran.
+75. К северо-востоку от города охотимся на Medusa, пока не соберем 12 Medusa's Blood.
+Используем SoE. Телепортируемся к Hardin Academy.
+76. На северо-западе охотимся на Fettered Soul, пока не соберем 5 Fettered Soul's Ichor.
+Телепортируемся в Oren.
+77. Ищем High Priest Hollint, разговариваем с ним, получаем Recommendation of Hollin.
+78. В церкви ищем Priest Vadin, разговариваем с ним, получаем Vadin's Crucifix.
+Телепортируемся в Hunter Village.
+79. К северо-востоку от деревни охотимся на Tamlin Orc и Tamlin Orc Archer, пока не соберем 20 Tamlin Orc Amulet.
+Используем SoE. Телепортируемся в Ivory Tower.
+80. Охотимся на Enchanted Gargoyle, пока не соберем 5 Enchanted Gargoyle Nail.
+Используем SoE.
+81. В церкви ищем Priest Vadin, разговариваем с ним, получаем Vadin's Sanctions.
+Телепортируемся в Giran.
+82. В гильдии волшебников ищем Magister Iker, разговариваем с ним, получаем Iker's Amulet и Soultrap Crystal.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin. Телепортируемся на Talking Island.
+83. В церкви ищем High Priest Biotin, разговариваем с ним, получаем Mark of Trust.
+Телепортируемся в Gludin.
+84. Рядом с гильдией бойцов ищем Sir Klaus Vasper, разговариваем с ним, получаем Sword of Binding.
+85. Покупаем 100 SpS или BSpS No Grade.
+Телепортируемся к South Entrance to Wasteland.
+86. Ищем Wiseman Casian, разговариваем с ним, получаем Scripture Chapter 4.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Giran.
+87. В гильдии волшебников ищем Magister Dieter, разговариваем с ним.
+Телепортируемся в Hunter Village.
+88. Ищем Wiseman Cronos, разговариваем с ним, получаем Symbol of Cronos.
+Телепортируемся в Giran. Телепортируемся в Dion.
+89. Ищем в церкви Magister Mirien, разговариваем с ней, получаем Mark of Scholar.
+Бежим в Floran.
+90. На восточном берегу озера ищем Fisherman Evert, разговариваем с ним, получаем Brimstone2.
+91. Появится Drevanul Prince Zeruel, убиваем его с помощью Sword of Binding, получаем Purgatory Key и Zeruel Bind Crystal.
+Бежим в Dion. Телепортируемся в Giran. Бежим в Death Pass.
+92. Ищем Shadow Orim, разговариваем с ним, получаем Mark of Witchcraft.
+Используем SoE.
+93. Ищем в гильдии магов Grand Master Jurek, разговариваем с ним и становимся Necromancer.

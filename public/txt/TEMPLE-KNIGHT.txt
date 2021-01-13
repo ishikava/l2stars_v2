@@ -1,0 +1,124 @@
+TEMPLE KNIGHT
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE (на всякий случай) 
+запас Soulshot
+
+Среднее время прохождения: 9 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Giran.
+
+1. Ищем в гильдии бойцов Grand Master Hannavalt, разговариваем с ним.
+2. Ищем в церкви Priest Bandellos, разговариваем с ним, получаем Report of Perrin.
+Телепортируемся в Dion.
+3. В гильдии бойцов ищем Master Cardien, разговариваем с ней, получаем Cardien's Letter.
+Телепортируемся в Gludio. Телепортируемся в Gludin.
+4. К северу от доков ищем Perrin, разговариваем с ним. Появляется Tatoma, убиваем его. Снова разговариваем с Perrin.
+5. К югу от доков у маяка ищем Allana, разговариваем с ней.
+6. Покупаем 100 Soulshot No Grade.
+Телепортируемся к South Entrance to Wasteland. Бежим по дороге к Floran.
+7. В стороне от дороги ищем Sir Aron Tanford, разговариваем с ним, получаем Old Knight Sword.
+Используем SoE. Телепортируемся в Elf Village.
+8. В главном здании ищем Hierarch Asterios, разговариваем с ним, выбираем любую строчку, получаем Moonflower Charm и Tetrarch's Letter.
+Бежим на юг к Iris Lake.
+9. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail Diagram.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+10. В кузнице ищем Blacksmith Pushkin (здравствуйте, Александр Cенсеич!), разговариваем с ним, получаем Pushkin's List.
+Используем SoE. Бежим в Death Pass.
+11. Охотимся на Wyrm, пока не получим 20 Wyrm Talon.
+12. Охотимся на Guardian Basilisk, пока не получим 10 Pure Mithril Ore.
+Телепортируемся в Dion. Телепортируемся в Gludio.
+13. К западу от города ищем Father Gupu, разговариваем с ней, выбираем <Refuse to pay 100.000a>.
+Бежим в Wasteland.
+14. Охотимся на Skeleton Marauder и Skeleton Raider до тех пор, пока не появится Spirit of Sir Herod.
+Обязательно нужно убивать скелетов каждого вида. Это единственный случай, где, возможно, придется убить до 500 скелетов.
+15. C помощью Old Knight Sword убиваем Spirit of Sir Herod, получаем Knights Tear.
+Бежим в Ant Nest.
+16. Охотимся на Ant Soldier, пока не соберем 20 Ant Soldier Acid.
+Бежим к South Entrance to Wasteland. Бежим по дороге к Floran.
+17. Ищем Sir Aron Tanford, разговариваем с ним.
+Используем SoE. Телепортируемся в Gludio.
+18. Ищем в гильдии бойцов Master Sorius, разговариваем с ним, получаем Order of Sorius.
+Телепортируемся в Dion.
+19. Ищем в гильдии темных эльфов Sir Kiel Nighthawk, разговариваем с ним.
+Бежим в Execution Grounds.
+20. Охотимся на Ghoul и Strain, пока не соберем 10 Torn Report Piece. Они автоматически превратятся в Report.
+Используем SoE.
+21. Ищем в гильдии темных эльфов Sir Kiel Nighthawk, разговариваем с ним, получаем Orfic Mirror.
+Бежим в Execution Grounds.
+22. Охотимся на Hangman Tree, пока не появится Spirit of Sir Talianus.
+23. Разговариваем с Spirit of Sir Talianus, затем убиваем его, получаем Tear of Confession.
+Используем SoE.
+24. Ищем в гильдии темных эльфов Sir Kiel Nighthawk, разговариваем с ним.
+Телепортируемся в Giran.
+25. В кузнице ищем Blacksmith Pushkin, разговариваем с ним, получаем Pure Mithril Cup.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+26. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 1.
+Используем SoE. Телепортируемся в Gludin. Бежим в Orc Barracks.
+27. В конце дороги ищем Daurin Hammercrush, разговариваем с ним.
+28. Появятся 2 Lizardman Agent и Lizardman Lord. ПЕРВЫМ убиваем Lizardman Lord , получаем Secret Letter1.
+Если после убийства всех 3 ничего не выпало, то придется начинать задание сначала.
+29. В конце дороги ищем Daurin Hammercrush, разговариваем с ним.
+Используем SoE. Телепортируемся в Darkelf Village.
+Бежим к Altar of Rites.
+30. У алтаря ищем Arkenia, разговариваем с ней, получаем Arkenia's Contract и Arkenia's Instructions.
+31. Неподалеку от алтаря ищем Mysterious Dark Elf, разговариваем с ним.
+32. Появятся 3 Lizardman Assassin, убиваем их, получаем Secret Letter2.
+Бежим в Swampland.
+33. Ищем Mysterious Dark Elf, разговариваем с ним.
+34. Появятся 3 Lizardman Sniper, убиваем их, получаем Secret Letter3.
+Бежим к Altar of Rites.
+35. Ищем Mysterious Dark Elf, разговариваем с ним.
+36. Появятся 2 Lizardman Wizard и Lizardman Warlord, убиваем их, получаем Secret Letter4.
+37. К юго-западу ищем Saint Kristina, разговариваем с ней, получаем Cristina's Letter.
+Используем SoE. Телепортируемся в Gludin.
+38. В церкви ищем Priest Adonius, разговариваем с ним, получаем Adonius List.
+Телепортируемся в Gludio.
+39. В гильдии бойцов ищем Master Sorius, разговариваем с ним.
+Бежим к Cruma Tower
+40. Охотимся на Marsh Spider, пока не соберем 20 Spider Ichors.
+Используем SoE. Телепортируемся в Giran.
+41. К северо-востоку от города охотимся на Harpy, пока не соберем 20 Harpy's Down.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+42. В церкви ищем Priest Adonius, разговариваем с ним, получаем Andariel's Scipture Copy.
+Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+43. Ищем Arkenia, разговариваем с ней, получаем Stardust.
+Используем SoE. Бежим на юг к Iris Lake.
+44. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Thalia's Letter 2.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+Телепортируемся в Hunter Village.
+45. Ищем на площади Isael Silvershadow, разговариваем с ней, получаем Isael's Instructions.
+46. На площади ищем Isael Silvershadow, разговариваем с ней.
+Бежим на запад к Plains of the Lizardmen.
+47. Охотимся на Leto Lizardman, пока не соберем 20 Militas Article.
+Используем SoE.
+48. К северо-западу от города охотимся на Leto Lizardman Shaman и Leto Lizardman Overlord, пока не соберем Talin's Spear Blade, Talin's Spear Shaft, Talin's Spear Aquamarine, Talin's Spear Peridot, Talin's Spear Amethyst, Talin's Spear Ruby.
+Используем SoE. Телепортируемся в Hunter Village.
+49. На площади ищем Isael Silvershadow, разговариваем с ней, получаем Talin's Spear и Isael's Letter.
+50. На площади ищем Isael Silvershadow, разговариваем с ней, получаем Tear of Loyalty.
+Телепортируемся Giran.
+51. Ищем в церкви Priest Dustin, разговариваем с ним, выбираем <Ask about Athebaldt's death>, выбираем <Ask about remains>, выбираем <Please let me take that task>.
+52. К северо-западу от города охотимся на Breka Orc Overlord, пока не соберем Sir Athebaldt's Skull, Sir Athebaldt's Ribs и Sir Athebaldt's Shin.
+Используем SoE.
+53. Ищем в церкви Priest Dustin, разговариваем с ним, получаем Saints Ashes Urn.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin. Телепортируемся на Takling Island. Бежим к Obelisk of Victory.
+54. Ищем Sir Collin Windawood, разговариваем с ним, получаем Letter of Windawood.
+Телепортируемся в Gludin. Телепортируемся в Elf Village. Бежим на юг к Iris Lake.
+55. На восточном берегу озера в обсерватории ищем Thalia, разговариваем с ней, получаем Grail of Purity.
+56. Южнее обсерватории ищем Unicorn of Eva, убиваем его с помощью Talin's Spear, получаем Tears of the Unicorn.
+57. Возвращаемся к Thalia, разговариваем с ней, получаем Water of Life.
+Используем SoE.
+58. Ищем Hierarch Asterios в главном здании, разговариваем с ним, получаем Camomile Charm.
+Телепортируемся в Gludio. Телепортируемся в Dion.
+59. В гильдии бойцов ищем Master Cardien, разговариваем с ним, получаем Mark of Life.
+Телепортируемся в Giran.
+60. В церкви ищем Priest Bandellos, разговариваем с ним, получаем Mark of Healer.
+61. Ищем в церкви Priest Dustin, разговариваем с ним, получаем Letter of Dustin.
+62. Ищем в гильдии бойцов Grand Master Hannavalt, разговариваем с ним, получаем Mark of Duty.
+63. В церкви ищем Grand Master Hannavalt, разговариваем с ним и становимся Temple Knight.

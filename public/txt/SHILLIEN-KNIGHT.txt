@@ -1,0 +1,141 @@
+SHILLIEN KNIGHT
+
+ 
+Минимальные требования 
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE (на всякий случай) 
+запас Soulshot
+
+Среднее время прохождения: 9 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Giran. Бежим в Death Pass.
+
+1. Ищем Shadow Orim, разговариваем с ним, получаем Orim's Diagram.
+Используем SoE.
+2. В люксоре (магазин за кристаллы) ищем Trader Alexandria, разговариваем с ней, получаем Alexandria's Book.
+3. В гильдии волшебников ищем Magister Iker, разговариваем с ним, получаем Iker's List.
+Телепортируемся в Oren. Телепортируемся в Ivory Tower.
+4. В яме охотимся на Enchanted Stone Golem, пока не соберем 20 Enchanted Golem Heartstone.
+Используем SoE.
+5. В окрестностях города охотимся на любых Leto Lizardman, пока не соберем 20 Leto Lizardman Charm.
+Бежим в Sea of Spores.
+6. Охотимся на Dire Wyrm, пока не соберем 20 Dire Wyrm Fang.
+Используем SoE. Телепортируемся в Giran.
+7. Ищем в гильдии бойцов Grand Master Hannavalt, разговариваем с ним.
+8. В гильдии волшебников ищем Magister Iker, разговариваем с ним, получаем Aklantoth Gem 1.
+9. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Aklantoth Gem 2.
+10. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Letter 1.
+11. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Metheus' Funeral Jar.
+Телепортируемся в Dion.
+12. В магазине магии ищем Trader Lara, разговариваем с ней, получаем Lara's Memo 1.
+Бежим в Execution Grounds.
+13. Охотимся на Hangman Tree, пока не получим Kasandra's Remains.
+14. В яме охотимся на Nameless Revenant, пока не получим Aklantoth Gem 3.
+Бежим в Giran.
+15. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Herbalism Textbook.
+Телепортируемся в Dion.
+16. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получаем Ixia's List.
+Телепортируемся в Gludio. Телепортируемся в Gludin.
+17. В магазине магии ищем Trader Nestle, разговариваем с ней, получаем Nestle's Memo1.
+18. У юго-восточного выхода из деревни ищем Leopold, разговариваем с ним, получаем Leopold's Journal1.
+Телепортируемся к South Entrance to Wasteland. Бежим по дороге к Floran.
+19. В стороне от дороги ищем Sir Aron Tanford, разговариваем с ним, получаем Old Knight Sword.
+Бежим в Wasteland.
+20. Охотимся на Tyrant и Tyrant Kingpin, пока не получим 10 Tyrant's Blood.
+21. Охотимся на Skeletal Mercenary, пока не получим Aklantoth Gem 4, Aklantoth Gem 5, Aklantoth Gem 6.
+Используем SoE. Бежим к Cruma Tower
+22. Охотимся на любых Marsh Stakato, пока не получим 10 Nightshade Root.
+23. Охотимся на Marsh Spider, пока не соберем 10 Marsh Spider Fluids.
+Используем SoE. Бежим в Execution Grounds.
+24. Охотимся на Dead Seeker, пока не соберем 10 Dead Seeker Dung.
+Бежим в Giran.
+25. К северо-востоку от города охотимся на Medusa, пока не соберем 10 Medusa's Ichor.
+Используем SoE. Бежим в Death Pass.
+26. Ищем Shadow Orim, разговариваем с ним. Появится Drevanul Prince Zeruel, убиваем его, получаем Brimstone1.
+27. Ищем Shadow Orim, разговариваем с ним, получаем Orim's Instructions, Orim's Letter1 и Orim's Letter2.
+Используем SoE. Телепортируемся в Dion.
+28. В гильдии темных эльфов ищем Master Ixia, разговариваем с ней, получим Belladonna.
+Телепортируемся в Giran.
+29. В восточной части города ищем Brother Metheus, разговариваем с ним, получаем Alder's Skull1.
+30. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Alder's Skull2.
+31. Разговариваем с Adler's Spirit.
+32. В гильдии волшебников ищем Magister Roa, разговариваем с ней, выбираем <Even with you hands put on, the moon will shine> получаем Alder's Receipt.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+33. Ищем на складе Warehouse Keeper Norman, разговариваем с ним, получаем Revelations Manuscript.
+34. Покупаем 100 Soulshot No Grade.
+35. Рядом с гильдией бойцов ищем Sir Klaus Vasper, разговариваем с ним, получаем Sir Vasper's Letter.
+Телепортируемся к South Entrance to Wasteland. Бежим в Wasteland.
+36. Охотимся на Skeleton Marauder и Skeleton Raider до тех пор, пока не появится Spirit of Sir Herod.
+Обязательно нужно убивать скелетов каждого вида. Это единственный случай, где, возможно, придется убить до 500 скелетов.
+37. C помощью Old Knight Sword убиваем Spirit of Sir Herod, получаем Knights Tear.
+Бежим к South Entrance to Wasteland. Бежим по дороге к Floran.
+38. Ищем Sir Aron Tanford, разговариваем с ним.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion.
+39. Ищем в гильдии темных эльфов Sir Kiel Nighthawk, разговариваем с ним.
+Бежим в Execution Grounds.
+40. Охотимся на Ghoul и Strain, пока не соберем 10 Torn Report Piece. Они автоматически превратятся в Report.
+Бежим в Giran.
+41. В гильдии темных эльфов ищем Magister Kaira, разговариваем с ней, получаем Kaira's Recommendation.
+Телепортируемся в Dion.
+42. Ищем в гильдии темных эльфов Sir Kiel Nighthawk, разговариваем с ним, получаем Orfic Mirror.
+Бежим в Execution Grounds.
+43. Охотимся на Hangman Tree, пока не появится Spirit of Sir Talianus.
+44. Разговариваем с Spirit of Sir Talianus, затем убиваем его, получаем Tear of Confession.
+Используем SoE.
+45. Ищем в гильдии темных эльфов Sir Kiel Nighthawk, разговариваем с ним.
+Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+46. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Thifiell's Letter и Palus Charm.
+Телепортируемся к Altar of Rites.
+47. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Note.
+48. Ищем Bloody Pixy, разговариваем с ней, получаем Pixy Garnet.
+49. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Seed.
+Используем SoE. Бежим в Swampland.
+50. Охотимся на Black Willow Lurker, пока не получим Black Willow Leaf.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+51. К северу от города охотимся на Breka Orc Overlord, пока не соберем 10 Breka Overlord Skull.
+Используем SoE. Телепортируемся к Hardin Academy.
+52. На северо-востоке охотимся на Grandis, пока не соберем 10 Grandis's Skull.
+Телепортируемся в Hunter Village.
+53. На площади ищем Isael Silvershadow, разговариваем с ней.
+Бежим на запад к Plains of the Lizardmen.
+54. Охотимся на Leto Lizardman, пока не соберем 20 Militas Article.
+Используем SoE.
+55. На северо-западе охотимся на Leto Lizardman Overlord, пока не соберем 10 Leto Overlord Skull.
+Используем SoE.
+56. В церкви ищем Priest Vadin, разговариваем с ним, получаем Vadin's Crucifix.
+Телепортируемся в Hunter Village.
+57. На площади ищем Isael Silvershadow, разговариваем с ней, получаем Tear of Loyalty.
+58. К северо-востоку от деревни охотимся на Tamlin Orc и Tamlin Orc Archer, пока не соберем 20 Tamlin Orc Amulet.
+59. К северо-востоку от деревни охотимся на Karul Bugbear, пока не соберем 10 Karul Bugbear Skull.
+Используем SoE. Телепортируемся в Oren.
+60. В церкви ищем Priest Vadin, разговариваем с ним, получаем Vadin's Sanctions.
+Телепортируемся Giran.
+61. Ищем в церкви Priest Dustin, разговариваем с ним, выбираем <Ask about Athebaldt's death>, выбираем <Ask about remains>, выбираем <Please let me take that task>.
+62. К северо-западу от города охотимся на Breka Orc Overlord, пока не соберем Sir Athebaldt's Skull, Sir Athebaldt's Ribs и Sir Athebaldt's Shin.
+Используем SoE.
+63. Ищем в церкви Priest Dustin, разговариваем с ним, получаем Saints Ashes Urn.
+64. В гильдии волшебников ищем Magister Iker, разговариваем с ним, получаем Iker's Amulet и Soultrap Crystal.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Altar of Rites.
+65. Ищем Bloody Pixy, разговариваем с ней, получаем Red Fairy Dust.
+66. Ищем Blight Treant, разговариваем с ним, получаем Blight Treant Sap.
+67. Ищем Arkenia, разговариваем с ней, получаем Arkenia's Letter.
+Используем SoE.
+68. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Mark of Fate.
+Телепортируемся в Gludin. Телепортируемся на Talking Island. Бежим к Obelisk of Victory.
+69. Ищем Sir Collin Windawood, разговариваем с ним, получаем Letter of Windawood.
+Используем SoE. Телепортируемся в Gludin.
+70. Рядом с гильдией бойцов ищем Sir Klaus Vasper, разговариваем с ним, получаем Sword of Binding.
+71. Покупаем 500 Soulshot No Grade.
+Телепортируемся в Gludio. Телепортируемся в Dion. Бежим в Floran.
+72. На восточном берегу озера ищем Fisherman Evert, разговариваем с ним, получаем Brimstone2.
+73. Появится Drevanul Prince Zeruel, убиваем его с помощью Sword of Binding, получаем Purgatory Key и Zeruel Bind Crystal.
+Бежим в Dion. Телепортируемся в Giran. Бежим в Death Pass.
+74. Ищем Shadow Orim, разговариваем с ним, получаем Mark of Witchcraft.
+Используем SoE.
+75. Ищем в церкви Priest Dustin, разговариваем с ним, получаем Letter of Dustin.
+76. Ищем в гильдии бойцов Grand Master Hannavalt, разговариваем с ним, получаем Mark of Duty.
+77. В гильдии темных эльфов ищем Grand Master Angus, разговариваем с ним и становимся Shillien Knight.

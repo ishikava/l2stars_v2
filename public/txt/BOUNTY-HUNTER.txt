@@ -1,0 +1,135 @@
+BOUNTY HUNTER
+
+ 
+Минимальные требования 
+40 уровень 
+7000a + затраты на телепортацию (около 300000а), 20 SoE (на всякий случай)
+7 Steel 
+70 Varnish 
+100 Animal Skin 
+80 Crystal D Grade 
+запас SoulShot 
+
+Среднее время прохождения: 12 часов
+
+ 
+
+Прохождение
+
+Телепортируемся в Giran.
+
+1. Ищем в здании склада Warehouse Keeper Valkon, разговариваем с ним, отдаем 2000а, получаем Valkon's Recommendation.
+2. Ищем в здании склада Warehouse Keeper Parman, разговариваем с ним, получаем Ring of Testimony1.
+Телепортируемся в Dion.
+3. У восточных ворот ищем Guard Bright, разговариваем с ним, получаем Bright's List.
+Бежим в Execution Grounds.
+4. Убиваем первую попавшуюся Mandragora, получаем Mandragora Berry.
+5. Охотимся на Mandragora Sapling и Mandragora Blossom до тех пор, пока не соберем 20 Mandragora Petal.
+Используем SoE. Телепортируемся в Gludio. Бежим в Orc Barracks.
+6. На ранчо к северу от дороги ищем Piotur, разговариваем с ним, получаем Blessed Seed.
+Используем SoE. Телепортируемся на Talking Island.
+7. На складе ищем Warehouse Keeper Wilford, разговариваем с ним, выбираем <An Elf more than 1,000 years old>, получаем Crystal Brooch.
+8. Ищем слева от входа в церковь Lilith, разговариваем с ней, получаем Lilith's Elven Water.
+9. Ищем на площади Blacksmith Altran, разговариваем с ним, получаем Altran's Instructions, Recipe: Journeyman's Ring, Altran's Recommend1, Altran's Recommend2.
+Телепортируемся в Gludin.
+10. На складе ищем Warehouse Keeper Norman, разговариваем с ним, получаем Norman's Instructions и Norman's Receipt.
+Телепортируемся в Dwarf Village.
+11. Ищем Iron Gate's Lockirin, разговариваем с ним, получаем: Collection License, Lockirin's Notice1, Lockirin's Notice2, Lockirin's Notice3, Lockirin's Notice4, Lockirin's Notice5.
+12. Говорим со старейшинами Golden Wheel's Spiron, Silver Scale's Balanki, Bronze Ley's Keef, Gray Pillar's Filaur, Black Anvil's Arin.
+13. За зданием склада ищем Carrier Torocco, разговариваем с ним, получаем Procuration of Torocco.
+14. Около северных ворот ищем Maryse Redbonnet, разговариваем с ней, получаем Maryse Request.
+15. Разговариваем с Maryse Redbonnet еще раз, отдаем ей 100 Animal Skin, получаем Maryse Contribution.
+16. В оружейном магазине ищем Trader Shari, разговариваем с ней, получаем Contribution of Shari.
+17. В магазине магии ищем Trader Mion, разговариваем с ней, получаем Contribution of Mion.
+18. За южными воротами ищем Miner Bolter, разговариваем с ним, получаем Receipt of Bolter.
+Возвращаемся к старейшинам.
+19. Разговариваем с Golden Wheel's Spiron, получаем Receipt of Contribution1.
+20. Разговариваем с Silver Scale's Balanki, получаем Receipt of Contribution2.
+21. Разговариваем с Bronze Ley's Keef, платим 5000а вместо Carrier Torocco (идиот проиграл деньги в карты), получаем Receipt of Contribution3.
+22. Разговариваем с Gray Pillar's Filaur, получаем Receipt of Contribution4.
+23. Разговариваем с Black Anvil's Arin.
+24. Отправляемся искать Master Toma. Найдя, разговариваем с ним, получаем Contribution of Toma.
+Используем SoE.
+25. Возвращаемся к Black Anvil's Arin, разговариваем с ним, получаем Receipt of Contribution5.
+26. Разговариваем с Iron Gate's Lockirin, получаем Old Account Book.
+Телепортируемся в Gludin. Телепортируемся в Gludio.
+27. Ищем в кузнице Blacksmith Pinter, разговариваем с ним, получаем Pinter's Instructions.
+Бежим в Ant Nest.
+28. Охотимся на Ant, Ant Captain, Ant Overseer до тех пор, пока не соберем 70 Amber Bead.
+Используем SoE.
+29. Ищем в кузнице Blacksmith Pinter, разговариваем с ним, получаем 7 Journeyman Deco Beads.
+Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся в Hunter Village.
+30. Ищем в кузнице Blacksmith Duning, разговариваем с ним, получаем Duning's Instructions.
+31. Ищем в гильдии бойцов Master Luther, разговариваем с ним, получаем Luther Letter.
+Телепортируемся в Giran. Бежим на север.
+32. К северу от города охотимся на любых Breka Orc, пока не соберем 30 Duning's Key.
+Используем SoE. Телепортируемся в Hunter Village.
+33. Ищем в кузнице Blacksmith Duning, разговариваем с ним.
+Телепортируемся в Giran. Телепортируемся в Dion. Бежим в Floran.
+34. К востоку от деревни ищем Alex, разговариваем с ним, получаем Alex's Warrant.
+35. Ищем у развилки на 2 моста к юго-западу от деревни Militaman Leirynn, разговариваем с ней, получаем Leirynn's Order1.
+36. Охотимся неподалеку на Delu Lizardman Shaman, пока не соберем 10 Delu Totem.
+37. Ищем Militaman Leirynn, разговариваем с ней, получаем Leirynn's Order2.
+Бежим по дороге из Флорана в Giran Harbor.
+38. Примерно там, где заканчиваются поля, по правой стороне дороги ищем квест моба Delu Chief Kalkis, убиваем его, получаем Chief Kalkis Fang и Strange Map.
+Бежим к Giran Harbor. Телепортируемся в Dion. Бежим в Floran.
+39. Ищем Militaman Leirynn, разговариваем с ней, получаем Leirynn's Report.
+40. Ищем Alex, разговариваем с ним, получаем Lambert's Map, Alex's Letter и Alex's Order.
+Бежим в Dion. Телепортируемся в Gludio.
+41. Ищем в юго-западном углу города за зданиями Drunkard Borys, разговариваем с ним.
+Телепортируемся в Darkelf Village. Телепортируемся к Spider Nest.
+42. Ищем Tyra, разговариваем с ней, получаем Tyra's Contract.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся в Oren. Бежим в Sea of Spores.
+43. Охотимся на Giant Fungus, пока не соберем 10 Red Spore Dust.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Darkelf Village. Телепортируемся к Spider Nest.
+44. Ищем Tyra, разговариваем с ней, получаем Malrukian Wine.
+Используем SoE. Телепортируемся в Gludio.
+45. Ищем Drunkard Borys, разговариваем с ним, получаем Old Order.
+Телепортируемся в Gludin.
+46. Ищем на складе Warehouse Keeper Norman, разговариваем с ним, получаем Norman's List.
+Телепортируемся к South Entrance to Wasteland.
+47. Ищем Bodyguard Jax, разговариваем с ним, получаем Jax's Diary.
+Используем SoE. Телепортируемся в Gludio. Бежим к Cruma Tower.
+48. В северо-восточной части болот увидим большое поваленное дерево. Охотимся на Giant Crimson Ant, пока не соберем 10 Crimson Moss.
+Используем SoE.
+49. Ищем Guard Bright, разговариваем с ним, получаем Mandragora Bouquet.
+50. Неподалеку ищем Emily, разговариваем с ней, получаем Emily's Recipe.
+Бежим в Execution Grounds.
+51. Охотимся на Hangman Tree, пока не соберем 4 Torn Map Piece2. Они автоматически превратятся в Makel's Map.
+52. Охотимся на Ghoul и Strain, пока не соберем 70 Gray Bone Powder.
+53. Охотимся на Granite Golem, пока не соберем 70 Granite Whetstone.
+54. Охотимся на Dead Seeker, пока не соберем 70 Red Pigment.
+Бежим в Giran.
+55. Ищем на складе Warehouse Keeper Parman, разговариваем с ним, получаем Ring of Testimony2 и Parman's Letter.
+Бежим к Monster Derby Track.
+56. В окрестностях охотимся на Silenos, пока не соберем 70 Braided Yarn.
+Используем SoE. Бежим в Death Pass.
+57. Охотимся на Road Scavenger, пока не соберем 4 Torn Map Piece1. Они автоматически превратятся в Solt's Map.
+Используем SoE. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin.
+58. Ищем на складе Warehouse Keeper Norman, разговариваем с ним, получаем 7 Journeyman's Gem.
+Телепортируемся к South Entrance to Wasteland.
+59. Ищем Bodyguard Jax, разговариваем с ним, получаем Combined Map.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dion.
+60. Ищем дерево к югу от города по желтой точке на радаре (на карте красный флажок), разговариваем с ним, получаем Rusted Key1.
+61. Разговариваем с появившимся Strong Wooden Chest, получаем 20 Gold Bar.
+Бежим в Floran.
+62. Ищем Alex, разговариваем с ним, получаем Alex's Recommend.
+Бежим в Dion. Бежим к Cruma Tower.
+63. Ищем Maestro Nikola, говорим с ним, получаем Clay Dough и задание – найти Box of Titan и подобрать к нему ключ.
+Телепортируемся в Cruma Tower.
+64. Ищем в юго-западной части башни Box of Titan, разговариваем с ним, получаем Pattern of Keyhole.
+Примечание: Игрокам с фришардов нужно искать Box в глубине второго этажа.
+Используем SoE. Бежим к Cruma Tower.
+65. Ищем Maestro Nikola, разговариваем с ним, получаем Nikolas' List, Recipe: Titan Key.
+66. Охотимся на любых Marsh Stakato, пока не соберем 20 Stakato Shell.
+67. Охотимся на Toad Lord, пока не соберем 10 Toad Lord Sac.
+68. Охотимся на Marsh Spider, пока не соберем 10 Spider Thorn.
+69. Используем Recipe: Titan Key, создаем Key of Titan.
+70. Ищем в юго-западной части башни Box of Titan, разговариваем с ним, выбираем <Use key to open>, получаем Maphr Tablet Fragment.
+Используем SoE. Телепортируемся в Giran. Телепортируемся в Hunter Village.
+71. Ищем в гильдии бойцов Master Luther, разговариваем с ним, получаем Mark of Searcher.
+Телепортируемся в Giran.
+72. Ищем на складе Warehouse Keeper Parman, разговариваем с ним, получаем Mark of Prosperity.
+73. Делаем 7 Journeyman's Ring.
+74. Ищем на складе Warehouse Keeper Valkon, разговариваем с ним, выбираем <I learned the mind attitude and virtues that one should possess as a faithful union member>, получаем Mark of Guildsman.
+75. Ищем на складе Warehouse Chief Gesto, разговариваем с ним и становимся Bounty Hunter.

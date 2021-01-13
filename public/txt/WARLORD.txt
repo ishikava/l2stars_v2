@@ -1,0 +1,111 @@
+WARLORD
+
+Минимальные требования
+
+40 уровень 
+затраты на телепортацию - около 300.000а, 40 SoE на всякий случай 
+запас Soulshot
+
+Среднее время прохождения: 9 часов 
+
+ 
+
+Прохождение
+
+Телепортируемся в Oren.
+
+1. Ищем в церкви High Priest Hollint, получаем Letter to Elf и Letter to Darkelf.
+Телепортируемся в Giran.
+2. Возле магазина оружия ищем Veteran Ascalon, разговариваем с ним, получаем Ascalon's Letter1.
+Телепортируемся в Dion.
+3. Ищем напротив входа на склад Kash, разговариваем с ним.
+4. В проходе слева за складом ищем Mason, разговариваем с ним, получаем Iron Rose Ring.
+Телепортируемся в Gludio. Телепортируемся в Elf Village.
+5. Ищем в главном здании Hierarch Asterios, разговариваем с ним, получаем Order of Asterios.
+Бежим на юго-запад.
+6. Охотимся на Dryad и Dryad Elder, пока не появится Actea of Verdant Wilds. Убиваем ее, получаем Seed of Verdure.
+Бежим дальше на юго-запад.
+7. Охотимся на Lirein и Lirein Elder, пока не появится Luell of Zephyr Winds. Убиваем ее, получаем Breath of Winds.
+Бежим на запад к водопаду в зоне темных эльфов.
+8. В пещере под водопадом убиваем телохранителей Cave Basilisk и саму Shyslassys, получаем Broken Key. Появится Chest of Shyslassys, разговариваем с ним, выбираем <Use key>, получаем Scroll of Shyslassy.
+Возвращаемся в Elf Village.
+9. Ищем Hierarch Asterios, разговариваем с ним, получаем Scroll of Elf Trust.
+Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+10. Ищем в главном здании Tetrarch Thifiell, разговариваем с ним, получаем Letter of Thifiell.
+Телепортируемся в Gludio. Телепортируемся в Dion.
+11. Ищем напротив входа на склад Kash, разговариваем с ним, получаем Letter of Kash.
+12. Ищем в гильдии темных эльфов Magister Clayton, разговариваем с ним, получаем Order of Clayton.
+Бежим в Ant Nest.
+13. Охотимся на Ant Recruit, Ant Patrol, Ant Solider, Ant Guard и Ant Warrior Captain пока не соберем 10 Giant Aphid. Они автоматически превратятся в Honey Dew.
+Используем SoE. Бежим к Cruma Tower
+14. Охотимся на любых Marsh Stakato, пока не соберем 10 Stakatos Fluid. Они автоматически превратятся в Stakato Ichor.
+Используем SoE. Телепортируемся в Giran. Бежим в Death Pass.
+15. Охотимся на Guardian Basilisk, пока не соберем 10 Blood of Guardian Basilisk. Они автоматически превратятся в Basilisk Plasma.
+Используем SoE. Телепортируемся в Hunter Village.
+16. На западе от деревни охотимся на Bloody Axe Elite, пока не соберем 100 Bloody Axe Head.
+Используем SoE. Телепортируемся в Giran.
+17. Ищем у восточного моста Martien, разговариваем с ним.
+Телепортируемся в Giran Harbor. Бежим на запад до треугольника из дорог. Бежим дальше на запад, перебегаем через холм.
+18. В пещере под холмом убиваем телохранителей Cave Basilisk и саму Gorr, получаем Watchers Eye1.
+Используем SoE. Бежим в Dion.
+19. Ищем Magister Clayton, разговариваем с ним.
+20. В проходе слева за складом ищем Mason, разговариваем с ним, получаем Mason's Letter.
+Телепортируемся в Gludio. Телепортируемся в Darkelf Village.
+21. Ищем Tetrarch Thifiell, разговариваем с ним, получаем Scroll of Darkelf Trust.
+Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+22. Возле магазина оружия ищем Veteran Ascalon, разговариваем с ним, получаем Ascalon's Letter2.
+23. В магазине магии ищем Magic Trader Groot, разговариваем с ним, получаем White Rose Insignia.
+24. К северо-востоку от города охотимся на Medusa, пока не соберем 30 Medusa's Venom1.
+25. К северо-востоку от города охотимся на Harpy, пока не соберем 30 Harpy's Egg1. В процессе могут появляться Harpy Matriarch, у них тоже есть яйца (=.
+Используем SoE. Телепортируемся к Hardin Academy.
+26. К северо-западу охотимся на Windsus, пока не соберем 30 Windsus Bile1.
+Телепортируемся в Giran.
+27. В магазине магии ищем Magic Trader Groot, разговариваем с ним, получаем Groot's Letter.
+28. Возле магазина оружия ищем Veteran Ascalon, разговариваем с ним, получаем Ascalon's Letter3.
+Телепортируемся в Oren.
+29. У северных ворот ищем Captain Mouen, разговариваем с ним, получаем Mouen's Order1.
+30. Ищем в церкви High Priest Hollint, разговариваем с ним, получаем Letter to Seresin.
+31. Ищем у церкви Cardinal Seresin, получаем Letter to Orc и Letter to Dwarf.
+Телепортируемся в Giran. Бежим в Death Pass.
+32. Охотимся на Road Scavenger, пока не соберем 100 Road Ratman Head.
+Используем SoE.
+33. Ищем у восточного моста Martien, разговариваем с ним.
+Телепортируемся в Giran Harbor. Бежим на запад до треугольника из дорог. У восточной стороны треугольника ищем вход в пещеру.
+34. В пещере под холмом убиваем сначала телохранителей Cave Basilisk, а затем и саму Baraham, получаем Watchers Eye2.
+35. Появится Raldo, разговариваем с ним.
+Если Raldo все же не появился, то продолжаем убивать Cave Basilisk, пока не появится Baraham, затем убиваем и его. Процедуру придется повторять, пока не появится Raldo.
+Используем SoE. Бежим в Dion. Телепортируемся в Gludio. Телепортируемся в Orc Village.
+36. В главном здании на 2м этаже ищем Flame Lord Kakai, разговариваем с ним, получаем Letter to Manakia.
+Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+37. У северных ворот ищем Seer Manakia, разговариваем с ней.
+Телепортируемся в Hardin Academy. Бежим на северо-запад.
+38. Охотимся на Windsus, пока не соберем 10 Lota's Parasite.
+Используем SoE.
+39. Ищем Seer Manakia, разговариваем с ней, получаем Letter of Manakia.
+Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Orc Village.
+40. Ищем Flame Lord Kakai, разговариваем с ним, получаем Scroll of Orc Trust.
+Телепортируемся в Gludin. Телепортируемся в Dwarf Village.
+41. Ищем Iron Gate's Lockirin, разговариваем с ним.
+42. Ищем Gray Pillar's Filaur, разговариваем с ним.
+Телепортируемся к Northern Coast. Бежим в Mithril Mines. Бежим в самую глубь, пока не добежим до огромной круглой пещеры, добираемся до ее дна, и выбегаем в огромную пещеру (там есть второй выход, но если Вы случайно свернете в него, то все равно попадете в круглую пещеру). Из огромной пещеры выбираемся наверх. Бежим по мостам, пока не доберемся до подземного острова.
+43. Убиваем сначала телохранителя, а затем и саму Queen of Succubus.
+44. Появится Raldo, разговариваем с ним, получаем Mark of Challenger.
+Если Raldo все же не появился, то продолжаем убивать сначала телохранителя, а затем и саму Queen of Succubus, пока не появится Raldo.
+Изредка Queen of Succubus и ее телохранитель падают с острова вниз в воду. Если Вы обнаружите, что это так – прыгайте за ними, убейте их, а затем бегите в огромную пещеру и назад на остров.
+Используем SoE. Телепортируемся в Gludin. Телепортируемся в Gludio. Бежим к Cruma Tower
+45. Ищем возле нее Maestro Nikola, разговариваем с ним, получаем Order of Nikola.
+Телепортируемся на 1й этаж Cruma Tower.
+46. Охотимся на Porta, пока не соберем 10 Heart of Porta.
+47. Возвращаемся к Maestro Nikola, разговариваем с ним.
+Используем SoE. Телепортируемся в Gludio. Телепортируемся в Dwarf Village.
+48. Ищем Iron Gate's Lockirin, разговариваем с ним, получаем Scroll of Dwarf Trust.
+Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran. Телепортируемся в Oren.
+49. У северных ворот ищем Captain Mouen, разговариваем с ним, получаем Mouen's Order2.
+50. В окрестностях города охотимся на любых Leto Lizardman, пока не соберем 100 Leto Lizardman Fang1.
+Используем SoE.
+51. У северных ворот ищем Captain Mouen, разговариваем с ним, получаем Mouen's Letter.
+52. Ищем High Priest Hollint, разговариваем с ним, получаем Recommendation of Hollin.
+Телепортируемся Giran. Телепортируемся в Dion. Телепортируемся в Gludio. Телепортируемся в Gludin. Телепортируемся на Talking Island.
+53. В церкви ищем High Priest Biotin, разговариваем с ним, получаем Mark of Trust.
+Телепортируемся в Gludin. Телепортируемся в Gludio. Телепортируемся в Dion. Телепортируемся в Giran.
+54. В гильдии бойцов ищем Grand Master Hannavalt, разговариваем с ним и становимся Warlord
