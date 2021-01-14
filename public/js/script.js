@@ -27,4 +27,12 @@ $(document).ready(function () {
     //     });
     // }
 
+    var $span = $('.counter');
+    $span.numberAnimate();
+
+    $span.bind('click', function () {
+        $span.numberAnimate('set', parseInt($(this).attr('data-numberanimate-value') ) + 1);
+    })
+
+
 });

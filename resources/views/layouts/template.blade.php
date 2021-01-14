@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/numberAnimate.js"></script>
     <script src="/js/script.js"></script>
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
     <script type="text/javascript">VK.init({apiId: 7527108, onlyWidgets: true});</script>
@@ -32,27 +33,36 @@
     <div class="menu">
         <nav>
             <div class="menuitem">
-                <a class="menuitema" href="/about">О сервере</a>
+                <a class="menuitema" href="/" title="Анонс Серверов Lineage 2">Анонс Серверов Lineage 2</a>
             </div>
+
             <div class="menuitem">
                 <span class="menuitema">База знаний <i class="glyphicon glyphicon-menu-down"></i></span>
                 <div class="menuiteminner">
+                    <div class="menuiteminnerinfo">База знаний Lineage 2 : <a data-href="https://linedia.ru"><img class="linedialogo" src="/img/linedia.jpg"> Linedia.ru <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a></div>
                     <div class="col-md-3">
-                        <a href="/weapons" class="mainmenulink">Оружие</a>
-                        <a href="/armor" class="mainmenulink">Броня</a>
-                        <a href="/sets" class="mainmenulink">Сеты</a>
-                        <a href="/accessory" class="mainmenulink">Бижутерия</a>
+                        <a data-href="https://linedia.ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B8%D0%B5" class="mainmenulink">Оружие <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D1%8F" class="mainmenulink">Броня <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%91%D0%B8%D0%B6%D1%83%D1%82%D0%B5%D1%80%D0%B8%D1%8F" class="mainmenulink">Бижутерия <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%A2%D0%B0%D0%BB%D0%B8%D1%81%D0%BC%D0%B0%D0%BD%D1%8B" class="mainmenulink">Талисманы <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a>
                     </div>
                     <div class="col-md-3">
-                        <a href="/recipes" class="mainmenulink">Рецепты</a>
-                        <a href="/items" class="mainmenulink">Предметы</a>
-                        <a href="/monsters" class="mainmenulink">Монстры</a>
-                        <a href="/npc" class="mainmenulink">NPC</a>
+                        <a data-href="https://linedia.ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82" class="mainmenulink">Рецепты <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%8B" class="mainmenulink">Предметы <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%9C%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%8B" class="mainmenulink">Монстры <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:NPC" class="mainmenulink">NPC <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a>
                     </div>
                     <div class="col-md-3">
-                        <a href="/raids" class="mainmenulink">Рейд-Боссы</a>
-                        <a href="/skills" class="mainmenulink">Скилы/Классы</a>
-                        <a data-href="https://linedia.ru/wiki/%D0%93%D0%B0%D0%B9%D0%B4%D1%8B_%D0%B8_%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0">Гайды <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%9C%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%8B/%D0%A0%D0%B5%D0%B9%D0%B4-%D0%B1%D0%BE%D1%81%D1%81%D1%8B" class="mainmenulink">Рейд-Боссы <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%A3%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F" class="mainmenulink">Скилы/Классы <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
+                        <a data-href="https://linedia.ru/wiki/%D0%93%D0%B0%D0%B9%D0%B4%D1%8B_%D0%B8_%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0">Гайды <i
+                                class="glyphicon glyphicon-new-window smallextlink"></i></a>
                         <a data-href="https://linedia.ru/wiki/%D0%9A%D0%B2%D0%B5%D1%81%D1%82%D1%8B">Квесты <i class="glyphicon glyphicon-new-window smallextlink"></i></a>
                     </div>
                     <div class="col-md-3">
@@ -61,26 +71,18 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+
             <div class="menuitem">
-                <a class="menuitema" href="//forum.dreamworld.su">Форум</a>
+                <a class="menuitema" href="/quests" title="Квесты Lineage 2">Квесты</a>
             </div>
-            <div class="menuitem">
-                <a class="menuitema" href="/shop">Магазин</a>
-            </div>
-            <div class="menuitem">
-                <a class="menuitema" href="/support">Техподдержка</a>
-            </div>
-            <div class="menuitem">
-                <a class="menuitema" href="/sell">Рынок</a>
-            </div>
-            <div class="menuitem">
-                <a class="menuitema" href="/worldmap">Карта респауна</a>
+
+            <div class="menuitemright">
+                <a class="menuitema" href="/add_server">Добавить Сервер <i class="glyphicon glyphicon-save"></i></a>
             </div>
         </nav>
     </div>
 
     <div class="content">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         @yield('content')
     </div>
 
