@@ -27,14 +27,45 @@ $(document).ready(function () {
     //     });
     // }
 
+    //numbers animate
     let $span = $('.counter');
     $span.numberAnimate();
 
     $('.countercont').bind('click', function () {
         let id = $('.countercont').index(this);
-        $span.eq(id).numberAnimate('set', parseInt($span.eq(id).attr('data-numberanimate-value') ) + 1);
+        $span.eq(id).numberAnimate('set', parseInt($span.eq(id).attr('data-numberanimate-value')) + 1);
         $(this).unbind('click');
-    })
+    });
+
+    //scroll top
+    $("a[href='#top']").click(function () {
+        $("html, body").animate({scrollTop: 0}, "slow");
+        return false;
+    });
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            $('.scrolltop').fadeIn(300);
+        } else {
+            $('.scrolltop').fadeOut(300);
+        }
+    });
+
+
+    let wrapper = $('.wrapper');
+    let height = wrapper.height();
+    let newheight = $('.heighter').height();
+    let opened = false;
+
+    //index height wrapper
+    $('.moreservers').bind('click', function () {
+        if(!opened){
+            wrapper.stop().animate({height: newheight}, 700);
+            opened = true;
+        } else {
+            wrapper.stop().animate({height: height}, 700);
+            opened = false;
+        }
+    });
 
 
 });
