@@ -27,11 +27,13 @@ $(document).ready(function () {
     //     });
     // }
 
-    var $span = $('.counter');
+    let $span = $('.counter');
     $span.numberAnimate();
 
-    $span.bind('click', function () {
-        $span.numberAnimate('set', parseInt($(this).attr('data-numberanimate-value') ) + 1);
+    $('.countercont').bind('click', function () {
+        let id = $('.countercont').index(this);
+        $span.eq(id).numberAnimate('set', parseInt($span.eq(id).attr('data-numberanimate-value') ) + 1);
+        $(this).unbind('click');
     })
 
 

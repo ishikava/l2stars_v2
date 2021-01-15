@@ -77,7 +77,7 @@
             </div>
 
             <div class="menuitemright">
-                <a class="menuitema" href="/add_server">Добавить Сервер <i class="glyphicon glyphicon-save"></i></a>
+                <a class="menuitema" href="/add_server">Добавить Сервер ✨</a>
             </div>
         </nav>
     </div>
