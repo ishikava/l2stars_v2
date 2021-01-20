@@ -283,11 +283,124 @@ nav {
     color: #ffc155;
 }
 
-.pointer{
+.linkpointer{
     cursor: pointer;
     color: #ccc;
     text-decoration: underline;
 }
+
+.filtercont {
+    background-color: #0f0c0c;
+    border: solid 1px #141415;
+    padding: 6px;
+    margin-top: 6px;
+}
+
+.filter_item_cont{
+    float: left;
+    width: 50%;
+}
+
+.filter_item{
+    background-color: rgba(128, 183, 226, 0.03);
+    cursor: pointer;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: #f2db9f;
+}
+
+.filter_item:hover{
+    background-color: rgba(128, 183, 226, 0.07);
+}
+
+.filter_header{
+    text-align: center;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.filter_clear{
+    padding: 7px;
+    margin-top: 115px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: solid 1px rgba(128, 183, 226, 0.15);
+    border-bottom: solid 1px rgba(128, 183, 226, 0.15);
+    background-color: rgba(128, 183, 226, 0.03);
+    cursor: pointer;
+}
+
+
+/*===========================*/
+
+#datepicker {
+    text-shadow: none;
+    min-height: 253px;
+    opacity: 0.9;
+    font-size: 0.9em;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+}
+
+.ui-datepicker {
+    width: 100%;
+}
+
+.ui-widget-content {
+    padding: 10px;
+    background: none;
+    background-color: rgba(55, 55, 55, 0.3);
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.ui-datepicker td {
+    padding: 2px;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    padding: 2px;
+}
+
+.showinfocont {
+    display: none;
+}
+
+.showinfo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: rgba(55, 55, 55, 0.2);
+    padding: 10px;
+}
+
+.showinfo span {
+    color: #fda642;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.showinfo i {
+    font-style: normal;
+}
+
+.ui-widget-header {
+    background: #333333 url("images/ui-bg_gloss-wave_25_333333_500x100.png") 50% 50% repeat-x;
+}
+
+.highlight a {
+    color: #fda642 !important;
+}
+
 
 /*Content*/
 
@@ -390,16 +503,15 @@ nav {
     border-radius: 3px;
 }
 
-.params2 {
+.vipserverparams {
     float: right;
     margin-top: 1px;
     margin-right: 5px;
 }
 
-.params2 span {
-    padding: 2px 5px;
+.vipserverparams span {
+    padding: 2px 3px;
     margin-left: 3px;
-    margin-right: 3px;
     color: #f2db9f;
 }
 
@@ -566,8 +678,24 @@ nav {
     cursor: pointer;
 }
 
+.anons h1{
+    display: inline-block;
+}
 
+.filterbtn{
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
 
+.filterbtn i{
+    font-size: 15px;
+}
+
+.highlighter{
+    font-style: normal;
+    color: #ff5d49;
+}
 
 @media (max-width: 1200px) {
     .menuiteminner {

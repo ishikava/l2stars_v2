@@ -12,14 +12,14 @@
     <link rel="icon" type="image/gif" href="/favicon.gif">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/css/theme.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/numberAnimate.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
     <script src="/js/script.js"></script>
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
-    <script type="text/javascript">VK.init({apiId: 7527108, onlyWidgets: true});</script>
-    <script src="https://vk.com/js/api/openapi.js?160" async onload="VK.Widgets.Group('vk_groups', {mode: 4, width: 'auto', height: '600', wide: 0, no_cover: 1 }, 47645207);"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body style="background-image: url('/brand/{{$brand->image}}')">
@@ -31,7 +31,53 @@
 </div>
 
 <div class="container nopad">
-    <div class="anons"><h1>Анонс Серверов Lineage 2</h1> <a href="/en"><img class="changelang pull-right" src="img/ico_en.png" title="English" alt="en"></a></div>
+    <div class="anons">
+        <h1><a href="/" title="Анонс Серверов Lineage 2">Анонс Серверов Lineage 2</a></h1>
+        <span class="filterbtn"><i class="glyphicon glyphicon-menu-hamburger"></i> Подобрать сервер</span>
+        <a href="/en"><img class="changelang pull-right" src="/img/ico_en.png" title="English" alt="en"></a>
+    </div>
+    <div class="filtercont">
+        <div class="col-md-4">
+            <div class="filter_header">Выберите хроники</div>
+            @foreach ($chronicles as $chronicle)
+                <div class="filter_item_cont" data-link="/#chronicles_{{$chronicle->chronicles}}" data-chronicles="{{$chronicle->chronicles}}">
+                    <div class="filter_item">{{$chronicle->chronicles}}</div>
+                </div>
+            @endforeach
+        </div>
+        <div class="col-md-4">
+            <div class="filter_header">Выберите рейты</div>
+            <div class="filter_items">
+                <div class="filter_item_cont" data-link="/#rates_1_10" data-min="1" data-max="10">
+                    <div class="filter_item">x1 - x10</div>
+                </div>
+                <div class="filter_item_cont" data-link="/#rates_10_50" data-min="10" data-max="50">
+                    <div class="filter_item">x10 - x50</div>
+                </div>
+                <div class="filter_item_cont" data-link="/#rates_50_100" data-min="50" data-max="100">
+                    <div class="filter_item">x50 - x100</div>
+                </div>
+                <div class="filter_item_cont" data-link="/#rates_100_9999999" data-min="100" data-max="9999999">
+                    <div class="filter_item">x100 - x9999</div>
+                </div>
+                <div class="filter_item_cont" data-link="/#gve" data-gve="gve">
+                    <div class="filter_item">GVE</div>
+                </div>
+                <div class="filter_item_cont" data-link="/#rvr" data-gve="rvr">
+                    <div class="filter_item">RVR</div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="filter_clear" data-link="/">Сбросить фильтр</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="filter_header">Выберите дату открытия</div>
+            <script>var dates = [@foreach ($dates as $date)"{{$date}}",@endforeach];</script>
+            <div id="datepicker"></div>
+            <input type="hidden" id="datepicker_value" value="{{$current_date}}">
+        </div>
+        <div class="clearfix"></div>
+    </div>
 </div>
 
 <div class="container scene">
@@ -101,12 +147,12 @@
                 <a href="/" class="footerlink">Пользовательское соглашение и возврат средств</a>
             </div>
             <div class="col-md-4">
-                <p class="footertext">По всем возникшим вопросам, пожалуйста обращайтесь в техподдержку по почте: <a class="pointer" data-href="mailto:support@l2stars.com">support@l2stars.com</a> или в нашу группу Вконтакте
-                    <a class="pointer" data-href="https://vk.com/linedia_ru">https://vk.com/linedia_ru</a></p>
-                <a class="pointer" data-href="https://linedia.ru" class="footerlink">База знаний Linedia.ru</a>
+                <p class="footertext">По всем возникшим вопросам, пожалуйста обращайтесь в техподдержку по почте: <a class="linkpointer" data-href="mailto:support@l2stars.com">support@l2stars.com</a> или в нашу группу Вконтакте
+                    <a class="linkpointer" data-href="https://vk.com/linedia_ru">https://vk.com/linedia_ru</a></p>
+                <a class="linkpointer" data-href="https://linedia.ru" class="footerlink">База знаний Linedia.ru</a>
             </div>
             <div class="col-md-4">
-                <p class="footertext">Для получения подробной статистики, используйте открытый доступ в <a class="pointer" data-href="https://www.liveinternet.ru/stat/l2stars.com/">Liveinternet</a><br>
+                <p class="footertext">Для получения подробной статистики, используйте открытый доступ в <a class="linkpointer" data-href="https://www.liveinternet.ru/stat/l2stars.com/">Liveinternet</a><br>
                     Или запросите гостевой доступ к Яндекс.Метрике</p>
             </div>
             <div class="clearfix"></div>
