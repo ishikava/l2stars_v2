@@ -202,7 +202,7 @@ $(document).ready(function () {
     };
 
     $('[data-chronicles]').bind('click', function () {
-        sortServersChronicles('data-chronicles', $(this).attr('data-chronicles'));
+        sortServersChronicles('data-chronicle', $(this).attr('data-chronicles'));
     });
 
     $('.sb_item_cont2').bind('click', function () {

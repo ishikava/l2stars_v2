@@ -60,7 +60,12 @@ class IndexController extends Controller
         $dt_yesterday->sub(1, 'days');
 
         //servers
-        $servers = DB::select("SELECT * FROM `orders` WHERE `status` = 'published' ORDER BY `open_date` DESC LIMIT 0, " . $this->max_servers);
+        $servers = DB::select("SELECT *,
+ (SELECT COUNT(`id`) FROM `likes` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles`) as `likes`,
+ (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24) . ")) as `day_vis`,
+ (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24 * 7) . ")) as `week_vis`,
+ (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` ) as `all_vis`
+ FROM `orders` WHERE `status` = 'published' ORDER BY `open_date` DESC LIMIT 0, " . $this->max_servers);
         $servers = array_reverse($servers, false);
         foreach ($servers as $server) {
 

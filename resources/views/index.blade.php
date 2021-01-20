@@ -49,18 +49,18 @@
                 <div class="vipserverscont">
 
                     @foreach ($vipservers as $vipserver)
-                        <div class="vipserver" data-chronicles="{{$vipserver->chronicles}}" data-rates="{{$vipserver->rates}}" data-month="{{$vipserver->month}}" data-day="{{$vipserver->day}}" data-sid="{{$vipserver->id}}">
+                        <div class="vipserver" data-chronicle="{{$vipserver->chronicles}}" data-rates="{{$vipserver->rates}}" data-month="{{$vipserver->month}}" data-day="{{$vipserver->day}}" data-sid="{{$vipserver->id}}">
                             <div class="vipserverinner">
                                 <img src="/img/cropped-logo-192x192.png" alt="{{$vipserver->host}}">
                                 <div class="countercontwrapper">
                                     <div class="countercont">
                                         <div class="counterlike">👍</div>
-                                        <span class="counter">123</span>
+                                        <span class="counter">{{$vipserver->likes}}</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="vipserverouter" data-href="{{$vipserver->url}}" title="&#11088; {{$vipserver->host}} &#11088;  [ {{$vipserver->chronicles}} x {{$vipserver->rates}} ] Дата открытия : {{$vipserver->day}} {{$vipserver->loc_month}} {{$vipserver->year}}
-                                &#10;Статистика переходов : за 24 часа : 0 | за неделю : 0 | за все время : 0">
+                                &#10;Статистика переходов : за 24 часа : {{$vipserver->day_vis}} | за неделю : {{$vipserver->week_vis}} | за все время : {{$vipserver->all_vis}}">
                                 <span class="vipservertext">{{$vipserver->text}}</span>
                                 <div class="vipserverinfo">
                                     <div class="bages hidden-xs">
@@ -91,9 +91,9 @@
                 <div class="serverscont">
 
                     @foreach ($servers as $server)
-                        <div class="server" data-href="{{$server->url}}"  data-chronicles="{{$server->chronicles}}" data-rates="{{$server->rates}}" data-month="{{$server->month}}" data-day="{{$server->day}}" data-sid="{{$server->id}}"
+                        <div class="server" data-href="{{$server->url}}" data-chronicle="{{$server->chronicles}}" data-rates="{{$server->rates}}" data-month="{{$server->month}}" data-day="{{$server->day}}" data-sid="{{$server->id}}"
                              title="&#11088; {{$server->host}} &#11088;  [ {{$server->chronicles}} x {{$server->rates}} ] Дата открытия : {{$server->day}} {{$server->loc_month}} {{$server->year}}
-                                 &#10;Статистика переходов : за 24 часа : 0 | за неделю : 0 | за все время : 0">
+                                 &#10;Статистика переходов : за 24 часа : {{$server->day_vis}} | за неделю : {{$server->week_vis}} | за все время : {{$server->all_vis}}">
                             <div class="servertext">{{$server->text}}</div>
                             <div class="serverparams">
                                 <span class="rates">x{{$server->rates}}</span>
