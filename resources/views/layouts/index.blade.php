@@ -34,6 +34,7 @@
     <div class="anons">
         <h1><a href="/" title="Анонс Серверов Lineage 2">Анонс Серверов Lineage 2</a></h1>
         <span class="filterbtn"><i class="glyphicon glyphicon-menu-hamburger"></i> Подобрать сервер</span>
+        <a href="/quests" class="questslink">Квесты L2</a>
         <a href="/en"><img class="changelang pull-right" src="/img/ico_en.png" title="English" alt="en"></a>
     </div>
     <div class="filtercont">
@@ -48,26 +49,24 @@
         <div class="col-md-4">
             <div class="filter_header">Выберите рейты</div>
             <div class="filter_items">
-                <div class="filter_item_cont" data-link="/#rates_1_10" data-min="1" data-max="10">
+                <div class="filter_item_cont rates" data-link="/#rates_1_10" data-min="1" data-max="10">
                     <div class="filter_item">x1 - x10</div>
                 </div>
-                <div class="filter_item_cont" data-link="/#rates_10_50" data-min="10" data-max="50">
+                <div class="filter_item_cont rates" data-link="/#rates_10_50" data-min="10" data-max="50">
                     <div class="filter_item">x10 - x50</div>
                 </div>
-                <div class="filter_item_cont" data-link="/#rates_50_100" data-min="50" data-max="100">
+                <div class="filter_item_cont rates" data-link="/#rates_50_100" data-min="50" data-max="100">
                     <div class="filter_item">x50 - x100</div>
                 </div>
-                <div class="filter_item_cont" data-link="/#rates_100_9999999" data-min="100" data-max="9999999">
+                <div class="filter_item_cont rates" data-link="/#rates_100_9999999" data-min="100" data-max="9999999">
                     <div class="filter_item">x100 - x9999</div>
                 </div>
                 <div class="filter_item_cont" data-link="/#gve" data-gve="gve">
                     <div class="filter_item">GVE</div>
                 </div>
-                <div class="filter_item_cont" data-link="/#rvr" data-gve="rvr">
+                <div class="filter_item_cont" data-link="/#rvr" data-rvr="rvr">
                     <div class="filter_item">RVR</div>
                 </div>
-                <div class="clearfix"></div>
-                <div class="filter_clear" data-link="/">Сбросить фильтр</div>
             </div>
         </div>
         <div class="col-md-4">
@@ -75,6 +74,7 @@
             <script>var dates = [@foreach ($dates as $date)"{{$date}}",@endforeach];</script>
             <div id="datepicker"></div>
             <input type="hidden" id="datepicker_value" value="{{$current_date}}">
+            <div class="filter_clear">Сбросить фильтр</div>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -142,14 +142,12 @@
 
             <div class="col-md-4">
                 <a href="/" class="footerlink">Добавить сервер в анонс</a>
-                <a href="/" class="footerlink">Квесты Lineage 2</a>
                 <a href="/" class="footerlink">Политика конфиденциальности</a>
                 <a href="/" class="footerlink">Пользовательское соглашение и возврат средств</a>
             </div>
             <div class="col-md-4">
                 <p class="footertext">По всем возникшим вопросам, пожалуйста обращайтесь в техподдержку по почте: <a class="linkpointer" data-href="mailto:support@l2stars.com">support@l2stars.com</a> или в нашу группу Вконтакте
                     <a class="linkpointer" data-href="https://vk.com/linedia_ru">https://vk.com/linedia_ru</a></p>
-                <a class="linkpointer" data-href="https://linedia.ru" class="footerlink">База знаний Linedia.ru</a>
             </div>
             <div class="col-md-4">
                 <p class="footertext">Для получения подробной статистики, используйте открытый доступ в <a class="linkpointer" data-href="https://www.liveinternet.ru/stat/l2stars.com/">Liveinternet</a><br>

@@ -13,4 +13,10 @@ class Helper
             mb_substr($string, 1, mb_strlen($string, $enc), $enc);
     }
 
+    public static function get_server_hash($server)
+    {
+        $str = $server->host. '_' . strtolower($server->chronicles) . '_' . $server->rates;
+        return preg_replace('/[^A-Za-z0-9А-Яа-я]+/iu', '_', $str);
+    }
+
 }

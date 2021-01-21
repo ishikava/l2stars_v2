@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class IndexController extends Controller
 {
-    protected $max_servers = 200;
+    protected $max_servers = 150;
     protected $brand;
     protected $chronicles;
     protected $dates = [];
@@ -47,12 +47,6 @@ class IndexController extends Controller
         //time intervals for servers
         setlocale(LC_ALL, 'ru.utf-8', 'ru_RU.utf-8', 'ru', 'ru_RU');
         $today = date('Y-m-d', time());
-        $tomorrow = date('Y-m-d', time() + 3600 * 24);
-        $soon = date('Y-m-d', time() + 3600 * 24 * 7);
-        $later = date('Y-m-d', time() + 3600 * 24 * 365);
-        $yesterday = date('Y-m-d', time() - 3600 * 24);
-        $already = date('Y-m-d', time() - 3600 * 24 * 7);
-        $old = date('Y-m-d', 0);
         $dt_today = Carbon::now();
         $dt_tomorrow = Carbon::now();
         $dt_yesterday = Carbon::now();
@@ -66,7 +60,7 @@ class IndexController extends Controller
  (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24 * 7) . ")) as `week_vis`,
  (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` ) as `all_vis`
  FROM `orders` WHERE `status` = 'published' ORDER BY `open_date` DESC LIMIT 0, " . $this->max_servers);
-        $servers = array_reverse($servers, false);
+
         foreach ($servers as $server) {
 
             //обнулить просроченые випы
@@ -75,7 +69,12 @@ class IndexController extends Controller
             }
 
             //найти хост
-            $server->host = parse_url($server->url, PHP_URL_HOST);
+            $server->host = mb_strtolower(parse_url($server->url, PHP_URL_HOST));
+
+            //корректировка рейтов для RVR и GVE
+            if($server->rates !== 'RVR' && $server->rates !== 'GVE'){
+                $server->rates = 'x'.$server->rates;
+            }
 
             //дата открытия
             $server->date = date('d.m', strtotime($server->open_date));
@@ -105,6 +104,8 @@ class IndexController extends Controller
             //разложить сервера по группам
             switch (intval($server->vip)) {
                 case 2:
+                    self::get_background($server);
+                    self::get_logo($server);
                     if (strtotime($server->open_date) >= strtotime($today)) {
                         $this->supervipservers[] = $server;
                     } else {
@@ -112,6 +113,7 @@ class IndexController extends Controller
                     }
                     break;
                 case 1:
+                    self::get_logo($server);
                     if (strtotime($server->open_date) >= strtotime($today)) {
                         $this->vipservers[] = $server;
                     } else {
@@ -127,6 +129,11 @@ class IndexController extends Controller
             }
 
         }
+
+        //поменять порядок следования для новых серверов
+        $this->supervipservers = array_reverse($this->supervipservers, false);
+        $this->vipservers = array_reverse($this->vipservers, false);
+        $this->servers = array_reverse($this->servers, false);
     }
 
     public function index()
@@ -143,5 +150,33 @@ class IndexController extends Controller
             'old_vipservers' => $this->old_vipservers,
             'old_supervipservers' => $this->old_supervipservers
         ]);
+    }
+
+    public static function get_logo(&$server)
+    {
+        //получить лого
+        $hash = Helper::get_server_hash($server);
+
+        if (file_exists(__DIR__ . '/../../../public/logo/' . $hash . '.jpg')) {
+            $server->logo = $hash . '.jpg';
+        } elseif (file_exists(__DIR__ . '/../../../public/logo/' . $hash . '.png')) {
+            $server->logo = $hash . '.png';
+        } else {
+            $server->logo = 'l2stars_com.png';
+        }
+    }
+
+    public static function get_background(&$server)
+    {
+        //получить бэкграунд
+        $hash = Helper::get_server_hash($server);
+
+        if (file_exists(__DIR__ . '/../../../public/background/' . $hash . '.jpg')) {
+            $server->background = $hash . 'jpg';
+        } elseif (file_exists(__DIR__ . '/../../../public/background/' . $hash . '.png')) {
+            $server->background = $hash . '.png';
+        } else {
+            $server->background = 'l2stars_com.jpg';
+        }
     }
 }

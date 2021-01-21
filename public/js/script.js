@@ -113,100 +113,109 @@ $(document).ready(function () {
     });
 
 
-    //show info
-    var show_info = function () {
-
-        var uri = decodeURI(window.location.toString()).split('#');
-        var request = "";
-        if (uri[1]) {
-            request = uri[1].split('_');
-        }
-        switch (request[0]) {
-            case 'chronicles' :
-                $('.showinfocont').show().find('i').text('Сервера по хроникам: ' + request[1]);
-                break;
-            case 'rates' :
-                $('.showinfocont').show().find('i').text('Сервера по рейтам: x' + request[1] + ' / x' + request[2]);
-                break;
-            case 'date' :
-                $('.showinfocont').show().find('i').text('Сервера по дате: ' + request[1] + ' ' + localMonths[request[2]]);
-                break;
-        }
-
-        if (!$('.visible').length) {
-            $('.showinfocont').show().find('i').text('Ни одного сервера не найдено');
-        }
-    };
-
     //sort servers
-    var sortServersChronicles = function (key, value) {
-
+    let sortServersChronicles = function (key, value) {
+        $('.supervipserverscont').hide();
         $('.vipserver, .server').removeClass('visible').hide();
-
         $('.vipserver, .server').each(function (index) {
             if ($(this).attr(key) == value) {
                 $(this).addClass('visible').show();
             }
         });
-        //
-        // $('.servergroup').each(function (index) {
-        //     if ($(this).find('.visible').length) {
-        //         $(this).show();
-        //     }
-        // });
-
-       // show_info();
-    };
-
-    var sortServersRates = function (min, max) {
-        $('.showinfocont').hide();
-        $('.servergroup').hide();
-        $('.serveritem, .serveritem2, .serveritem3').removeClass('visible').hide();
-
-        $('.serveritem, .serveritem2, .serveritem3').each(function (index) {
-            var rate = $(this).attr('data-rate');
-            if (parseInt(rate) >= parseInt(min) && parseInt(rate) <= parseInt(max)) {
-                $(this).addClass('visible').show();
-            }
-        });
-
-        $('.servergroup').each(function (index) {
+        $('.supervipserverscont').each(function (index) {
             if ($(this).find('.visible').length) {
                 $(this).show();
             }
         });
-
-        show_info();
     };
 
-    var sortServersDate = function (day, month) {
-        $('.showinfocont').hide();
-        $('.servergroup').hide();
-        $('.serveritem, .serveritem2, .serveritem3').removeClass('visible').hide();
+    let sortServersRates = function (min, max) {
+        $('.supervipserverscont').hide();
+        $('.vipserver, .server').removeClass('visible').hide();
+        $('.vipserver, .server').each(function (index) {
+            let str = $(this).attr('data-rates');
+            let rate = str.substring(1, str.strlen);
+            if (!isNaN(rate) && parseInt(rate) >= parseInt(min) && parseInt(rate) <= parseInt(max)) {
+                $(this).addClass('visible').show();
+            }
+        });
+        $('.supervipserverscont').each(function (index) {
+            if ($(this).find('.visible').length) {
+                $(this).show();
+            }
+        });
+    };
 
-        $('.serveritem, .serveritem2, .serveritem3').each(function (index) {
-            var dataday = $(this).attr('data-day');
-            var datamonth = $(this).attr('data-month');
+    let sortServersRvr = function () {
+        $('.supervipserverscont').hide();
+        $('.vipserver, .server').removeClass('visible').hide();
+        $('.vipserver, .server').each(function (index) {
+            if ($(this).attr('data-rates') === 'RVR') {
+                $(this).addClass('visible').show();
+            }
+        });
+        $('.supervipserverscont').each(function (index) {
+            if ($(this).find('.visible').length) {
+                $(this).show();
+            }
+        });
+    };
+
+    let sortServersGve = function () {
+        $('.supervipserverscont').hide();
+        $('.vipserver, .server').removeClass('visible').hide();
+        $('.vipserver, .server').each(function (index) {
+            if ($(this).attr('data-rates') === 'GVE') {
+                $(this).addClass('visible').show();
+            }
+        });
+        $('.supervipserverscont').each(function (index) {
+            if ($(this).find('.visible').length) {
+                $(this).show();
+            }
+        });
+    };
+
+    let sortServersDate = function (day, month) {
+        $('.supervipserverscont').hide();
+        $('.vipserver, .server').removeClass('visible').hide();
+        $('.vipserver, .server').each(function (index) {
+            let dataday = $(this).attr('data-day');
+            let datamonth = $(this).attr('data-month');
             if (parseInt(dataday) == parseInt(day) && parseInt(datamonth) == parseInt(month)) {
                 $(this).addClass('visible').show();
             }
         });
-
-        $('.servergroup').each(function (index) {
+        $('.supervipserverscont').each(function (index) {
             if ($(this).find('.visible').length) {
                 $(this).show();
             }
         });
-
-        show_info();
     };
+
 
     $('[data-chronicles]').bind('click', function () {
         sortServersChronicles('data-chronicle', $(this).attr('data-chronicles'));
     });
 
-    $('.sb_item_cont2').bind('click', function () {
+    $('.rates').bind('click', function () {
         sortServersRates($(this).attr('data-min'), $(this).attr('data-max'));
+    });
+
+    $('[data-rvr]').bind('click', function () {
+        sortServersRvr();
+    });
+
+    $('[data-gve]').bind('click', function () {
+        sortServersGve();
+    });
+
+    $('.filter_clear').bind('click', function () {
+        $('.supervipserverscont, .vipserver, .server').show();
+    });
+
+    $('.filterbtn').bind('click', function () {
+        $('.filtercont').toggle(300);
     });
 
     //parse url to find if redirect needed on page load
