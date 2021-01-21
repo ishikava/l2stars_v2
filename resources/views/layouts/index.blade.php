@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="{{$meta['keywords']}}">
+    <meta name="description" content="{{$meta['description']}}">
     <meta property="og:image" content="/img/cropped-logo-192x192.png">
-    <title>Title</title>
-    <link rel="canonical" href="https://l2stars.com">
+    <title>{{$meta['title']}}</title>
+    <link rel="canonical" href="https://l2stars.com{{$meta['canonical']}}">
+    <link rel="alternate" href="https://l2stars.com/en" hreflang="en">
     <link rel="icon" type="image/gif" href="/favicon.gif">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
@@ -89,10 +90,10 @@
     <div class="footer">
         <footer>
             <div class="footerheader">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter"></div>
                 </div>
-                <div class="col-md-6 counters">
+                <div class="col-sm-6 counters">
                     <a data-href="https://webmaster.yandex.ru/siteinfo/?site=l2stars.com">
                         <img alt="" src="https://yandex.ru/cycounter?l2stars.com&amp;theme=light&amp;lang=ru" width="88" height="31" border="0">
                     </a>

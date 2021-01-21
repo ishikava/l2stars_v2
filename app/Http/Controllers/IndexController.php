@@ -19,6 +19,12 @@ class IndexController extends Controller
     protected $old_servers = [];
     protected $old_vipservers = [];
     protected $old_supervipservers = [];
+    protected $meta = [
+        'canonical'=> '/',
+        'title' => '⭐⭐⭐ Анонс серверов Lineage 2 l2stars.com',
+        'keywords'=>'Анонс серверов lineage 2, Новые сервера Л2, Lineage, Ла2, Л2',
+        'description'=>'Актуальный анонс серверов Lineage 2. Даты открытия новых серверов Л2. Удобный подбор новых серверов Lineage 2.'
+    ];
 
     public function __construct()
     {
@@ -72,8 +78,8 @@ class IndexController extends Controller
             $server->host = mb_strtolower(parse_url($server->url, PHP_URL_HOST));
 
             //корректировка рейтов для RVR и GVE
-            if($server->rates !== 'RVR' && $server->rates !== 'GVE'){
-                $server->rates = 'x'.$server->rates;
+            if ($server->rates !== 'RVR' && $server->rates !== 'GVE') {
+                $server->rates = 'x' . $server->rates;
             }
 
             //дата открытия
@@ -148,7 +154,8 @@ class IndexController extends Controller
             'supervipservers' => $this->supervipservers,
             'old_servers' => $this->old_servers,
             'old_vipservers' => $this->old_vipservers,
-            'old_supervipservers' => $this->old_supervipservers
+            'old_supervipservers' => $this->old_supervipservers,
+            'meta' => $this->meta
         ]);
     }
 
