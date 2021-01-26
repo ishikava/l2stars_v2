@@ -98,6 +98,7 @@ $(document).ready(function () {
     $(function () {
         $("#datepicker").datepicker({
             onSelect: function (date) {
+                $('.moreservers').hide();
                 window.location = "/#date_" + $(this).datepicker('getDate').getDate() + "_" + ($(this).datepicker('getDate').getMonth() + 1);
                 sortServersDate($(this).datepicker('getDate').getDate(), $(this).datepicker('getDate').getMonth() + 1);
             },
@@ -127,6 +128,8 @@ $(document).ready(function () {
                 $(this).show();
             }
         });
+
+        $('.wrapper').stop().animate({height: $('.heighter').height()}, 500);
     };
 
     let sortServersRates = function (min, max) {
@@ -144,6 +147,8 @@ $(document).ready(function () {
                 $(this).show();
             }
         });
+
+        $('.wrapper').stop().animate({height: $('.heighter').height()}, 500);
     };
 
     let sortServersRvr = function () {
@@ -159,6 +164,8 @@ $(document).ready(function () {
                 $(this).show();
             }
         });
+
+        $('.wrapper').stop().animate({height: $('.heighter').height()}, 500);
     };
 
     let sortServersGve = function () {
@@ -174,6 +181,8 @@ $(document).ready(function () {
                 $(this).show();
             }
         });
+
+        $('.wrapper').stop().animate({height: $('.heighter').height()}, 500);
     };
 
     let sortServersDate = function (day, month) {
@@ -191,49 +200,69 @@ $(document).ready(function () {
                 $(this).show();
             }
         });
+
+        $('.wrapper').stop().animate({height: $('.heighter').height()}, 500);
     };
 
 
     $('[data-chronicles]').bind('click', function () {
+        $('.moreservers').hide();
         sortServersChronicles('data-chronicle', $(this).attr('data-chronicles'));
     });
 
     $('.rates').bind('click', function () {
+        $('.moreservers').hide();
         sortServersRates($(this).attr('data-min'), $(this).attr('data-max'));
     });
 
     $('[data-rvr]').bind('click', function () {
+        $('.moreservers').hide();
         sortServersRvr();
     });
 
     $('[data-gve]').bind('click', function () {
+        $('.moreservers').hide();
         sortServersGve();
     });
 
     $('.filter_clear').bind('click', function () {
         $('.supervipserverscont, .vipserver, .server').show();
+        $('.wrapper').stop().animate({height: height}, 500);
+        $('.moreservers').show();
     });
 
     $('.filterbtn').bind('click', function () {
-        $('.filtercont').toggle(300);
+        $('.filtercont').toggle(300, function () {
+            if($(this).is(':visible')) {
+                $.cookie('showtopmenu', 'true',{ path: '/' });
+            } else{
+                $.removeCookie('showtopmenu');
+            }
+        });
     });
 
     //parse url to find if redirect needed on page load
-    // var uri = decodeURI(window.location.toString()).split('#');
-    // var request = "";
-    // if (uri[1]) {
-    //     request = uri[1].split('_');
-    // }
-    // switch (request[0]) {
-    //     case 'chronicles' :
-    //         sortServersChronicles('data-' + request[0], request[1]);
-    //         break;
-    //     case 'rates' :
-    //         sortServersRates(request[1], request[2]);
-    //         break;
-    //     case 'date' :
-    //         sortServersDate(request[1], request[2]);
-    //         break;
-    // }
+    var uri = decodeURI(window.location.toString()).split('#');
+    var request = "";
+    if (uri[1]) {
+        request = uri[1].split('_');
+    }
+    switch (request[0]) {
+        case 'chronicles' :
+            sortServersChronicles('data-chronicle', request[1]);
+            break;
+        case 'rates' :
+            sortServersRates(request[1], request[2]);
+            break;
+        case 'date' :
+            sortServersDate(request[1], request[2]);
+            break;
+        case 'rvr' :
+            sortServersRvr();
+            break;
+        case 'gve' :
+            sortServersGve();
+            break;
+    }
 
 });
