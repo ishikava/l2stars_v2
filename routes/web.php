@@ -11,3 +11,7 @@ Route::get('/quest_3_prof', 'App\Http\Controllers\Quest3ProfController@index');
 Route::get('/cat/best_quest', 'App\Http\Controllers\QuestBestController@index');
 Route::get('/cat/quest_epic_boss', 'App\Http\Controllers\QuestEpicController@index');
 Route::get('/cat/lineage-2', 'App\Http\Controllers\QuestPetsController@index');
+
+Route::get('/news', 'App\Http\Controllers\NewsController@index');
+Route::get('/fashion', 'App\Http\Controllers\FashionController@index');
+Route::get('/calculator', 'App\Http\Controllers\CalculatorController@index');

@@ -1,0 +1,182 @@
+<script src="/js/func.js"></script>
+<script src="/js/db.js"></script>
+
+<script>
+    $(document).ready(function () {
+        //fashion rotator
+        var turn_right = function () {
+
+            var url = $('.zoomer').css('background-image').replace(/^url\(['"]?/, '').replace(/['"]?\)$/, '');
+
+            if (url.indexOf('-front') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-front/, '-right'));
+            }
+            if (url.indexOf('-right') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-right/, '-back'));
+            }
+            if (url.indexOf('-back') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-back/, '-left'));
+            }
+            if (url.indexOf('-left') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-left/, '-front'));
+            }
+
+        };
+
+        var turn_left = function () {
+
+            var url = $('.zoomer').css('background-image').replace(/^url\(['"]?/, '').replace(/['"]?\)$/, '');
+
+            if (url.indexOf('-front') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-front/, '-left'));
+            }
+            if (url.indexOf('-right') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-right/, '-front'));
+            }
+            if (url.indexOf('-back') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-back/, '-right'));
+            }
+            if (url.indexOf('-left') >= 0) {
+                $('.zoomer').css('background-image', 'url(' + url.replace(/-left/, '-back'));
+            }
+        };
+
+        var keyDownDisable = function (e) {
+            e = e || window.e;
+            var newchar = e.which || e.keyCode;
+
+            if (document.location.toString().indexOf('fashion') >= 0) {
+
+                if (newchar == 65 || newchar == 37 || newchar == 68 || newchar == 39) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    e.returnValue = false;
+                    e.cancelBubble = true;
+                    return false;
+                }
+
+            }
+        };
+
+        var keyPressed = function (e) {
+            e = e || window.e;
+            var newchar = e.which || e.keyCode;
+            if (newchar == 65 || newchar == 37) {
+                turn_left();
+            }
+            if (newchar == 68 || newchar == 39) {
+                turn_right();
+            }
+        };
+
+        $('.arright').bind('click', turn_right);
+        $('.arleft').bind('click', turn_left);
+        $(document).on("keydown", keyDownDisable);
+        $(document).on("keyup", keyPressed);
+
+        //zoomer
+        $('.plus').bind('click', function () {
+            if ($('.zoomer').height() < 9000) {
+                $('.zoomer').height($('.zoomer').height() + 300);
+            }
+        });
+        $('.minus').bind('click', function () {
+            if ($('.zoomer').height() > 900) {
+                $('.zoomer').height($('.zoomer').height() - 300);
+            }
+        });
+    });
+</script>
+
+<div class="row text-center">
+    <div class="col-md-4">
+        <select id="Selection_Race" class="Fashion_SelectBox form-control" onchange="FashionUpdate(true);" autocomplete="off">
+            <option value="0">Human Fighter</option>
+            <option value="1">Human Mage</option>
+            <option value="2">Elf</option>
+            <option value="3" selected>Dark Elf</option>
+            <option value="4">Orc Fighter</option>
+            <option value="5">Orc Mage</option>
+            <option value="6">Dwarf</option>
+            <option value="7">Kamael</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <select id="Selection_Gender" class="Fashion_SelectBox form-control" onchange="FashionUpdate(true);" autocomplete="off">
+            <option value="1" selected>Female</option>
+            <option value="0">Male</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <select id="Selection_Grade" class="Fashion_SelectBox form-control" onchange="FashionUpdate(true);" autocomplete="off">
+            <option value="5" selected>S</option>
+            <option value="4">A</option>
+            <option value="3">B</option>
+            <option value="2">C</option>
+            <option value="1">D</option>
+            <option value="0">N</option>
+        </select>
+    </div>
+</div>
+<br>
+<div class="row text-center">
+    <div class="col-md-4">
+        <select id="Selection_Type" class="Fashion_SelectBox form-control" onchange="FashionUpdate(true);" autocomplete="off">
+            <option value="1" selected> Robe</option>
+            <option value="2"> Light</option>
+            <option value="3"> Heavy</option>
+            <option value="4"> Accessory</option>
+            <option value="6"> 1h Sword</option>
+            <option value="7"> 2h Sword</option>
+            <option value="8"> 1h Blunt</option>
+            <option value="9"> 2h Blunt</option>
+            <option value="13"> Dagger</option>
+            <option value="12"> Dual Dagger</option>
+            <option value="11"> Duals</option>
+            <option value="16"> Bow</option>
+            <option value="10"> Fists</option>
+            <option value="14"> Pole</option>
+            <option value="15"> Etc</option>
+            <option value="5"> Shield</option>
+            <option value="17"> Rapier</option>
+            <option value="18"> Crossbow</option>
+            <option value="19"> Ancient Sword</option>
+            <option value="20"> Misc</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <select id="Selection_Item" class="Fashion_SelectBox form-control" onchange="FashionShowPicture();" autocomplete="off">
+            <option value="vesper">Vesper</option>
+            <option value="vespernoble">Noble Vesper</option>
+            <option value="vespernoblemcape">Noble Vesper + Mage Cloak</option>
+            <option value="vespernoblefcape">Noble Vesper + Fighter Cloak</option>
+            <option value="arcana" selected>Arcana</option>
+            <option value="dynasty">Dynasty</option>
+            <option value="dynastyhealer">Dynasty [Healer]</option>
+            <option value="dynastyenchanter">Dynasty [Enchanter]</option>
+            <option value="dynastysummoner">Dynasty [Summoner]</option>
+            <option value="dynastywizard">Dynasty [Wizard]</option>
+            <option value="dynastysilversatinhealer">Dynasty Silver Satin [Healer]</option>
+            <option value="dynastysilversatinenchanter">Dynasty Silver Satin [Enchanter]</option>
+            <option value="dynastysilversatinsummoner">Dynasty Silver Satin [Summoner]</option>
+            <option value="dynastysilversatinwizard">Dynasty Silver Satin [Wizard]</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <select id="Selection_Position" class="Fashion_SelectBox form-control" onchange="FashionShowPicture();" autocomplete="off">
+            <option value="front_" selected>Front</option>
+            <option value="right_">Right</option>
+            <option value="back_">Back</option>
+            <option value="left_">Left</option>
+        </select>
+    </div>
+</div>
+
+
+<div class="row text-center fashion">
+    <div class="zoomer" style="background-image: url('https://cdn.l2stars.com/Darkelf_Female-front_robe_arcana_high.png')"></div>
+    <img src="/img/left.png" class="arleft" id="arleft">
+    <img src="/img/right.png" class="arright" id="arright">
+    <img src="/img/plus.png" class="plus">
+    <img src="/img/minus.png" class="minus">
+</div>
