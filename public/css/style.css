@@ -429,7 +429,7 @@ hr {
     background-color: rgba(128, 183, 226, 0.03);
 }
 
-.profcontinfo{
+.profcontinfo {
     padding: 0 15px 5px;
 }
 
@@ -812,7 +812,7 @@ hr {
     font-size: 1.2em;
 }
 
-.articles p{
+.articles p {
     margin: 0;
 }
 
@@ -961,6 +961,561 @@ table.statcalc tr td {
     margin: 15px;
 }
 
+.classesContainer {
+    padding: 15px;
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.classesContainer a {
+    text-decoration: none;
+}
+
+.classesContainer2 {
+    float: left;
+    width: 50%;
+}
+
+.classesCell2 {
+    width: 50%;
+    float: left;
+}
+
+.classesCell3 {
+    width: 33%;
+    float: left;
+}
+
+.classesItem {
+    white-space: nowrap;
+    display: block;
+}
+
+.classesItem span {
+    display: block;
+    margin-bottom: 3px;
+    text-decoration: underline;
+}
+
+.classesItem:hover {
+    color: #fdc52e;
+}
+
+.classesItemContainer {
+    text-align: center;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classesItem2 {
+    float: left;
+    width: 50%;
+}
+
+.classesItem3 {
+    float: left;
+    width: 33%;
+}
+
+.classesItem img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+
+.classesItemText2 {
+    display: block;
+    font-size: 0.7em;
+}
+
+.classesItemText2 .wikia {
+    text-decoration: underline;
+    color: #f7f7f7;
+}
+
+.classesItemText2 .wikia:hover {
+    color: #fdc52e;
+}
+
+
+.clar {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clarsolo {
+    padding: 5px;
+}
+
+.classgrp {
+    margin-bottom: 30px;
+}
+
+.skillisttab {
+    margin-bottom: 40px;
+}
+
+.skillisttab td {
+    padding: 5px;
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    font-size: 16px;
+    text-align: center;
+}
+
+.skillisttab img {
+    border: solid 1px rgba(128, 183, 226, 0.2);
+}
+
+.skillvl {
+    margin-top: 40px;
+    background-color: rgba(128, 183, 226, 0.2);
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: -1px;
+}
+
+.skillh1 {
+    margin-bottom: 0;
+}
+
+.skilltext {
+    font-size: 14px;
+    color: #999999;
+}
+
+
+.tabber {
+    display: none;
+}
+
+.activetab {
+    display: block;
+}
+
+.nav-tabs > li > a {
+    color: #fdc52e;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+.nav-tabs > li > a:hover, .active {
+    border-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.questtab tr {
+    display: none;
+}
+
+.indexquests {
+    padding: 10px;
+}
+
+.indexquests img {
+    margin-right: 7px;
+}
+
+.indexquests li {
+    padding: 4px;
+    list-style: none;
+}
+
+.indexquests li:before {
+    content: "■";
+    color: #d6c594;
+    padding-right: 10px;
+}
+
+.switcher {
+    float: right;
+}
+
+.switcheritem {
+    display: inline-block;
+    padding: 7px 15px;
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    background-color: rgba(128, 183, 226, 0.1);
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.switcheritemon {
+    color: #d6c594;
+    text-decoration: underline;
+}
+
+
+.dbfilterbtn:before {
+    content: url('/img/ico-tab.png');
+    position: relative;
+    top: 15px;
+}
+
+.dbfilterbtn:hover, .dbfilterbtn:focus {
+    color: #f7f7f7;
+}
+
+.dbfilter, .monsterlvl, .dbskill {
+    margin-top: 25px;
+}
+
+.dbfilterbtn {
+    min-width: 120px;
+    background-image: none !important;
+    text-shadow: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #fdc52e;
+    text-align: left;
+}
+
+.dbh1 a {
+    color: #fdc52e;
+}
+
+.dbhr {
+    border: none;
+    background-color: #333;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.dbfilterbtn2 {
+    min-width: 110px;
+}
+
+.dbcont {
+    border: solid 1px rgba(128, 183, 226, 0.1);
+}
+
+.dbcont > img {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.dbcont div {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fdc52e;
+}
+
+.dbcont span {
+    display: block;
+    margin-top: 7px;
+}
+
+.dbinfo {
+    font-size: 0.9em;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.dbinfo img {
+    width: 22px;
+    padding: 3px;
+}
+
+.dbcont {
+    display: block;
+    padding: 5px;
+    background-color: rgba(128, 183, 226, 0.03);
+    margin-bottom: 15px;
+}
+
+.dbcont:nth-child(odd) {
+    background-color: rgba(128, 183, 226, 0.05);
+}
+
+.dbcont:hover {
+    text-decoration: none;
+    background-color: rgba(128, 183, 226, 0.1);
+}
+
+.dbsetsheader {
+    padding: 7px;
+    font-size: 1.3em;
+    background-color: rgba(128, 183, 226, 0.1);
+    text-align: center;
+}
+
+.dbsets {
+    margin-bottom: 30px;
+}
+
+.setheader {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.setheaderh3 {
+    padding: 5px;
+    color: #fdc52e;
+    margin: 0;
+}
+
+.setcont {
+    border: solid 1px #141414;
+    margin-bottom: 30px;
+    padding: 15px;
+
+}
+
+.dbwhite {
+    color: #ccc;
+}
+
+
+.iteminfo {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgba(128, 183, 226, 0.2);
+}
+
+.dbh2 {
+    font-size: 1.3em;
+    padding: 20px 0px 0px;
+}
+
+.craftheader {
+    background-color: rgba(128, 183, 226, 0.2);
+    padding: 5px;
+    font-size: 1.4em;
+    text-align: center;
+    border-bottom: none;
+}
+
+.craftcont {
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    margin-bottom: 30px;
+}
+
+.craftcont a {
+    display: block;
+    padding: 10px;
+}
+
+.craftcont span {
+    color: #f2db9f;
+}
+
+.craftcont img {
+    margin-right: 5px;
+}
+
+.droplistitem {
+    color: #e7e7e7;
+}
+
+.droplistitem img {
+    margin-top: -3px;
+}
+
+.droplistitem span {
+    display: inline-block;
+    padding: 3px 7px 0px;
+    text-decoration: inherit;
+    color: #f2db9f;
+}
+
+.skillh1 {
+    margin-bottom: 0;
+}
+
+.skilltext {
+    font-size: 14px;
+    color: #999999;
+}
+
+.wikih2 {
+    text-align: center;
+    background-color: rgba(128, 183, 226, 0.2);
+    margin: 0;
+    padding: 5px;
+}
+
+.dbtab {
+    border: none;
+    width: 100%;
+    margin: 0px 0px 30px;
+}
+
+.dbtab td {
+    width: 50%;
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    padding: 7px;
+    vertical-align: middle;
+}
+
+.dbtab td img {
+    max-width: 20px;
+    margin-right: 10px;
+    border: solid 1px #9fafff;
+    float: left;
+}
+
+.dbh1 {
+    font-size: 21px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+.npclink {
+    min-height: auto;
+    padding: 7px;
+    font-size: 1.2em;
+}
+
+.npclink span {
+    display: inline;
+    margin-left: 3px;
+}
+
+.npclink img {
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.npcinfo img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.npcinfo {
+    margin-bottom: 30px;
+}
+
+.npcimg {
+    max-width: 100%;
+}
+
+.npcimgcont {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.npcmapcont {
+    height: 317px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.npcposition {
+    position: absolute;
+    width: 35px;
+    top: 0;
+    left: 0;
+}
+
+.npcmap{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.monsterstab th {
+    padding: 7px;
+    text-align: center;
+    background-color: rgba(128, 183, 226, 0.2);
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    border-bottom: none;
+}
+
+.monsterstab td {
+    padding: 7px;
+    border: solid 1px rgba(128, 183, 226, 0.2);
+    text-align: center;
+}
+
+.npclink {
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.npclink img {
+    padding: 5px;
+    float: none;
+    margin: 0px;
+}
+
+.npclink span {
+    display: inline;
+}
+
+.monsterskill img {
+    float: none;
+    padding: 3px;
+}
+
+.monsterstab {
+    margin-top: 25px;
+}
+
+.monsterabi {
+    width: 35px;
+    padding: 5px;
+}
+
+.monsterabi2 {
+    width: 25px;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+.red {
+    color: #ff4f3d;
+}
+
+.blue {
+    color: #b5e9ff;
+}
+
+.monsterrange {
+    width: 25px;
+    padding: 6px;
+}
+
+.monsterparams {
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.monsterparams span {
+    color: #f2db9f;
+}
+
+.monsterabicont {
+    vertical-align: middle !important;
+}
+
+.monstertypeimg {
+    margin: 5px;
+}
+
+.monsterlink {
+    display: inline-block;
+    height: 37px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
 
 @media (max-width: 1200px) {
     .menuiteminner {
@@ -969,6 +1524,9 @@ table.statcalc tr td {
 }
 
 @media (max-width: 992px) {
+    .monsterparams {
+        font-size: 12px;
+    }
 
     .cat {
         display: none;

@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     //index height wrapper
     $('.moreservers').bind('click', function () {
-        if(!opened){
+        if (!opened) {
             wrapper.stop().animate({height: newheight}, 700);
             opened = true;
         } else {
@@ -233,9 +233,9 @@ $(document).ready(function () {
 
     $('.filterbtn').bind('click', function () {
         $('.filtercont').toggle(300, function () {
-            if($(this).is(':visible')) {
-                $.cookie('showtopmenu', 'true',{ path: '/' });
-            } else{
+            if ($(this).is(':visible')) {
+                $.cookie('showtopmenu', 'true', {path: '/'});
+            } else {
                 $.removeCookie('showtopmenu');
             }
         });
@@ -264,5 +264,110 @@ $(document).ready(function () {
             sortServersGve();
             break;
     }
+
+    //tabber
+    $('#tabberTab li').bind('click', function () {
+        $('#tabberTab li a').removeClass('active');
+        $('.tabber').hide();
+        $(this).find('a').addClass('active');
+        $('.tabber[data-tab="' + $(this).find('a').text() + '"]').fadeIn(300);
+    });
+
+    //questtab
+    $('.questtab tr[data-type="' + $('.questtab').attr('data-sort') + '"]').show();
+
+    //switcheritem
+    $('.switcheritem').bind('click', function () {
+        $('.switcheritem').toggleClass('switcheritemon');
+        $('.skillisttab').toggle();
+    });
+
+    //dbfilter
+    $('.dbfilter').bind('input', function () {
+        $('.dbsets').show();
+        $('.dbfilterbtn').removeClass('btn-primary');
+        var text = $(this).val();
+        var pat = new RegExp(text, "i");
+        $('.dbcont, .monstercont, .raidcontainer').hide().each(function () {
+            var txt = $(this).attr('data-name');
+            if (txt.search(pat) != -1) {
+                $(this).show();
+            }
+        });
+        $('.dbsets').each(function () {
+            if ($(this).find('.dbcont:visible').length == 0) {
+                $(this).hide();
+            }
+        });
+    });
+
+    //dbfilterbtn
+    $('.dbfilterbtn').bind('click', function () {
+        $('.dbsets').show();
+        $('.dbfilterbtn').removeClass('btn-primary');
+        $(this).addClass('btn-primary');
+        var pat = new RegExp("^" + $(this).attr('data-type') + "$", "i");
+        $('.dbcont').hide().each(function () {
+            var txt = $(this).attr('data-type');
+            if (txt.search(pat) != -1) {
+                $(this).show();
+            }
+        });
+        $('.dbsets').each(function () {
+            if ($(this).find('.dbcont:visible').length == 0) {
+                $(this).hide();
+            }
+        });
+    });
+
+    //monsterlvl
+    $('.monsterlvl').bind('input', function () {
+
+        var search = $(this).val();
+
+        $('.monstercont, .raidcontainer').hide().each(function () {
+            var lvl = $(this).attr('data-lvl');
+            if (parseInt(lvl) >= (parseInt(search) - 2) && parseInt(lvl) <= (parseInt(search) + 2)) {
+                $(this).show();
+            }
+        });
+
+        if (search == '') {
+            $('.monstercont, .raidcontainer').show();
+        }
+    });
+
+    //dbskill
+    $('.dbskill').bind('input', function () {
+
+        var search = $(this).val();
+
+        $('.monstercont, .raidcontainer').hide().each(function () {
+
+            var cnt = $(this).find('*[alt="'+search+'"]').length;
+
+            if(cnt > 0){
+                $(this).show();
+            }
+        });
+
+        if (search == '') {
+            $('.monstercont, .raidcontainer').show();
+        }
+
+    });
+
+    //npcmap
+    let npcmap = $('.npcmap').eq(0);
+    let npcpointer = $('.npcposition').eq(0);
+    let npcmapcont = $('.npcmapcont');
+
+    npcmap.css('top', (- npcpointer.attr('data-top') + 150) + "px" );
+    npcmap.css('left', (- npcpointer.attr('data-left') + npcmapcont.width()/2) + "px" );
+
+    $('.npcposition').each(function () {
+        $(this).css('top', ( $(this).attr('data-top') - npcpointer.attr('data-top') + npcmapcont.height()/2) + "px" );
+        $(this).css('left', ( $(this).attr('data-left') - npcpointer.attr('data-left') + npcmapcont.width()/2) + "px" );
+    })
 
 });

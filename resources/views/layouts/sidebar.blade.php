@@ -1,4 +1,7 @@
 <div class="col-md-3">
+
+    <div class="sb_item"><a href="/knowledge">База знаний</a></div>
+
     <nav>
         <div class="menuitem">
             <a class="menuitema" href="/about">О сервере</a>
@@ -58,7 +61,7 @@
     <div class="sb_item"><a href="/news">Новости</a></div>
     <div class="sb_item"><a href="/fashion">Примерочная</a></div>
     <div class="sb_item"><a href="/calculator">Калькулятор</a></div>
-
+    <br><br><br><br><br><br><br>
 {{--    <div class="sb_vk">
         <div id="vk_groups"></div>
     </div>

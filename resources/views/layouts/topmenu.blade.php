@@ -9,7 +9,7 @@
     <div class="anons">
         <h1><a href="/" title="Анонс Серверов Lineage 2">Анонс Серверов Lineage 2</a></h1>
         <span class="filterbtn"><i class="glyphicon glyphicon-menu-hamburger"></i> Подобрать сервер</span>
-        <a href="/quests" class="questslink">Квесты L2</a>
+        <a href="/knowledge" class="questslink">База знаний Л2</a>
         <a href="/en"><img class="changelang pull-right" src="/img/ico_en.png" title="English" alt="en"></a>
     </div>
     <div class="filtercont @php if($_SERVER['REQUEST_URI'] === '/' && isset($_COOKIE['showtopmenu'])){echo 'showtopmenu';} @endphp">

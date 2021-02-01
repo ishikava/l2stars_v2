@@ -19,7 +19,16 @@
         @if(@isset($content))
 
             @if(@isset($meta['h1']))
-                <div class="h1cont"><h1 class="pageh1">{{$meta['h1']}}</h1></div>
+                <div class="h1cont">
+                    <h1 class="pageh1">{{$meta['h1']}}</h1>
+                    @if(@isset($switcher))
+                    <div class="switcher">
+                        @foreach($switcher as $switch)
+                            <div class="switcheritem @if($loop->index < 1) switcheritemon @endif">{{$switch}}</div>
+                        @endforeach
+                    </div>
+                    @endif
+                </div>
             @endif
 
             @if(@isset($meta['info']))
