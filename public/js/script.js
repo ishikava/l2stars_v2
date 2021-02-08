@@ -368,6 +368,61 @@ $(document).ready(function () {
     $('.npcposition').each(function () {
         $(this).css('top', ( $(this).attr('data-top') - npcpointer.attr('data-top') + npcmapcont.height()/2) + "px" );
         $(this).css('left', ( $(this).attr('data-left') - npcpointer.attr('data-left') + npcmapcont.width()/2) + "px" );
-    })
+    });
+
+    //worldmap
+    $('.playercontainer').hover(function () {
+        $(this).addClass('wmzindex').find('.playerinfo').show(0);
+    }, function () {
+        $('.playerinfo').removeClass('wmzindex').hide(0);
+    });
+
+
+    //worldmap drag
+    var drag = false;
+    var dragx = 0;
+    var dragy = 0;
+    var worldmap = document.getElementById('worldmap');
+    if (worldmap) {
+        worldmap.onmousedown = function () {
+            drag = true;
+            dragx = event.pageX;
+            dragy = event.pageY;
+            return false;
+        };
+        worldmap.onmouseup = function () {
+            drag = false;
+        };
+        worldmap.onmouseleave = function () {
+            drag = false;
+        };
+        worldmap.onmousemove = function () {
+            if (drag) {
+                this.scrollLeft = this.scrollLeft - event.pageX + dragx;
+                window.scrollTo(0, window.scrollY - event.pageY + dragy);
+                dragx = event.pageX;
+                dragy = event.pageY;
+            }
+        };
+    }
+
+    //worldmap raidcontainer
+    $.each($('.raidcontainer'), function () {
+        if (parseInt($(this).css('left')) > 1266) {
+            $(this).find('.raidcontainerinner').css('margin-left', '-' + (parseInt($(this).css('left')) - 1240) + 'px');
+        }
+
+        if (parseInt($(this).css('top')) > 2200) {
+            var cont = $(this).find('.raidcontainerinner');
+            cont.css('margin-top', (2640 - (parseInt($(this).css('top')) + parseInt(cont.height()) + 100)) + 'px');
+        }
+    });
+    $('.raidcontainer').hover(function () {
+        $(this).addClass('wmzindex').find('.raidcontainerinner').show();
+    }, function () {
+        $(this).removeClass('wmzindex');
+        $('.raidcontainerinner').hide();
+    });
+
 
 });

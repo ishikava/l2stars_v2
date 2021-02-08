@@ -1516,6 +1516,192 @@ table.statcalc tr td {
     font-size: 15px;
 }
 
+.racer, .sexer{
+    display: inline-block;
+    width: 40%;
+    margin:10px;
+}
+
+.smallarr{
+    width: 50px;
+    margin: 0;
+    top: 50%;
+}
+
+.custom-border{
+    border: solid 1px rgba(128, 183, 226, 0.2) !important;
+}
+
+.custom-border td{
+    border: solid 1px rgba(128, 183, 226, 0.2) !important;
+    padding: 5px;
+    vertical-align: middle !important;
+}
+
+.custom-border th{
+    border: solid 1px rgba(128, 183, 226, 0.2) !important;
+}
+
+.size-full {
+    width: 100%;
+    padding: 20px;
+}
+
+.worldmapscene {
+    position: relative;
+}
+
+.playercontainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+}
+
+.playerposition {
+    width: 17px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.worldmaptimer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.worldmaptimerinner {
+    height: 5px;
+    background-color: #d58512;
+    width: 0;
+}
+
+.playerinfo {
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+    border: solid 1px #2F2F2F;
+    border-radius: 5px;
+    background-color: rgba(14, 14, 14, 0.9);
+    min-width: 270px;
+}
+
+.playername {
+    margin-top: 9px;
+    color: #f2db9f;
+}
+
+.raidcontainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+}
+
+.raidcontainerimgcont {
+    width: 180px;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.raidimg {
+    width: 100%;
+    padding: 3px;
+    border: solid 1px #f7f7f7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wmraidinfo {
+    float: right;
+    width: 340px;
+}
+
+.raidnamelvl {
+    font-size: 18px;
+    color: #d58512;
+    text-decoration: underline;
+}
+
+.raidname {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+.green {
+    color: #01b80a;
+}
+
+.red {
+    color: #ac2925;
+}
+
+.raidinfoimg {
+    padding: 3px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.raidflag {
+    width: 27px;
+}
+
+.epicflag {
+    width: 35px;
+}
+
+.killed {
+    width: 35px;
+    padding: 2px;
+    border: solid 1px #f7f7f7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.raidcontainerinner {
+    display: none;
+    border: solid 1px #2F2F2F;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(14, 14, 14, 0.9);
+    width: 550px;
+    padding: 10px;
+    min-height: 250px;
+    color: #f7f7f7;
+}
+
+.wmzindex {
+    z-index: 9999;
+}
+
+.raidstatus {
+    font-size: 16px;
+}
+
+.worldmap {
+    text-align: center;
+    background-color: #141414;
+    overflow: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.worldmapinfo {
+    color: #5e5e5e;
+    margin: 20px 0;
+}
+
+.worldmapscene {
+    display: inline-block;
+}
+
+
 
 @media (max-width: 1200px) {
     .menuiteminner {
