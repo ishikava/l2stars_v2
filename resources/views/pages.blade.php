@@ -6,15 +6,19 @@
 
     <div class="col-md-9 page">
 
-{{--        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-1634828634862162"
-             data-ad-slot="8645699716"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>--}}
+        {{--
+        <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-1634828634862162"
+                     data-ad-slot="8645699716"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+        --}}
+
+        <br> <br> <br> <br> <br> <br> <br><br> <br>
 
         @if(@isset($content))
 
@@ -22,11 +26,11 @@
                 <div class="h1cont">
                     <h1 class="pageh1">{{$meta['h1']}}</h1>
                     @if(@isset($switcher))
-                    <div class="switcher">
-                        @foreach($switcher as $switch)
-                            <div class="switcheritem @if($loop->index < 1) switcheritemon @endif">{{$switch}}</div>
-                        @endforeach
-                    </div>
+                        <div class="switcher">
+                            @foreach($switcher as $switch)
+                                <div class="switcheritem @if($loop->index < 1) switcheritemon @endif">{{$switch}}</div>
+                            @endforeach
+                        </div>
                     @endif
                 </div>
             @endif
@@ -39,19 +43,22 @@
 
         @endif
 
-{{--        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-1634828634862162"
-             data-ad-slot="8029077459"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        {{--
+         <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-1634828634862162"
+                     data-ad-slot="8029077459"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+        --}}
 
+        <br> <br> <br> <br> <br> <br> <br><br> <br><br> <br><br> <br><br> <br>
 
         <div id="vk_comments"></div>
-        <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>--}}
+        <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>
 
     </div>
 

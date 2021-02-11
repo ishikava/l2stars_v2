@@ -5,8 +5,7 @@ namespace App\Http\Controllers;
 class CalculatorController extends Controller
 {
     protected $meta = [
-        'title' => 'Калькулятор Lineage 2 ⭐⭐⭐ l2stars.com',
-        'h1' => 'Калькулятор Lineage 2',
+        'title' => 'Калькулятор статов Lineage 2 ⭐⭐⭐ l2stars.com',
         'keywords' => 'Калькулятор Lineage 2',
         'description' => 'Калькулятор Lineage 2',
         'seo' => 'Калькулятор Lineage 2'

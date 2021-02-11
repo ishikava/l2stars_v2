@@ -6,9 +6,9 @@
             var calctab = $('.calctab').offset().top;
             $(window).scroll(function () {
                 if ($(window).scrollTop() >= calctab) {
-                    $('.calctab').addClass('fixed');
+                    $('.calctab').addClass('fixer');
                 } else {
-                    $('.calctab').removeClass('fixed');
+                    $('.calctab').removeClass('fixer');
                 }
             });
         }
@@ -17,74 +17,81 @@
 
 <div class="row">
 
-    <h1 class="calch1">Калькулятор статов Lineage 2</h1>
-
     <div class="calctab">
-        <h3 class="text-center statcalcheader">Характеристики персонажа</h3>
-        <table class=" table table-bordered statcalc statmenu">
-            <tr>
-                <td width=50>HP</td>
-                <td id="HP" width=40 align=right>N/A</td>
-                <td width=40>CP</td>
-                <td id="CP" width=40 align=right>N/A</td>
-            </tr>
-            <tr>
-                <td>MP</td>
-                <td id="MP" align=right>N/A</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>P.Atk.</td>
-                <td id="PATK" align=right>N/A</td>
-                <td>M.Atk.</td>
-                <td id="MATK" align=right>N/A</td>
-            </tr>
-            <tr>
-                <td>P.Def.</td>
-                <td id="PDEF" align=right>N/A</td>
-                <td>M.Def.</td>
-                <td id="MDEF" align=right>N/A</td>
-            </tr>
-        </table>
-        <table class=" table table-bordered statcalc statmenu">
-            <tr>
-                <td>Accuracy</td>
-                <td id="ACCURACY" align=right>N/A</td>
-                <td>Evasion</td>
-                <td id="EVASION" align=right>N/A</td>
-            </tr>
-            <tr>
-                <td>Critical</td>
-                <td id="CRITICAL" align=right>N/A</td>
-                <td>Speed</td>
-                <td id="SPEED" align=right>N/A</td>
-            </tr>
-            <tr>
-                <Td>Atk. Spd.</td>
-                <td id="ATKSPD" align=right>N/A</td>
-                <td>Casting Spd.</td>
-                <td id="CASTINGSPD" align=right>N/A</td>
-            </tr>
-        </table>
-        <table class=" table table-bordered statcalc statmenu">
-            <tr>
-                <td>STR</td>
-                <td id="STR">N/A</td>
-                <td>DEX</td>
-                <td id="DEX">N/A</td>
-                <td>CON</td>
-                <td id="CON">N/A</td>
-            </tr>
-            <tr>
-                <td>INT</td>
-                <td id="INT">N/A</td>
-                <td>WIT</td>
-                <td id="WIT">N/A</td>
-                <td>MEN</td>
-                <td id="MEN">N/A</td>
-            </tr>
-        </table>
+        <div class="calctabinner">
+            <div class="col-md-12" style="margin-bottom: 7px;">Параметры персонажа :</div>
+            <div class="col-md-6">
+                <table class=" table table-bordered statcalc statmenu">
+                    <tr>
+                        <td width=50>HP</td>
+                        <td id="HP" width=40 align=right>N/A</td>
+                        <td width=40>CP</td>
+                        <td id="CP" width=40 align=right>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>MP</td>
+                        <td id="MP" align=right>N/A</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>P.Atk.</td>
+                        <td id="PATK" align=right>N/A</td>
+                        <td>M.Atk.</td>
+                        <td id="MATK" align=right>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>P.Def.</td>
+                        <td id="PDEF" align=right>N/A</td>
+                        <td>M.Def.</td>
+                        <td id="MDEF" align=right>N/A</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <table class=" table table-bordered statcalc statmenu">
+                    <tr>
+                        <td>Accuracy</td>
+                        <td id="ACCURACY" align=right>N/A</td>
+                        <td>Evasion</td>
+                        <td id="EVASION" align=right>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Critical</td>
+                        <td id="CRITICAL" align=right>N/A</td>
+                        <td>Speed</td>
+                        <td id="SPEED" align=right>N/A</td>
+                    </tr>
+                    <tr>
+                        <Td>Atk. Spd.</td>
+                        <td id="ATKSPD" align=right>N/A</td>
+                        <td>Casting Spd.</td>
+                        <td id="CASTINGSPD" align=right>N/A</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-12">
+                <table class=" table table-bordered statcalc statmenu" style="margin-bottom: 0;">
+                    <tr>
+                        <td>STR</td>
+                        <td id="STR">N/A</td>
+                        <td>DEX</td>
+                        <td id="DEX">N/A</td>
+                        <td>CON</td>
+                        <td id="CON">N/A</td>
+                    </tr>
+                    <tr>
+                        <td>INT</td>
+                        <td id="INT">N/A</td>
+                        <td>WIT</td>
+                        <td id="WIT">N/A</td>
+                        <td>MEN</td>
+                        <td id="MEN">N/A</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="clearfix"></div>
+        </div>
     </div>
 
     <div class="toptab2">

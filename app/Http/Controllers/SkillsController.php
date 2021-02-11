@@ -70,7 +70,7 @@ class SkillsController extends Controller
                 ),
                 1 => array(
                     ['elven_scout' => ['Разведчик', 407]],
-                    ['plain_walker' => ['Следопыт', 213, 218, 225], 'silver_ranger' => ['Серебряный Рейнджер', 213, 218, 224]],
+                    ['plains_walker' => ['Следопыт', 213, 218, 225], 'silver_ranger' => ['Серебряный Рейнджер', 213, 218, 224]],
                     ['wind_rider' => ['Странник Ветра', 80], 'moonlight_sentinel' => ['Страж Лунного Света', 83]]
                 )
             ],
@@ -82,7 +82,7 @@ class SkillsController extends Controller
                 ),
                 1 => array(
                     ['oracle' => ['Оракул Евы', 409]],
-                    ['elder' => ['Мудрец Евы', 215, 218, 226]],
+                    ['elven_elder' => ['Мудрец Евы', 215, 218, 226]],
                     ['evas_saint' => ['Жрец Евы', 87]]
                 )
             ],

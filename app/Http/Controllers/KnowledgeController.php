@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Route;
 
 class KnowledgeController extends Controller
 {
     protected $meta = [
         'title' => 'База знаний Lineage 2 ⭐⭐⭐ l2stars.com',
-        'h1' => 'База знаний Lineage 2',
         'keywords' => 'База знаний Lineage 2',
         'description' => 'База знаний Lineage 2',
         'seo' => 'База знаний Lineage 2'
@@ -70,7 +70,7 @@ class KnowledgeController extends Controller
                 ),
                 1 => array(
                     ['elven_scout' => ['Разведчик', 407]],
-                    ['plain_walker' => ['Следопыт', 213, 218, 225], 'silver_ranger' => ['Серебряный Рейнджер', 213, 218, 224]],
+                    ['plains_walker' => ['Следопыт', 213, 218, 225], 'silver_ranger' => ['Серебряный Рейнджер', 213, 218, 224]],
                     ['wind_rider' => ['Странник Ветра', 80], 'moonlight_sentinel' => ['Страж Лунного Света', 83]]
                 )
             ],
@@ -82,7 +82,7 @@ class KnowledgeController extends Controller
                 ),
                 1 => array(
                     ['oracle' => ['Оракул Евы', 409]],
-                    ['elder' => ['Мудрец Евы', 215, 218, 226]],
+                    ['elven_elder' => ['Мудрец Евы', 215, 218, 226]],
                     ['evas_saint' => ['Жрец Евы', 87]]
                 )
             ],
@@ -143,6 +143,58 @@ class KnowledgeController extends Controller
             ]
         );
 
+        $articles = [
+            401 => 'quest-path-of-the-warrior',
+            402 => 'quest-path-of-the-human-knight',
+            403 => 'quest-path-of-the-rogue',
+            404 => 'quest-path-of-the-human-wizard',
+            405 => 'quest-path-of-the-cleric',
+            406 => 'quest-path-of-the-elven-knight',
+            407 => 'quest-path-of-the-elven-scout',
+            408 => 'quest-path-of-the-elven-wizard',
+            409 => 'quest-path-of-the-elven-oracle',
+            410 => 'quest-path-of-the-palus-knight',
+            411 => 'quest-path-of-the-assassin',
+            412 => 'quest-path-of-the-dark-wizard',
+            413 => 'quest-path-of-the-shillien-oracle',
+            414 => 'quest-path-of-the-orc-raider-2',
+            415 => 'quest-path-of-the-orc-monk',
+            416 => 'quest-path-of-the-orc-shaman',
+            418 => 'quest-path-of-the-artisan',
+            417 => 'quest-path-of-the-scavenger',
+            74 => 'quest-saga-of-the-dreadnought',
+            73 => 'quest-saga-of-the-duelist',
+            70 => 'quest-saga-of-the-phoenix-knight',
+            95 => 'quest-saga-of-the-hell-knight',
+            79 => 'quest-saga-of-the-adventurer',
+            82 => 'quest-saga-of-the-sagittarius',
+            88 => 'quest-saga-of-the-archmage',
+            94 => 'quest-saga-of-the-soultaker',
+            91 => 'quest-saga-of-the-arcana-lord',
+            85 => 'quest-saga-of-the-cardinal',
+            86 => 'quest-saga-of-the-hierophant',
+            72 => 'quest-saga-of-the-sword-muse',
+            71 => 'quest-saga-of-the-evas-templar',
+            80 => 'quest-saga-of-the-wind-rider',
+            83 => 'quest-saga-of-the-moonlight-sentinel',
+            92 => 'quest-saga-of-the-elemental-master',
+            89 => 'quest-saga-of-the-mystic-muse',
+            87 => 'quest-saga-of-the-evas-saint',
+            97 => 'shillien-templar',
+            96 => 'spectral-dancer',
+            81 => 'ghost-hunter',
+            84 => 'ghost-sentinel',
+            90 => 'storm-screamer',
+            93 => 'spectral-master',
+            98 => 'shillien-saint',
+            75 => 'quest-saga-of-the-titan',
+            76 => 'grand-khavatari',
+            77 => 'quest-saga-of-the-dominator',
+            78 => 'quest-saga-of-the-doomcryer',
+            99 => 'quest-saga-of-the-fortune-seeker',
+            100 => 'quest-saga-of-the-maestro'
+        ];
+
         $quests = [];
         $class_ids = [];
         $class_names = [];
@@ -158,7 +210,12 @@ class KnowledgeController extends Controller
             $class_names[$class->coded_name] = $class->name;
         }
 
-        $content = file_get_contents(__DIR__.'/../static/knowledge.html');
+        if(Route::getFacadeRoot()->current()->uri() == 'skills'){
+            $content = file_get_contents(__DIR__ . '/../static/skills.html');
+        } else {
+            $content = file_get_contents(__DIR__ . '/../static/knowledge.html');
+        }
+
 
         for ($a = 0; $a < count($classes); $a++) {
 
@@ -186,8 +243,12 @@ class KnowledgeController extends Controller
 
             $ork = '';
 
-            if($a == 0 || $a == 2 || $a == 4 || $a == 6 || $a == 8){
-                $content .= '<div data-tab="'.$race.'" class="tabber '; if($a == 0){ $content .= 'activetab';}  $content .= '">';
+            if ($a == 0 || $a == 2 || $a == 4 || $a == 6 || $a == 8) {
+                $content .= '<div data-tab="' . $race . '" class="tabber ';
+                if ($a == 0) {
+                    $content .= 'activetab';
+                }
+                $content .= '">';
             }
 
             $content .= '
@@ -244,10 +305,10 @@ class KnowledgeController extends Controller
 
                         for ($d = 0; $d < 1; $d++) {
 
-                            if(count($class) > 1){
-                                $content .= '<div class="classesItemText2"><a class="wikia" href="/quests/' . $class_name . '">Квест</a></div>';
+                            if (count($class) > 1) {
+                                $content .= '<div class="classesItemText2"><a class="wikia" href="/articles/' . str_replace('_', '-', $class_name) . '">Квест</a></div>';
                             } else {
-                                $content .= '<div class="classesItemText2"><a class="wikia" href="/quests/' . $class[$d] . '">Квест</a></div>';
+                                $content .= '<div class="classesItemText2"><a class="wikia" href="/articles/' . $articles[$class[$d]] . '">Квест</a></div>';
                             }
 
                         }
@@ -266,7 +327,7 @@ class KnowledgeController extends Controller
 
             $content .= '<div class="clearfix"></div></div>';
 
-            if($a == 1 || $a == 3 || $a == 5 || $a == 7 || $a == 8){
+            if ($a == 1 || $a == 3 || $a == 5 || $a == 7 || $a == 8) {
                 $content .= '</div>';
             }
 

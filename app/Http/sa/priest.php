@@ -1,4 +1,4 @@
-<h2 class="wikia">Priests of Dawn / Dusk</h2>
+<h1 class="pageh1">Priests of Dawn / Dusk</h1>
 
 <br>
 

@@ -15,6 +15,7 @@ Route::get('/news', 'App\Http\Controllers\NewsController@index');
 Route::get('/fashion', 'App\Http\Controllers\FashionController@index');
 Route::get('/calculator', 'App\Http\Controllers\CalculatorController@index');
 Route::get('/knowledge', 'App\Http\Controllers\KnowledgeController@index');
+Route::get('/skills', 'App\Http\Controllers\KnowledgeController@index');
 Route::get('/weapons', 'App\Http\Controllers\WeaponsController@index');
 Route::get('/armor', 'App\Http\Controllers\ArmorController@index');
 Route::get('/accessory', 'App\Http\Controllers\AccessoryController@index');

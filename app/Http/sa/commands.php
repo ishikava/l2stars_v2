@@ -1,5 +1,6 @@
+<h1 class="pageh1">Команды чата Lineage 2</h1>
+
 <div class="regcont">
-    <h1 class="pageh1">Команды чата Lineage 2</h1>
     <table class="table table-bordered custom-border">
 
         <tr>

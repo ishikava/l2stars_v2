@@ -1,6 +1,5 @@
-<div class="col-md-12">
-    <h1 class="pageh1">База знаний : <a href="/manor">Манор</a></h1>
-</div>
+<h1 class="pageh1">База знаний : <a href="/manor">Манор</a></h1>
+<br><br>
 <div class="col-md-12">
     <p>* GL = Gludio, DI = Dion, GI = Giran, OR = Oren, AD = Aden, IN = Innadril, GO = Goddard, RU = Rune, SCH = Schuttgart</p>
 </div>
