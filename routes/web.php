@@ -31,6 +31,7 @@ Route::get('/skills/{id}', 'App\Http\Controllers\SkillsController@index');
 Route::get('/items/{id}', 'App\Http\Controllers\ItemsController@items');
 Route::get('/npc/{id}', 'App\Http\Controllers\NpcController@npcs');
 Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@index');
+Route::get('/map/{id}', 'App\Http\Controllers\MapController@index');
 
 Route::get('/sa', 'App\Http\Controllers\SaController@index');
 Route::get('/sa_blunts', 'App\Http\Controllers\SaController@index');

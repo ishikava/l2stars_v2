@@ -11,7 +11,7 @@
         margin: 2px;
     }
 </style>
-<div class="regcont">
+<div class="regcont skillisttabwrapper">
     <table class="table table-bordered custom-border">
         <tbody>
         <tr>

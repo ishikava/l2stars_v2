@@ -1691,6 +1691,7 @@ table.statcalc tr td {
 .raidname {
     font-size: 21px;
     text-decoration: underline;
+    color: #f2db9f;
 }
 
 .green {
@@ -1761,6 +1762,20 @@ table.statcalc tr td {
 .worldmapscene {
     display: inline-block;
 }
+
+.artlink{
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: #ffb400;
+}
+.artlink:hover, .artlink:focus {
+    color: #ffb400;
+}
+
+.artimg{
+    padding: 7px;
+}
+
 
 
 @media (max-width: 1200px) {
@@ -1845,6 +1860,91 @@ table.statcalc tr td {
     .counters {
         margin-top: 10px;
         text-align: left;
+    }
+
+    .serverscont, .vipserverscont {
+        padding: 0;
+    }
+
+    .menuitem {
+        width: 100%;
+    }
+
+    .menuitem a.menuitema {
+        display: inline-block;
+        color: #f2db9f;
+        text-decoration: underline;
+    }
+
+    .menua {
+        padding: 10px;
+        text-align: center;
+        font-size: 1.2em;
+        text-decoration: underline;
+    }
+
+    .sb_vk {
+        width: 100%;
+    }
+
+    .sbcont {
+        padding-right: 0;
+    }
+
+    .npclink {
+        margin-bottom: 20px;
+    }
+
+    .pageh3 strong {
+        display: block;
+    }
+
+    .class_img {
+        width: 30px;
+        padding: 5px;
+    }
+
+    .indexquests {
+        padding: 0;
+    }
+
+    .indexquests li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    a.nav-link{
+        padding: 5px 10px !important;
+    }
+
+    .skillisttabwrapper{
+        overflow: scroll;
+    }
+
+    .articles .image{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .size-full{
+        padding: 10px;
+    }
+
+    .Fashion_SelectBox{
+        margin-bottom: 30px;
+    }
+
+    .arright, .arleft{
+        width: 45px;
+    }
+
+    .news_img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .news_item_content{
+        width: 100%;
     }
 
 }

@@ -31,6 +31,7 @@
                                 <div class="switcheritem @if($loop->index < 1) switcheritemon @endif">{{$switch}}</div>
                             @endforeach
                         </div>
+                        <div class="clearfix"></div>
                     @endif
                 </div>
             @endif

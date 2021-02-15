@@ -199,7 +199,7 @@ class SkillsController extends Controller
             $skills[] = $row;
         }
 
-        $content = '<table class="skillisttab">';
+        $content = '<div class="skillisttabwrapper"><table class="skillisttab">';
 
         $ctr = 0;
 
@@ -217,7 +217,7 @@ class SkillsController extends Controller
 
         }
 
-        $content .= '</table>';
+        $content .= '</table></div>';
 
         return [$content, $h1];
 
@@ -240,7 +240,7 @@ class SkillsController extends Controller
 .skillstrip{background-color: rgba(55,55,55, 0.3);}
 .table-bordered, .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th{
     border: 1px solid rgba(255,255,255, 0.2);}
-</style><br><br><div class="skillisttab content col-md-12" style="display: none">'.$text.'</div><div class="clearfix"></div> <br><br><script>var sdiv = ""; $("a:contains(\'Вытесняет\')").hide();$(".table-bordered tr").eq(1).hide();</script>';
+</style><br><br><div class="skillisttab content col-md-12 skillisttabwrapper" style="display: none">'.$text.'</div><div class="clearfix"></div> <br><br><script>var sdiv = ""; $("a:contains(\'Вытесняет\')").hide();$(".table-bordered tr").eq(1).hide();</script>';
 
         }
 

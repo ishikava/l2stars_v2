@@ -72,7 +72,7 @@ class WorldmapController extends Controller
 
 
                 $content .= '
-<div class="raidname">' . $raids[$i]['runame'] . '</div>';
+<div class="raidname"><a href="/npc/' . $raids[$i]['id'] . '" target="_blank">' . $raids[$i]['runame'] . '</a></div>';
 
                 for ($j = 0; $j < count($raids[$i]['skills']); $j++) {
 
