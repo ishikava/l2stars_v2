@@ -189,7 +189,7 @@ class SetsController extends Controller
                     <h1 class="pageh1">Сеты Lineage 2</h1>
 </div>
 <div class="col-md-6">
-    <input class="form-control dbfilter" placeholder="Фильтр по названию" autocomplete="off">
+    <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
 <script>
 $(document).ready(function () {

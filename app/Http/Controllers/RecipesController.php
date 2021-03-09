@@ -31,12 +31,12 @@ class RecipesController extends Controller
 
         $types = [];
 
-        $wep = DB::select("SELECT * FROM `db`.`recipes` JOIN `old_db`.`itemnames` ON `db`.`recipes`.`id` = `old_db`.`itemnames`.`id` ORDER BY `level`");
+        $wep = DB::select("SELECT *, `db`.`recipes`.`id` as rid FROM `db`.`recipes` JOIN `old_db`.`itemnames` ON `db`.`recipes`.`id` = `old_db`.`itemnames`.`id` JOIN `db`.`items` ON `db`.`recipes`.`item_id` = `db`.`items`.`id`  ORDER BY `level`");
 
         foreach ($wep as $row) {
 
-            if(!in_array($row->level.' Уровень', $types)){
-                $types[] = $row->level.' Уровень';
+            if (!in_array($row->level . ' Ур.', $types)) {
+                $types[] = $row->level . ' Ур.';
             }
 
             switch ($row->level) {
@@ -73,32 +73,43 @@ class RecipesController extends Controller
         }
 
         $content = '
-<div class="col-md-6">
+<div class="col-md-12">
     <h1 class="pageh1">Рецепты Lineage 2</h1>
 </div>
-<div class="col-md-6">
-    <input class="form-control dbfilter" placeholder="Фильтр по названию" autocomplete="off">
-</div>
-<div class="col-md-12"><hr class="dbhr"></div>
+<script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+</script>
+<div class="clearfix"></div>
+<br>
+<div id="tabs" class="col-md-12">
+<ul>
 ';
 
         for ($i = 0; $i < count($types); $i++) {
-            $content .= '<div class="btn btn-default dbfilterbtn" data-type="' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '">' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '</div>';
+            $content .= '<li><a href="#tabs-' . $i . '">' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '</a></li>';
         }
 
-        $content .= '<div class="col-md-12"></div><div class="clearfix"></div>';
+        $content .= '</ul>';
+
+        $tabcounter = 0;
 
         foreach ($sets as $grade => $list) {
 
-            $content .= '<div class="dbsets"><h2 class="dbsetsheader">' . ucfirst($grade) . ' Уровень крафта</h2>';
+            $content .= '<div id="tabs-' . $tabcounter . '">';
 
             for ($i = 0; $i < count($list); $i++) {
-                $content .= '<a href="/items/' . $list[$i]->id . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . $list[$i]->level . ' Уровень"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</span></a>';
+                $content .= '<a href="/items/' . $list[$i]->rid . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . $list[$i]->level . ' Уровень"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</span></a>';
             }
 
             $content .= '</div>';
 
+            $tabcounter++;
+
         }
+
+        $content .= '<br><br></div>';
 
         return $content;
 

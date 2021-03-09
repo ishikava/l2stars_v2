@@ -61,3 +61,6 @@ Route::get('l2top', function () {return redirect('');});
 Route::get('files', function () {return redirect('');});
 Route::get('adv', function () {return redirect('');});
 Route::get('tournament', function () {return redirect('');});
+
+
+Route::post('/search', 'App\Http\Controllers\SearchController@index');

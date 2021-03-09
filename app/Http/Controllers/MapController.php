@@ -24,13 +24,19 @@ class MapController extends Controller
             abort(404);
         }
 
-        return view('map', [
+        $this->meta['h1'] = $id;
+
+        return view('pages', [
+            'brand' => $this->brand,
+            'chronicles' => $this->chronicles,
+            'current_date' => date('d.m.Y', time()),
+            'dates' => $this->dates,
             'meta' => $this->meta,
-            'id' => $id,
-            'data' => [
-                'x' => round((130000 + (int)$data->loc_x) / 200),
-                'y' => round((260000 + (int)$data->loc_y) / 200) - 20
-            ]
+            'content' => '
+<div class="col-md-12 npcmapcont">
+<img class="npcmap" src="/img/map.jpg">
+<img src="/img/pointer.gif" class="npcposition" data-left="' . (round((130000 + (int)$data->loc_x) / 200) - 15) . '" data-top="' . (round((260000 + (int)$data->loc_y) / 200) - 20) . '">
+</div><div class="clearfix"></div>'
         ]);
     }
 

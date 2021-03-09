@@ -2,9 +2,12 @@
 
 @section('content')
 
-    @include('layouts.sidebar')
-
-    <div class="col-md-9 page">
+    @if(@isset($nosidebar))
+        <div class="col-md-12 page">
+    @else
+        @include('layouts.sidebar')
+        <div class="col-md-9 page">
+    @endif
 
         {{--
         <ins class="adsbygoogle"
@@ -58,17 +61,18 @@
 
         <br> <br> <br> <br> <br> <br> <br><br> <br><br> <br><br> <br><br> <br>
 
-        <div id="vk_comments"></div>
-        <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>
+        {{-- <div id="vk_comments"></div>
+ <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>--}}
 
-    </div>
 
-    @if(@isset($meta['seo']))
-        <div class="clearfix"></div>
-        <div class="fader">&nbsp;</div>
-        <div class="col-md-12 seo">{{$meta['seo']}}</div>
-    @endif
+</div>
 
-    <div class="clearfix"></div>
+@if(@isset($meta['seo']))
+ <div class="clearfix"></div>
+ <div class="fader">&nbsp;</div>
+ <div class="col-md-12 seo">{{$meta['seo']}}</div>
+@endif
+
+<div class="clearfix"></div>
 
 @endsection

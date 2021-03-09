@@ -47,7 +47,7 @@ class NpcController extends Controller
                     <h1 class="pageh1">NPC Lineage 2</h1>
 </div>
 <div class="col-md-6">
-    <input class="form-control dbfilter" placeholder="Фильтр по названию" autocomplete="off">
+    <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
 <div class="clearfix"></div><br>';
 

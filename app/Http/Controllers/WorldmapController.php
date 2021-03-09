@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Route;
-
 class WorldmapController extends Controller
 {
 
@@ -24,6 +21,7 @@ class WorldmapController extends Controller
             'current_date' => date('d.m.Y', time()),
             'dates' => $this->dates,
             'meta' => $this->meta,
+            'nosidebar' => true,
             'content' => $this->content()
         ]);
     }
@@ -34,13 +32,31 @@ class WorldmapController extends Controller
         $epics = json_decode(file_get_contents(__DIR__ . '/../data/_epics.json'), true);
 
         $content = '
-<div class="col-md-6">
-    <input class="form-control monsterlvl" placeholder="Уровень +/- 2" autocomplete="off" type="number" max="90">
+<script>
+    $(document).ready(function () {
+        if ($(window).width() >= 980) {
+            var calctab = $(\'.calctab\').offset().top;
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= calctab) {
+                    $(\'.calctab\').addClass(\'fixer\');
+                } else {
+                    $(\'.calctab\').removeClass(\'fixer\');
+                }
+            });
+        }
+    });
+</script>
+<div class="container calctab" style="margin-left: -16px">
+<div class="col-md-5 slidercont">
+    <div id="rbslider"></div>
+</div>
+<div class="col-md-1">
 </div>
 <div class="col-md-6">
-    <input class="form-control dbfilter" placeholder="Фильтр по названию" autocomplete="off">
+    <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
 <div class="clearfix"></div>
+</div>
 
 <div class="worldmap" id="worldmap">
 <div class="worldmapscene">
@@ -101,7 +117,7 @@ class WorldmapController extends Controller
 
                 }
 
-                $content .= '<br>подробнее: <a href="/npc/' . $raids[$i]['id'] . '" target="_blank">https://l2stars.com/npcs/' . $raids[$i]['id'] . ' </a> </div>
+                $content .= '<br><br>подробнее: <a href="/npc/' . $raids[$i]['id'] . '" target="_blank">' . $_SERVER["APP_URL"] . '/npcs/' . $raids[$i]['id'] . ' </a> </div>
 </div><div class="clearfix"></div>
 </div>
 </div>
@@ -135,7 +151,7 @@ class WorldmapController extends Controller
 
 
                 $content .= '
-<div class="raidname">' . $epics[$i]['runame'] . '</div>';
+<div class="raidname"><a href="/npc/' . $epics[$i]['id'] . '" target="_blank">' . $epics[$i]['runame'] . '</a></div>';
 
                 for ($j = 0; $j < count($epics[$i]['skills']); $j++) {
 
@@ -164,7 +180,7 @@ class WorldmapController extends Controller
 
                 }
 
-                $content .= '<br>подробнее: <a href="/npc/' . $epics[$i]['id'] . '" target="_blank">https://l2stars.com/npcs/' . $epics[$i]['id'] . ' </a> </div>
+                $content .= '<br><br>подробнее: <a href="/npc/' . $epics[$i]['id'] . '" target="_blank">' . $_SERVER["APP_URL"] . '/npcs/' . $epics[$i]['id'] . ' </a> </div>
 </div><div class="clearfix"></div>
 </div>
 </div>

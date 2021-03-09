@@ -3,14 +3,14 @@
     <nav>
 
         <div class="menuitem">
-            <span class="menuitema">Вещи <i class="glyphicon glyphicon-menu-down"></i></span>
+            <span class="menuitema">Предметы <i class="glyphicon glyphicon-menu-down"></i></span>
             <div class="menuiteminner">
                 <a href="/weapons" class="mainmenulink"><img src="/icons/weapon_long_sword_i00_0.bmp">Оружие</a>
                 <a href="/armor" class="mainmenulink"><img src="/icons/armor_t71_ul_i00_0.bmp">Броня</a>
                 <a href="/sets" class="mainmenulink"><img src="/icons/armor_t83_ul_i00_0.bmp">Сеты Брони</a>
                 <a href="/accessory" class="mainmenulink"><img src="/icons/accessary_inferno_necklace_i00_0.bmp">Бижутерия</a>
-                <a href="/recipes" class="mainmenulink"><img src="/icons/etc_recipe_blue_i00_0.bmp">Крафт</a>
-                <a href="/items" class="mainmenulink"><img src="/icons/etc_lump_gray_i00_0.bmp">Предметы</a>
+                <a href="/recipes" class="mainmenulink"><img src="/icons/etc_recipe_blue_i00_0.bmp">Рецепты</a>
+                <a href="/items" class="mainmenulink"><img src="/icons/etc_lump_gray_i00_0.bmp">Вещи</a>
             </div>
         </div>
 
@@ -67,8 +67,8 @@
         <div class="menua"><a href="/calculator">Калькулятор статов</a></div>
         <div class="menua"><a href="/sets">Сеты брони</a></div>
         <div class="menua"><a href="/commands">Список команд чата</a></div>
-        <div class="menua"><a href="/worldmap">Карта респауна РБ</a></div>
-        <div class="menua"><a href="/news">Новости Серверов</a></div>
+        <div class="menua"><a href="/worldmap" target="_blank">Карта респауна РБ</a></div>
+        <div class="menua"><a href="/news">Новости Серверов Ла2</a></div>
 
     </nav>
 
@@ -77,22 +77,22 @@
     </div>
 
     <div class="sb_vk">
-        <div id="vk_groups"></div>
-    </div>
+        {{-- <div id="vk_groups"></div>--}}
+</div>
 
-    <div class="sb_banner">
+<div class="sb_banner">
 
-        {{--
-        <div class="sb_adv">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-1634828634862162"
-                 data-ad-slot="3427487461"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-        --}}
+ {{--
+ <div class="sb_adv">
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-1634828634862162"
+          data-ad-slot="3427487461"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+ </div>
+ --}}
 
         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>

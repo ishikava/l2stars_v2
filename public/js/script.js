@@ -344,9 +344,9 @@ $(document).ready(function () {
 
         $('.monstercont, .raidcontainer').hide().each(function () {
 
-            var cnt = $(this).find('*[alt="'+search+'"]').length;
+            var cnt = $(this).find('*[alt="' + search + '"]').length;
 
-            if(cnt > 0){
+            if (cnt > 0) {
                 $(this).show();
             }
         });
@@ -362,12 +362,12 @@ $(document).ready(function () {
     let npcpointer = $('.npcposition').eq(0);
     let npcmapcont = $('.npcmapcont');
 
-    npcmap.css('top', (- npcpointer.attr('data-top') + 150) + "px" );
-    npcmap.css('left', (- npcpointer.attr('data-left') + npcmapcont.width()/2) + "px" );
+    npcmap.css('top', (-npcpointer.attr('data-top') + 450) + "px");
+    npcmap.css('left', (-npcpointer.attr('data-left') + npcmapcont.width() / 2) + "px");
 
     $('.npcposition').each(function () {
-        $(this).css('top', ( $(this).attr('data-top') - npcpointer.attr('data-top') + npcmapcont.height()/2) + "px" );
-        $(this).css('left', ( $(this).attr('data-left') - npcpointer.attr('data-left') + npcmapcont.width()/2) + "px" );
+        $(this).css('top', ($(this).attr('data-top') - npcpointer.attr('data-top') + npcmapcont.height() / 2) + "px");
+        $(this).css('left', ($(this).attr('data-left') - npcpointer.attr('data-left') + npcmapcont.width() / 2) + "px");
     });
 
     //worldmap
@@ -424,5 +424,29 @@ $(document).ready(function () {
         $('.raidcontainerinner').hide();
     });
 
+
+    //rbslider
+    $("#rbslider").slider({
+        min: 20,
+        max: 90,
+        range: true,
+        values: [20, 90],
+        create: function (event, ui) {
+            $('.ui-slider-handle').eq(0).html('20&nbsp;lvl');
+            $('.ui-slider-handle').eq(1).html('90&nbsp;lvl');
+        },
+        change: function (event, ui) {
+            $('.raidcontainer').hide().each(function () {
+                var lvl = parseInt($(this).attr('data-lvl'));
+                if (lvl >= ui.values[0] && lvl <= ui.values[1]) {
+                    $(this).show();
+                }
+            });
+        },
+        slide: function (event, ui) {
+            $('.ui-slider-handle').eq(0).html(ui.values[0] + '&nbsp;lvl');
+            $('.ui-slider-handle').eq(1).html(ui.values[1] + '&nbsp;lvl');
+        }
+    });
 
 });
