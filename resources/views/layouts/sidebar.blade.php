@@ -7,9 +7,10 @@
             <div class="menuiteminner">
                 <a href="/weapons" class="mainmenulink"><img src="/icons/weapon_long_sword_i00_0.bmp">Оружие</a>
                 <a href="/armor" class="mainmenulink"><img src="/icons/armor_t71_ul_i00_0.bmp">Броня</a>
-                <a href="/sets" class="mainmenulink"><img src="/icons/armor_t83_ul_i00_0.bmp">Сеты Брони</a>
                 <a href="/accessory" class="mainmenulink"><img src="/icons/accessary_inferno_necklace_i00_0.bmp">Бижутерия</a>
+                <a href="/sets" class="mainmenulink"><img src="/icons/armor_t83_ul_i00_0.bmp">Сеты Брони</a>
                 <a href="/recipes" class="mainmenulink"><img src="/icons/etc_recipe_blue_i00_0.bmp">Рецепты</a>
+                <a href="/resources" class="mainmenulink"><img src="/icons/etc_lump_gray_i00_0.bmp">Ресурсы</a>
                 <a href="/items" class="mainmenulink"><img src="/icons/etc_lump_gray_i00_0.bmp">Вещи</a>
             </div>
         </div>

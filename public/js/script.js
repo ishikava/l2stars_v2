@@ -320,6 +320,24 @@ $(document).ready(function () {
         });
     });
 
+    //setfilter
+    $('.setfilter').bind('input', function () {
+        $('.dbsets').show();
+        var text = $(this).val();
+        var pat = new RegExp(text, "i");
+        $('.setcont').hide().each(function () {
+            var txt = $(this).attr('data-name');
+            if (txt.search(pat) != -1) {
+                $(this).show();
+            }
+        });
+        $('.dbsets').each(function () {
+            if ($(this).find('.setcont:visible').length == 0) {
+                $(this).hide();
+            }
+        });
+    });
+
     //monsterlvl
     $('.monsterlvl').bind('input', function () {
 
@@ -437,6 +455,30 @@ $(document).ready(function () {
         },
         change: function (event, ui) {
             $('.raidcontainer').hide().each(function () {
+                var lvl = parseInt($(this).attr('data-lvl'));
+                if (lvl >= ui.values[0] && lvl <= ui.values[1]) {
+                    $(this).show();
+                }
+            });
+        },
+        slide: function (event, ui) {
+            $('.ui-slider-handle').eq(0).html(ui.values[0] + '&nbsp;lvl');
+            $('.ui-slider-handle').eq(1).html(ui.values[1] + '&nbsp;lvl');
+        }
+    });
+
+    //monsterslider
+    $("#monsterslider").slider({
+        min: 1,
+        max: 87,
+        range: true,
+        values: [1, 87],
+        create: function (event, ui) {
+            $('.ui-slider-handle').eq(0).html('1&nbsp;lvl');
+            $('.ui-slider-handle').eq(1).html('87&nbsp;lvl');
+        },
+        change: function (event, ui) {
+            $('.monstercont').hide().each(function () {
                 var lvl = parseInt($(this).attr('data-lvl'));
                 if (lvl >= ui.values[0] && lvl <= ui.values[1]) {
                     $(this).show();

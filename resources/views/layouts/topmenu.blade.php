@@ -6,7 +6,7 @@
     <form id="search_form" method="POST" action="/search" class="form-inline pull-right">
         @csrf
         <input class="form-control input-sm" type="text" name="text" placeholder="Поиск по базе знаний L2stars">
-        <button type="submit" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-search"></i> Поиск</button>
+        <button type="submit" class="btn btn-default btn-sm">Поиск</button>
     </form>
 </div>
 

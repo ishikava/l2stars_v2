@@ -20,6 +20,7 @@ Route::get('/weapons', 'App\Http\Controllers\WeaponsController@index');
 Route::get('/armor', 'App\Http\Controllers\ArmorController@index');
 Route::get('/accessory', 'App\Http\Controllers\AccessoryController@index');
 Route::get('/recipes', 'App\Http\Controllers\RecipesController@index');
+Route::get('/resources', 'App\Http\Controllers\ResourcesController@index');
 Route::get('/items', 'App\Http\Controllers\ItemsController@index');
 Route::get('/monsters', 'App\Http\Controllers\MonstersController@index');
 Route::get('/raids', 'App\Http\Controllers\RaidsController@index');

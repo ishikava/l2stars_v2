@@ -83,21 +83,29 @@ class RecipesController extends Controller
 </script>
 <div class="clearfix"></div>
 <br>
-<div id="tabs" class="col-md-12">
-<ul>
+<div class="col-md-12">
+<ul id="tabberTab" class="nav nav-tabs">
 ';
 
         for ($i = 0; $i < count($types); $i++) {
-            $content .= '<li><a href="#tabs-' . $i . '">' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '</a></li>';
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if($i === 0){
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $i . '">' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '</a></li>';
         }
 
-        $content .= '</ul>';
+        $content .= '</ul><div id="tabs" class="tab-content">';
 
         $tabcounter = 0;
 
         foreach ($sets as $grade => $list) {
 
-            $content .= '<div id="tabs-' . $tabcounter . '">';
+            $content .= '<div class="tabber';
+            if($tabcounter === 0){
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="'.mb_convert_case($types[$tabcounter], MB_CASE_TITLE, 'UTF-8').'">';
 
             for ($i = 0; $i < count($list); $i++) {
                 $content .= '<a href="/items/' . $list[$i]->rid . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . $list[$i]->level . ' Уровень"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</span></a>';
@@ -109,7 +117,7 @@ class RecipesController extends Controller
 
         }
 
-        $content .= '<br><br></div>';
+        $content .= '</div></div><br><br>';
 
         return $content;
 

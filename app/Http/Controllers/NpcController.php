@@ -79,10 +79,11 @@ class NpcController extends Controller
             $npc = DB::selectOne("SELECT * FROM `db`.`npc` JOIN `old_db`.`npcnames` ON `db`.`npc`.`id` = `old_db`.`npcnames`.`id` WHERE `old_db`.`npcnames`.`fullname` LIKE ? OR `old_db`.`npcnames`.`name` LIKE ?", [urldecode($requested_id), urldecode($requested_id)]);
         }
 
+        //skills
         $skills = DB::select("SELECT * FROM `db`.`monsterability` JOIN `db`.`skills` ON `db`.`monsterability`.`skill_id` = `db`.`skills`.`skill_id` AND `db`.`monsterability`.`lvl` = `db`.`skills`.`lvl` JOIN `old_db`.`skillnames` ON `db`.`monsterability`.`skill_id` = `old_db`.`skillnames`.`skil_id` AND `db`.`monsterability`.`lvl` = `old_db`.`skillnames`.`level` WHERE `db`.`monsterability`.`npc_id` =" . $npc->id . " ORDER BY `db`.`monsterability`.`id` ASC");
 
+        //positions
         $positions = DB::select("SELECT * FROM `db`.monster_location WHERE npc_id = " . $npc->id);
-
 
         //drops max > 1
         $drop = DB::select("SELECT * FROM `db`.`drops` JOIN `db`.`items` ON `db`.`drops`.`item_id` = `db`.`items`.`id` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `drops`.`npc_id` = " . $npc->id . " AND `max` > 1 ORDER BY `max` DESC, `percentage` DESC");
@@ -90,9 +91,17 @@ class NpcController extends Controller
         //drops max = 1
         $drop2 = DB::select("SELECT * FROM `db`.`drops` JOIN `db`.`items` ON `db`.`drops`.`item_id` = `db`.`items`.`id` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `drops`.`npc_id` = " . $npc->id . " AND `max` = 1 ORDER BY `max` DESC, `percentage` DESC");
 
+        //quest
+        $quest = [];
+        $res = DB::select("SELECT * FROM `pages` WHERE `content` LIKE ?", ['%' . $npc->name . '%']);
+        foreach ($res as $row) {
+            $quest[] = $row;
+        }
+        unset($row);
 
         $range = $npc->atkrange > 40 ? 'Range' : 'Melee';
-        $argo = $npc->agro > 0 ? '<span class="red">Aggressive</span>' : '<span class="blue">Passive</span>';
+
+        $argo = $npc->agro == 'Aggressive' ? '<span class="red">Aggressive</span>' : '<span class="blue">Passive</span>';
 
         $content = '
 <div class="col-md-12">
@@ -130,93 +139,169 @@ class NpcController extends Controller
         }
 
         $content .= '</div>
+<div class="col-md-12">
+<ul id="tabberTab" class="nav nav-tabs">';
 
-<div class="col-md-12"><br></div>
+        $tabcount = 0;
 
-<div class="col-md-12 npcmapcont">
-<img class="npcmap" src="/img/map.jpg">';
+        if (!empty($drop)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Дроп</a></li>';
+            $tabcount++;
+        }
 
+        $hassweep = 0;
+        foreach ($drop as $item) {
+            if($item->sweep !== 0){
+                $hassweep++;
+            }
+        }
+        unset($item);
+        foreach ($drop2 as $item) {
+            if($item->sweep !== 0){
+                $hassweep++;
+            }
+        }
+        unset($item);
+
+        if ($hassweep) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Спойл</a></li>';
+            $tabcount++;
+        }
+
+        //location
+        $content .= '<li class="nav-item"><a class="nav-link';
+        if ($tabcount === 0) {
+            $content .= ' active';
+        }
+        $content .= '" href="#tabs-' . $tabcount . '">Локация</a></li>';
+        $tabcount++;
+
+        if (!empty($quest)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Квест</a></li>';
+            $tabcount++;
+        }
+
+
+
+
+        $content .= '</ul><div id="tabs" class="tab-content">';
+
+        $tablecount = 0;
+
+        $sweep = 0;
+
+        if (!empty($drop) || !empty($drop2)) {
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Дроп">';
+            foreach ($drop as $item) {
+                if ($item->sweep == 0) {
+                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
+                    if (intval($item->max) > intval($item->min)) {
+                        $content .= '-' . $item->max;
+                    }
+                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
+                } else {
+                    $sweep++;
+                }
+            }
+            unset($item);
+
+            foreach ($drop2 as $item) {
+                if ($item->sweep == 0) {
+                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
+                    if (intval($item->max) > intval($item->min)) {
+                        $content .= '-' . $item->max;
+                    }
+                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
+                } else {
+                    $sweep++;
+                }
+            }
+            unset($item);
+
+            $content .= '</div>';
+            $tablecount++;
+        }
+
+        if ($sweep) {
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Спойл">';
+            foreach ($drop as $item) {
+                if ($item->sweep == 1) {
+                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
+                    if (intval($item->max) > intval($item->min)) {
+                        $content .= '-' . $item->max;
+                    }
+                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
+                }
+            }
+            unset($item);
+
+            foreach ($drop2 as $item) {
+                if ($item->sweep == 1) {
+                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
+                    if (intval($item->max) > intval($item->min)) {
+                        $content .= '-' . $item->max;
+                    }
+                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
+                }
+            }
+            unset($item);
+
+            $content .= '</div>';
+            $tablecount++;
+        }
+
+
+        //location
+        $content .= '<div class="npcmapcont tabber';
+        if ($tablecount === 0) {
+            $content .= ' activetab';
+        }
+        $content .= '" data-tab="Локация"><img class="npcmap" src="/img/map.jpg">';
         for ($i = 0; $i < count($positions); $i++) {
             $x = round((130000 + (int)$positions[$i]->X) / 200) - 15;
             $y = round((260000 + (int)$positions[$i]->Y) / 200) - 25;
             $content .= '<img  class="npcposition" src="/img/pointer.gif" data-top="' . $y . '" data-left="' . $x . '">';
         }
+        $content .= '</div>';
+        $tablecount++;
 
-        $content .= '</div>
 
-<div class="col-md-12"><br><br></div>
-
-<div class="col-md-6">';
-
-        $sweep = 0;
-
-        if (!empty($drop) || !empty($drop2)) {
-
-            $content .= '<div class="craftheader">Дроп</div><div class="craftcont">';
-
-            foreach ($drop as $item) {
-                if ($item->sweep == 0) {
-                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
-                    if (intval($item->max) > intval($item->min)) {
-                        $content .= '-' . $item->max;
-                    }
-                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
-                } else {
-                    $sweep++;
-                }
+        if (!empty($quest)) {
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
             }
-
-            foreach ($drop2 as $item) {
-                if ($item->sweep == 0) {
-                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
-                    if (intval($item->max) > intval($item->min)) {
-                        $content .= '-' . $item->max;
-                    }
-                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
-                } else {
-                    $sweep++;
-                }
+            $content .= '" data-tab="Квест">';
+            for ($i = 0; $i < count($quest); $i++) {
+                $content .= '<a class="droplistitem" href="/articles/' . $quest[$i]->url . '"><span>' . $quest[$i]->title . '</span></a>';
             }
-
             $content .= '</div>';
-
+            $tablecount++;
         }
-        $content .= '</div >
 
-<div class="col-md-6">';
+        $content .= '</div></div><div class="clearfix"></div>';
 
-        if ($sweep) {
-
-            $content .= '<div class="craftheader">Спойл</div><div class="craftcont">';
-
-            foreach ($drop as $item) {
-                if ($item->sweep == 1) {
-                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
-                    if (intval($item->max) > intval($item->min)) {
-                        $content .= '-' . $item->max;
-                    }
-                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
-                }
-            }
-
-            foreach ($drop2 as $item) {
-                if ($item->sweep == 1) {
-                    $content .= '<a class="droplistitem" href="/items/' . $item->id . '"><img src="/icons/' . $item->icon . '"><span> ' . round($item->percentage + 0.01, 3) . ' % [' . $item->min;
-                    if (intval($item->max) > intval($item->min)) {
-                        $content .= '-' . $item->max;
-                    }
-                    $content .= ' шт .]</span > ' . $item->ru_name . ' </a > ';
-                }
-            }
-
-            $content .= '</div>';
-
-        }
-        $content .= '</div >
-
-<div class="clearfix" ></div >
-<br ><br ><br >
-                        ';
         return $content;
+
     }
 }

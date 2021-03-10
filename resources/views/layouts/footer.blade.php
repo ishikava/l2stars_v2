@@ -49,8 +49,9 @@
     <div><img src="https://mc.yandex.ru/watch/61340521" style="position:absolute; left:-9999px;" alt=""/></div>
 </noscript>
 <!-- /Yandex.Metrika counter -->
-</div>
 --}}
+</div>
+
 <div class="clearfix"></div>
 </div>
 

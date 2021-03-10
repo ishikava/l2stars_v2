@@ -1,11 +1,13 @@
-<div class="col-md-4">
-    <input class="form-control monsterlvl" placeholder="Уровень +/- 2" autocomplete="off" type="number" max="90">
+<div class="col-md-6 slidercont">
+    <div id="monsterslider"></div>
 </div>
-<div class="col-md-4">
+<div class="col-md-6">
     <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
-<div class="col-md-4">
-    <select class="form-control dbskill" placeholder="Фильтр по названию" autocomplete="off">
+<div class="col-md-6">
+    <div class="inputlabel">Способности / Сопротивление / Уязвимости</div>
+    <select class="form-control dbskill input-sm" placeholder="Фильтр по названию" autocomplete="off">
+        <option></option>
         <option>Уязвимость к Ветру</option>
         <option>Уязвимость к луку/арбалету</option>
         <option>Уязвимость к Священной Атаке</option>
@@ -90,6 +92,19 @@
         <option>Продвинутое Сопротивление Отравлению</option>
         <option>Неизвестное Создание</option>
         <option>Валакас</option>
+    </select>
+</div>
+<div class="col-md-6">
+    <div class="inputlabel">Раса / Тип</div>
+    <select class="form-control dbskill input-sm" placeholder="Фильтр по названию" autocomplete="off">
+        <option></option>
+        <option>Ангелы</option>
+        <option>Гуманоиды</option>
+        <option>Люди</option>
+        <option>Магические Создания</option>
+        <option>Нежить</option>
+        <option>Растения</option>
+        <option>Эльфы</option>
     </select>
 </div>
 

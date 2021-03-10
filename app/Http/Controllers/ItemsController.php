@@ -81,7 +81,7 @@ class ItemsController extends Controller
         if (is_numeric($requested_id)) {
             $item = DB::selectOne("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `db`.`items`.`id` = " . $requested_id);
         } else {
-            $item = DB::selectOne("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `old_db`.`itemnames`.`name` LIKE ? ", [urldecode($requested_id)]);
+            $item = DB::selectOne("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `old_db`.`itemnames`.`name` LIKE ? ", [urldecode(str_replace('-', ' ', $requested_id))]);
             $requested_id = $item->id;
         }
 
@@ -129,6 +129,14 @@ class ItemsController extends Controller
         $res = DB::select("SELECT * FROM `db`.`drops` JOIN `db`.`npc` ON `db`.`drops`.`npc_id` = `db`.`npc`.`id` JOIN `old_db`.`npcnames` ON `db`.`npc`.`id` = `old_db`.`npcnames`.`id` WHERE `db`.`drops`.`sweep` = 1 AND `db`.`drops`.`item_id` = " . $requested_id . " ORDER BY `db`.`drops`.`percentage` DESC LIMIT 0,70");
         foreach ($res as $row) {
             $sweep[] = $row;
+        }
+        unset($row);
+
+        //quest
+        $quest = [];
+        $res = DB::select("SELECT * FROM `pages` WHERE `content` LIKE ?", ['%' . $item->name . '%']);
+        foreach ($res as $row) {
+            $quest[] = $row;
         }
         unset($row);
 
@@ -232,77 +240,150 @@ class ItemsController extends Controller
         }
 
         $content .= '</table></div>
-<div class="col-md-12">';
-        if (!empty($craft100items)) {
+<div class="col-md-12">
+<ul id="tabberTab" class="nav nav-tabs">';
 
-            $content .= '<div class="craftheader">Craft 100%</div><div class="craftcont">';
+        $tabcount = 0;
 
-            for ($i = 0; $i < count($craft100items); $i++) {
-
-                $content .= '<a href="/items/' . $craft100items[$i]->id . '"><img src="/icons/' . $craft100items[$i]->icon . '"> <span> x ' . $craft100items[$i]->quantity . '</span>&nbsp;&nbsp;' . $craft100items[$i]->ru_name . ' [ ' . $craft100items[$i]->name . ' ]</a>';
-
-            }
-
-            $content .= '</div>';
-
-        }
-        $content .= '</div>
-<div class="col-md-12">';
-        if (!empty($craft60items)) {
-
-            $content .= '<div class="craftheader">Craft 60%</div><div class="craftcont">';
-
-            for ($i = 0; $i < count($craft60items); $i++) {
-
-                $content .= '<a href="/items/' . $craft60items[$i]->id . '"><img src="/icons/' . $craft60items[$i]->icon . '"> <span> x ' . $craft60items[$i]->quantity . '</span>&nbsp;&nbsp;' . $craft60items[$i]->ru_name . ' [ ' . $craft60items[$i]->name . ' ]</a>';
-
-            }
-
-            $content .= '</div>';
-
-        }
-        $content .= '</div>
-<div class="clearfix"></div>
-<div class="col-md-12">';
         if (!empty($drop)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Дроп</a></li>';
+            $tabcount++;
+        }
 
-            $content .= '<div class="craftheader">Drop</div><div class="craftcont">';
+        if (!empty($sweep)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Спойл</a></li>';
+            $tabcount++;
+        }
 
+        if (!empty($craft100items)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Крафт 100%</a></li>';
+            $tabcount++;
+        }
+
+        if (!empty($craft60items)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Крафт 60%</a></li>';
+            $tabcount++;
+        }
+
+        if (!empty($quest)) {
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if ($tabcount === 0) {
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $tabcount . '">Квест</a></li>';
+            $tabcount++;
+        }
+
+        $content .= '</ul><div id="tabs" class="tab-content">';
+
+        $tablecount = 0;
+
+        if (!empty($drop)) {
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Дроп">';
             for ($i = 0; $i < count($drop); $i++) {
-
                 $content .= '<a class="droplistitem" href="/npc/' . $drop[$i]->npc_id . '"><span>' . round($drop[$i]->percentage + 0.01, 3) . ' % [' . $drop[$i]->min;
                 if (intval($drop[$i]->max) > intval($drop[$i]->min)) {
                     $content .= '-' . $drop[$i]->max;
                 }
                 $content .= ' шт.]</span>[ lvl: ' . $drop[$i]->lvl . ' ] ' . $drop[$i]->ru_name . ' [ ' . $drop[$i]->name . ' ]</a>';
-
             }
-
             $content .= '</div>';
-
+            $tablecount++;
         }
-        $content .= '</div>
-<div class="col-md-12">';
+
         if (!empty($sweep)) {
-
-            $content .= '<div class="craftheader">Spoil</div><div class="craftcont">';
-
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Спойл">';
             for ($i = 0; $i < count($sweep); $i++) {
-
-                $content .= '<a class="droplistitem" href="/npc/' . $sweep[$i]->npc_id . '"><span>' . round($sweep[$i]->percentage + 0.01, 3) . ' % ' . $sweep[$i]->min;
+                $content .= '<a class="droplistitem" href="/npc/' . $sweep[$i]->npc_id . '"><span>' . round($sweep[$i]->percentage + 0.01, 3) . ' % [' . $sweep[$i]->min;
                 if (intval($sweep[$i]->max) > intval($sweep[$i]->min)) {
                     $content .= '-' . $sweep[$i]->max;
                 }
                 $content .= ' шт.]</span>[ lvl: ' . $sweep[$i]->lvl . ' ] ' . $sweep[$i]->ru_name . ' [ ' . $sweep[$i]->name . ' ]</a>';
-
             }
-
             $content .= '</div>';
-
+            $tablecount++;
         }
-        $content .= '</div>
-<div class="clearfix"></div>
-';
+
+        if (!empty($craft100items)) {
+            $has100recipe = false;
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Крафт 100%">';
+            for ($i = 0; $i < count($craft100items); $i++) {
+                $content .= '<a href="/items/' . $craft100items[$i]->id . '"';
+                if ($has100recipe) {
+                    $content .= ' class="craftmargin"';
+                }
+                $content .= '><img src="/icons/' . $craft100items[$i]->icon . '"> <span> x ' . $craft100items[$i]->quantity . '</span>&nbsp;&nbsp;' . $craft100items[$i]->ru_name . ' [ ' . $craft100items[$i]->name . ' ]</a>';
+                if (strpos($craft100items[$i]->icon, 'recipe') !== false) {
+                    $has100recipe = true;
+                }
+            }
+            $content .= '</div>';
+            $tablecount++;
+        }
+
+        if (!empty($craft60items)) {
+            $has60recipe = false;
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Крафт 60%">';
+            for ($i = 0; $i < count($craft60items); $i++) {
+                $content .= '<a href="/items/' . $craft60items[$i]->id . '"';
+                if ($has60recipe) {
+                    $content .= ' class="craftmargin"';
+                }
+                $content .= '><img src="/icons/' . $craft60items[$i]->icon . '"> <span> x ' . $craft60items[$i]->quantity . '</span>&nbsp;&nbsp;' . $craft60items[$i]->ru_name . ' [ ' . $craft60items[$i]->name . ' ]</a>';
+                if (strpos($craft60items[$i]->icon, 'recipe') !== false) {
+                    $has60recipe = true;
+                }
+            }
+            $content .= '</div>';
+            $tablecount++;
+        }
+
+        if (!empty($quest)) {
+            $content .= '<div class="craftcont tabber';
+            if ($tablecount === 0) {
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="Квест">';
+            for ($i = 0; $i < count($quest); $i++) {
+                $content .= '<a class="droplistitem" href="/articles/' . $quest[$i]->url . '"><span>' . $quest[$i]->title . '</span></a>';
+            }
+            $content .= '</div>';
+            $tablecount++;
+        }
+
+        $content .= '</div></div><div class="clearfix"></div>';
 
         return $content;
 

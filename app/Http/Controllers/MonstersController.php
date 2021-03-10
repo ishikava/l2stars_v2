@@ -41,7 +41,7 @@ class MonstersController extends Controller
             if (count($icon) > 1) {
 
                 $content .= '<a href="/npc/' . $npc[$i]->id . '" class="monsterlink wikia ';
-                $content .= $npc[$i]->agro == 'Passive' ? 'blue' : 'red';
+                $content .= $npc[$i]->agro == 'Aggressive' ? 'red' : 'blue';
                 $content .= '"><img class="monstertypeimg" src="/icons/' . $icon[0] . '.bmp" alt="' . $icon[1] . '" title="' . $icon[1] . '"><span>[Lvl: ' . $npc[$i]->lvl . ']&nbsp;&nbsp;</span>' . $npc[$i]->ru_name . ' / ' . $npc[$i]->name . '<img class="monsterrange" src="/icons/';
                 $content .= $npc[$i]->atkrange > 40 ? 'skill0208_0.bmp' : 'skill0249_0.bmp';
                 $content .= '">';

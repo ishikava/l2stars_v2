@@ -189,7 +189,7 @@ class SetsController extends Controller
                     <h1 class="pageh1">Сеты Lineage 2</h1>
 </div>
 <div class="col-md-6">
-    <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
+    <input class="form-control setfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
 <script>
 $(document).ready(function () {
@@ -304,14 +304,14 @@ $(document).ready(function () {
 
             for ($i = 0; $i < count($set); $i++) {
 
-                $content .= '<div class="setcont">
+                $content .= '<div class="setcont" data-name="' . $set[$i]->name . '">
 
                   <div class="col-md-6">
                       <h3 class="setheaderh3"><span>' . $set[$i]->name . '</span></h3><div class="setheader"> ' . $set[$i]->bonus . '</div>';
 
                 for ($j = 0; $j < count($set[$i]->items); $j++) {
 
-                    $content .= '<a href="/items/' . $set[$i]->items[$j]->id . '" class="dbcont" data-name="' . $set[$i]->items[$j]->name . '" data-type="' . ucfirst($grade) . '-грейд"><img src="/icons/' . $set[$i]->items[$j]->icon . '"><div>' . $set[$i]->items[$j]->name . '</div><span>' . $set[$i]->items[$j]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_crystal_white_i00_0.bmp"> x ' . $set[$i]->items[$j]->ccount . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0150_0.bmp"> x ' . $set[$i]->items[$j]->weight . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0153_0.bmp"> x ' . $set[$i]->items[$j]->pdef . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_adena_i00_0.bmp"> x ' . $set[$i]->items[$j]->price . '</span></a>';
+                    $content .= '<a href="/items/' . $set[$i]->items[$j]->id . '" class="dbcont" data-type="' . ucfirst($grade) . '-грейд"><img src="/icons/' . $set[$i]->items[$j]->icon . '"><div>' . $set[$i]->items[$j]->name . '</div><span>' . $set[$i]->items[$j]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_crystal_white_i00_0.bmp"> x ' . $set[$i]->items[$j]->ccount . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0150_0.bmp"> x ' . $set[$i]->items[$j]->weight . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0153_0.bmp"> x ' . $set[$i]->items[$j]->pdef . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_adena_i00_0.bmp"> x ' . $set[$i]->items[$j]->price . '</span></a>';
                 }
 
                 $content .= '</div>

@@ -369,24 +369,35 @@ nav {
 
 #search_form{
     background-color: rgba(12, 12, 15, 0.75);
-    padding: 6px;
+    padding: 7px;
+    padding-bottom: 8px;
     margin-right: 6px;
 }
 
 #search_form input{
     min-width: 250px;
-    border-radius: 0;
     padding: 1px 3px;
     height: 21px;
     text-transform: uppercase;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 #search_form button{
-    border-radius: 0;
     padding: 1px 7px;
     height: 21px;
-    margin-left: -3px;
+    margin-left: -5px;
     text-transform: uppercase;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #search_form i{
@@ -454,7 +465,13 @@ nav {
 
 .slidercont{
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding-right: 54px;
+    padding-left: 24px;
+}
+
+.inputlabel{
+    font-size: 12px;
+    margin-bottom: -9px;
 }
 
 .ui-datepicker td {
@@ -463,6 +480,10 @@ nav {
 
 .ui-datepicker td span, .ui-datepicker td a {
     padding: 2px;
+}
+
+.ui-widget{
+    font-size: 1em;
 }
 
 .showinfocont {
@@ -1213,8 +1234,8 @@ table.statcalc tr td {
 }
 
 .nav-tabs > li > a:hover, .active {
-    border-color: rgba(255, 255, 255, 0.2);
-    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .nav-tabs {
@@ -1418,11 +1439,6 @@ table.statcalc tr td {
     border-bottom: none;
 }
 
-.craftcont {
-    border: solid 1px rgba(128, 183, 226, 0.2);
-    margin-bottom: 30px;
-}
-
 .craftcont a {
     display: block;
     padding: 10px;
@@ -1434,6 +1450,10 @@ table.statcalc tr td {
 
 .craftcont img {
     margin-right: 5px;
+}
+
+.craftmargin{
+    margin-left: 50px;
 }
 
 .droplistitem {
@@ -1480,7 +1500,6 @@ table.statcalc tr td {
 }
 
 .dbtab td {
-    width: 50%;
     border: solid 1px rgba(128, 183, 226, 0.2);
     padding: 7px;
     vertical-align: middle;
@@ -1537,6 +1556,7 @@ table.statcalc tr td {
 }
 
 .npcmapcont {
+    width: 100%;
     height: 900px;
     position: relative;
     overflow: hidden;
