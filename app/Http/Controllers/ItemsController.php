@@ -80,8 +80,14 @@ class ItemsController extends Controller
 
         if (is_numeric($requested_id)) {
             $item = DB::selectOne("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `db`.`items`.`id` = " . $requested_id);
+            if(!$item){
+                abort(404);
+            }
         } else {
             $item = DB::selectOne("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `old_db`.`itemnames`.`name` LIKE ? ", [urldecode(str_replace('-', ' ', $requested_id))]);
+            if(!$item){
+                abort(404);
+            }
             $requested_id = $item->id;
         }
 

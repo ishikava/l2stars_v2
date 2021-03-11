@@ -79,6 +79,10 @@ class NpcController extends Controller
             $npc = DB::selectOne("SELECT * FROM `db`.`npc` JOIN `old_db`.`npcnames` ON `db`.`npc`.`id` = `old_db`.`npcnames`.`id` WHERE `old_db`.`npcnames`.`fullname` LIKE ? OR `old_db`.`npcnames`.`name` LIKE ?", [urldecode($requested_id), urldecode($requested_id)]);
         }
 
+        if(!$npc){
+            abort(404);
+        }
+
         //skills
         $skills = DB::select("SELECT * FROM `db`.`monsterability` JOIN `db`.`skills` ON `db`.`monsterability`.`skill_id` = `db`.`skills`.`skill_id` AND `db`.`monsterability`.`lvl` = `db`.`skills`.`lvl` JOIN `old_db`.`skillnames` ON `db`.`monsterability`.`skill_id` = `old_db`.`skillnames`.`skil_id` AND `db`.`monsterability`.`lvl` = `old_db`.`skillnames`.`level` WHERE `db`.`monsterability`.`npc_id` =" . $npc->id . " ORDER BY `db`.`monsterability`.`id` ASC");
 

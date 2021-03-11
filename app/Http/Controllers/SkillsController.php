@@ -145,7 +145,15 @@ class SkillsController extends Controller
 
         $requested_id = Route::current()->parameter('id');
 
-        $cl = DB::selectOne("SELECT * FROM `db`.`classes` WHERE `id` = " . $requested_id);
+        if(!is_numeric($requested_id)){
+            abort(404);
+        }
+
+        $cl = DB::selectOne("SELECT * FROM `db`.`classes` WHERE `id` = ?", [$requested_id]);
+
+        if(!$cl){
+            abort(404);
+        }
 
         switch ($requested_id) {
             case 0:
@@ -180,8 +188,10 @@ class SkillsController extends Controller
                 foreach ($classes as $class) {
                     foreach ($class as $type) {
                         foreach ($type as $key => $value) {
+                            $this->meta['img'] = '/classes/' . str_replace('_', '', $cl->coded_name) . '.png';
                             if (isset($value[$cl->coded_name])) {
                                 $h1 = $value[$cl->coded_name][0];
+                                $this->meta['info'] = 'Скилы (активные и пассивные умения) получаемые классом '.$h1.' при достижении уровней';
                             }
                         }
                     }
@@ -196,28 +206,45 @@ class SkillsController extends Controller
 
         $res = DB::select("SELECT * FROM `db`.`gainskills` JOIN `db`.`skills` ON gainskills.skill_id = skills.skill_id AND gainskills.skill_level = skills.lvl WHERE `gainskills`.class_id = " . $requested_id . " AND `gainskills`.`level` BETWEEN $min AND $max ORDER BY `gainskills`.`level`, `gainskills`.`skill_id`, `gainskills`.`skill_level`");
         foreach ($res as $row) {
-            $skills[] = $row;
+            $skills[$row->level][] = $row;
         }
 
-        $content = '<div class="skillisttabwrapper"><table class="skillisttab">';
-
-        $ctr = 0;
-
-        for ($i = 0; $i < count($skills); $i++) {
-
-            if ($ctr != $skills[$i]->level) {
-                $ctr = $skills[$i]->level;
-                $content .= '<tr><td colspan="6" class="nopad"><div class="skillvl">Уровень : ' . $ctr . '</div></td></tr>
-            <tr><td></td><td>Название умения</td><td>Тип</td><td>Потребление MP</td><td>Потребление HP</td><td>SP для изучения</td></tr>';
+        $content = '<div class="skillisttab"><ul id="tabberTab" class="nav nav-tabs">';
+        $licount = count($skills);
+        $licounter = 0;
+        foreach ($skills as $key=>$value){
+            $content .= '<li class="nav-item"><a class="nav-link';
+            if($licount > 10){
+                $content .= ' smallertab';
             }
+            if($licounter === 0){
+                $content .= ' active';
+            }
+            $content .= '" href="#tabs-' . $licounter . '">' . $key . ' Lvl</a></li>';
+            $licounter++;
+        }
+        unset($key);
+        unset($value);
 
-            $active = $skills[$i]->active == 1 ? 'Активный' : 'Пассивный';
+        $content .= '</ul><div id="tabs" class="tab-content">';
 
-            $content .= '<tr><td><img src="/icons/' . $skills[$i]->icon . '.bmp"></td><td style="text-align: left;">' . $skills[$i]->runame . ' [Ур. ' . $skills[$i]->skill_level . ']<br><span class="skilltext">' . $skills[$i]->rudesc . '</span></td><td>' . $active . '</td><td>' . $skills[$i]->mpconsume . '</td><td>' . $skills[$i]->hpconsume . '</td><td>' . $skills[$i]->sp_cost . '</td></tr>';
+        $tabcounter = 0;
+        foreach ($skills as $key=>$value) {
+            $content .= '<div class="tabber';
+            if($tabcounter === 0){
+                $content .= ' activetab';
+            }
+            $content .= '" data-tab="' . $key . ' Lvl"><table class="skillisttab"><tr class="skillheader"><td></td><td>Название умения</td><td>Тип</td><td>Потребление MP</td><td>Потребление HP</td><td>SP для изучения</td></tr>';
+            foreach ($value as $k=>$val){
+                $active = $val->active == 1 ? 'Активный' : 'Пассивный';
+                $content .= '<tr><td><img src="/icons/' . $val->icon . '.bmp"></td><td style="text-align: left;">' . $val->runame . ' [Ур. ' . $val->skill_level . ']<br><span class="skilltext">' . $val->rudesc . '</span></td><td>' . $active . '</td><td>' . $val->mpconsume . '</td><td>' . $val->hpconsume . '</td><td>' . $val->sp_cost . '</td></tr>';
 
+            }
+            $content .= '</table></div>';
+            $tabcounter++;
         }
 
-        $content .= '</table></div>';
+        $content .= '</div></div><br><br>';
 
         return [$content, $h1];
 
