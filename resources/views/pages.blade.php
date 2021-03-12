@@ -30,7 +30,7 @@
                                 @if(@isset($meta['img']))
                                     <img class="infoimg" src="{{$meta['img']}}">
                                 @endif
-                                {{$meta['info']}}
+                                {!!$meta['info']!!}
                                 <div class="clearfix"></div>
                             </div>
                         @endif

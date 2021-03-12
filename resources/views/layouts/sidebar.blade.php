@@ -36,33 +36,7 @@
             </div>
         </div>
 
-        <div class="menuitem">
-            <a href="/sa" class="menuitema">Special Abilities (SA) <i class="glyphicon glyphicon-menu-down"></i></a>
-            <div class="menuiteminner">
-                <a href="/sa_monsters" class="mainmenulink"><img src="/icons/skill4293_0.bmp">Монстры для зарядки SA</a>
-                <hr class="sbhr">
-                <a href="/sa_blunts" class="mainmenulink"><img src="/img/crystalred.gif">Молоты (SA)</a>
-                <a href="/sa_bows" class="mainmenulink"><img src="/img/crystalred.gif">Луки (SA)</a>
-                <a href="/sa_daggers" class="mainmenulink"><img src="/img/crystalred.gif">Кинжалы (SA)</a>
-                <a href="/sa_duals" class="mainmenulink"><img src="/img/crystalred.gif">Дуалы (SA)</a>
-                <a href="/sa_fists" class="mainmenulink"><img src="/img/crystalred.gif">Кастеты (SA)</a>
-                <a href="/sa_pole" class="mainmenulink"><img src="/img/crystalred.gif">Копья (SA)</a>
-                <a href="/sa_stafs" class="mainmenulink"><img src="/img/crystalred.gif">Посохи (SA)</a>
-                <a href="/sa_swords" class="mainmenulink"><img src="/img/crystalred.gif">Мечи (SA)</a>
-            </div>
-        </div>
-
-        <div class="menuitem">
-            <span class="menuitema">Спецмагазины <i class="glyphicon glyphicon-menu-down"></i></span>
-            <div class="menuiteminner">
-                <a href="/mamon_trader" class="mainmenulink"><img src="/img/scroll_of_enchant_weapon_b.jpg">Мамон Торговец</a>
-                <a href="/mamon_smith" class="mainmenulink"><img src="/img/ancient-adena.png">Мамон Кузнец</a>
-                <a href="/priest" class="mainmenulink"><img src="/img/lesser_potion_purple.jpg">Dusk / Dawn Priest</a>
-                <a href="/luxor" class="mainmenulink"><img src="/icons/accessary_necklace_of_mermaid_i00_0.bmp">Luxor</a>
-                <a href="/manor" class="mainmenulink"><img src="/icons/etc_great_coba_i00_0.bmp">Манор</a>
-            </div>
-        </div>
-
+        <div class="menua"><a href="/sa">Special Abilities (SA)</a></div>
         <div class="menua"><a href="/skills">Скилы / Умения</a></div>
         <div class="menua"><a href="/fashion">Примерочная</a></div>
         <div class="menua"><a href="/calculator">Калькулятор статов</a></div>
@@ -70,6 +44,10 @@
         <div class="menua"><a href="/commands">Список команд чата</a></div>
         <div class="menua"><a href="/worldmap" target="_blank">Карта респауна РБ</a></div>
         <div class="menua"><a href="/news">Новости Серверов Ла2</a></div>
+
+        <div class="menua"><a href="/manor">Манор</a></div>
+        <div class="menua"><a href="/specialshops">Специальные магазины</a></div>
+        <div class="menua"><a href="/catacombs">Катакомбы / Некрополи</a></div>
 
     </nav>
 

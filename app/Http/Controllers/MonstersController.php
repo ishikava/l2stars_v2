@@ -30,7 +30,11 @@ class MonstersController extends Controller
     {
         $npc = DB::select("SELECT * FROM `db`.`monsters` JOIN `old_db`.`npcnames` ON `db`.`monsters`.`id` = `old_db`.`npcnames`.`id` ORDER BY `lvl`");
 
-        $content = file_get_contents(__DIR__ . '/../static/monsters.html');
+        $content = '<div class="col-md-6 slidercont">
+    <div id="monsterslider"></div>
+</div>';
+
+        $content .= file_get_contents(__DIR__ . '/../static/monsters.html');
 
         for ($i = 0; $i < count($npc); $i++) {
 

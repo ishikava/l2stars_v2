@@ -30,7 +30,11 @@ class RaidsController extends Controller
     {
         $npc = DB::select("SELECT * FROM `db`.`raids` JOIN `old_db`.`npcnames` ON `db`.`raids`.`id` = `old_db`.`npcnames`.`id` ORDER BY `lvl`");
 
-        $content = file_get_contents(__DIR__ . '/../static/monsters.html');
+        $content = '<div class="col-md-6 slidercont">
+    <div id="rbslider"></div>
+</div>';
+
+        $content .= file_get_contents(__DIR__ . '/../static/monsters.html');
 
         for ($i = 0; $i < count($npc); $i++) {
 
@@ -50,6 +54,8 @@ class RaidsController extends Controller
 
             $content .= '<a href="/npc/' . $npc[$i]->id . '" class="monsterlink wikia"><img class="monstertypeimg" src="/icons/' . $icon[0] . '.bmp" alt="' . $icon[1] . '" title="' . $icon[1] . '"><span>[Lvl: ' . $npc[$i]->lvl . ']&nbsp;&nbsp;</span>' . $npc[$i]->ru_name . ' / ' . $npc[$i]->name . '</a>';
 
+            $content .= '<div class="monsterparams">HP: ' . $npc[$i]->hp . '&nbsp;&nbsp;&nbsp;P.atk: ' . $npc[$i]->patk . ' / M.atk: ' . $npc[$i]->matk . '&nbsp;&nbsp;&nbsp;<span>Exp: ' . $npc[$i]->exp . ' / Sp: ' . $npc[$i]->sp . '</span></div>';
+
             $content .= '<div class="raiddrops">';
             for ($j = 0; $j < count($drops); $j++) {
                 $drop = explode(':', $drops[$j]);
@@ -58,8 +64,6 @@ class RaidsController extends Controller
                 }
             }
             $content .= '</div>';
-
-            $content .= '<div class="clearfix"></div><div class="monsterparams">HP: ' . $npc[$i]->hp . '&nbsp;&nbsp;&nbsp;P.atk: ' . $npc[$i]->patk . ' / M.atk: ' . $npc[$i]->matk . '&nbsp;&nbsp;&nbsp;<span>Exp: ' . $npc[$i]->exp . ' / Sp: ' . $npc[$i]->sp . '</span></div>';
 
 
             $content .= '</td><td class="monsterabicont hidden-xs hidden-sm">';

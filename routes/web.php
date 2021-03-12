@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\IndexController@index');
-
 Route::get('/quests', 'App\Http\Controllers\QuestController@index');
 Route::get('/quest_1_prof', 'App\Http\Controllers\Quest1ProfController@index');
 Route::get('/quest_2_prof', 'App\Http\Controllers\Quest2ProfController@index');
@@ -27,29 +26,17 @@ Route::get('/raids', 'App\Http\Controllers\RaidsController@index');
 Route::get('/npc', 'App\Http\Controllers\NpcController@index');
 Route::get('/sets', 'App\Http\Controllers\SetsController@index');
 Route::get('/worldmap', 'App\Http\Controllers\WorldmapController@index');
+Route::get('/catacombs', 'App\Http\Controllers\CatacombsController@index');
+Route::get('/specialshops', 'App\Http\Controllers\SpecialshopsController@index');
+Route::get('/sa', 'App\Http\Controllers\SaController@index');
+Route::get('/commands', 'App\Http\Controllers\CommandsController@index');
+Route::get('/manor', 'App\Http\Controllers\ManorController@index');
 
 Route::get('/skills/{id}', 'App\Http\Controllers\SkillsController@index');
 Route::get('/items/{id}', 'App\Http\Controllers\ItemsController@items');
 Route::get('/npc/{id}', 'App\Http\Controllers\NpcController@npcs');
 Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@index');
 Route::get('/map/{id}', 'App\Http\Controllers\MapController@index');
-
-Route::get('/sa', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_blunts', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_bows', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_daggers', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_duals', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_fists', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_monsters', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_pole', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_stafs', 'App\Http\Controllers\SaController@index');
-Route::get('/sa_swords', 'App\Http\Controllers\SaController@index');
-Route::get('/mamon_trader', 'App\Http\Controllers\SaController@index');
-Route::get('/mamon_smith', 'App\Http\Controllers\SaController@index');
-Route::get('/luxor', 'App\Http\Controllers\SaController@index');
-Route::get('/manor', 'App\Http\Controllers\SaController@index');
-Route::get('/priest', 'App\Http\Controllers\SaController@index');
-Route::get('/commands', 'App\Http\Controllers\SaController@index');
 
 Route::get('cat/lineage-2', function () {return redirect('pets');});
 Route::get('cat/quest_epic_boss', function () {return redirect('epics');});

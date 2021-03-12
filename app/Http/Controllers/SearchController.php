@@ -38,7 +38,7 @@ class SearchController extends Controller
 ';
 
         if (mb_strlen($requested_text) < 3) {
-            return '<div class="text-center">Запрос не может быть короче 3 букв.</div>';
+            return '<div class="text-center">Запрос не может быть короче 3 символов</div>';
         }
 
         $res_count = 0;
@@ -86,7 +86,7 @@ class SearchController extends Controller
         if ($res_count) {
             return $content;
         } else {
-            return '<div class="text-center">По вашему запросу ничего не найдено.</div>';
+            return '<div class="text-center">По вашему запросу ничего не найдено</div>';
         }
 
     }

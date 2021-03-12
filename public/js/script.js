@@ -454,7 +454,7 @@ $(document).ready(function () {
             $('.ui-slider-handle').eq(1).html('90&nbsp;lvl');
         },
         change: function (event, ui) {
-            $('.raidcontainer').hide().each(function () {
+            $('.monstercont').hide().each(function () {
                 var lvl = parseInt($(this).attr('data-lvl'));
                 if (lvl >= ui.values[0] && lvl <= ui.values[1]) {
                     $(this).show();
@@ -490,5 +490,10 @@ $(document).ready(function () {
             $('.ui-slider-handle').eq(1).html(ui.values[1] + '&nbsp;lvl');
         }
     });
+
+    //catacombslink
+    $('.catacombslink').bind('click', function () {
+        $('.catacombsrow').hide().eq($('.catacombslink').index(this)).show(500);
+    })
 
 });
