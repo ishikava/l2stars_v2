@@ -6,7 +6,8 @@
     <meta name="description" content="{{$meta['description']}}">
     <meta property="og:image" content="/img/cropped-logo-192x192.png">
     <title>{{$meta['title']}}</title>
-    <link rel="canonical" href="https://l2stars.com@php echo $_SERVER['REQUEST_URI']; @endphp">
+    <link rel="canonical" @if(@isset($meta['canonical'])) href="https://l2stars.com{{$meta['canonical']}}"> @else @php echo 'href="https://l2stars.com'.$_SERVER['REQUEST_URI'].'">'; @endphp @endif
+
     <link rel="icon" type="image/gif" href="/favicon.gif">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">

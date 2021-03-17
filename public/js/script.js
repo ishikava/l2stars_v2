@@ -301,16 +301,48 @@ $(document).ready(function () {
         });
     });
 
+    //gradefilter
+    $('.gradefilter').bind('change', function () {
+        $('.dbsets').show();
+        var text = $(this).val();
+        var pat = new RegExp(text, "i");
+        $('.dbcont, .monstercont, .raidcontainer').hide().each(function () {
+            var txt = $(this).attr('data-grade');
+            if (txt.search(pat) != -1) {
+                if (currentdbfilterbtn != 'Выберите грейд') {
+                    if ($(this).attr('data-type') == currentdbfilterbtn) {
+                        $(this).show();
+                    }
+                } else {
+                    $(this).show();
+                }
+            }
+        });
+        $('.dbsets').each(function () {
+            if ($(this).find('.dbcont:visible').length == 0) {
+                $(this).hide();
+            }
+        });
+    });
+
     //dbfilterbtn
+    var currentdbfilterbtn = 'Выберите грейд';
     $('.dbfilterbtn').bind('click', function () {
         $('.dbsets').show();
         $('.dbfilterbtn').removeClass('btn-primary');
         $(this).addClass('btn-primary');
         var pat = new RegExp("^" + $(this).attr('data-type') + "$", "i");
+        currentdbfilterbtn = $(this).attr('data-type');
         $('.dbcont').hide().each(function () {
             var txt = $(this).attr('data-type');
             if (txt.search(pat) != -1) {
-                $(this).show();
+                if ($('.gradefilter').val() != 'Выберите грейд') {
+                    if ($(this).attr('data-grade') == $('.gradefilter').val()) {
+                        $(this).show();
+                    }
+                } else {
+                    $(this).show();
+                }
             }
         });
         $('.dbsets').each(function () {

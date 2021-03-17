@@ -35,12 +35,13 @@ Route::get('/clanskills', 'App\Http\Controllers\ClanskillsController@index');
 Route::get('/enchantskills', 'App\Http\Controllers\EnchantskillsController@index');
 Route::get('/fishing', 'App\Http\Controllers\FishingController@index');
 Route::get('/tattoo', 'App\Http\Controllers\TattooController@index');
+Route::get('/map', 'App\Http\Controllers\MapController@index');
 
 Route::get('/skills/{id}', 'App\Http\Controllers\SkillsController@index');
 Route::get('/items/{id}', 'App\Http\Controllers\ItemsController@items');
 Route::get('/npc/{id}', 'App\Http\Controllers\NpcController@npcs');
 Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@index');
-Route::get('/map/{id}', 'App\Http\Controllers\MapController@index');
+Route::get('/map/{id}', 'App\Http\Controllers\MapController@location');
 
 Route::get('cat/lineage-2', function () {return redirect('pets');});
 Route::get('cat/quest_epic_boss', function () {return redirect('epics');});

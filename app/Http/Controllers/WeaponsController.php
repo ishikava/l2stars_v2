@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\Helper;
 use Illuminate\Support\Facades\DB;
 
 class WeaponsController extends Controller
@@ -63,10 +64,20 @@ class WeaponsController extends Controller
         }
 
         $content = '
-<div class="col-md-6">
+<div class="col-md-4">
                     <h1 class="pageh1">Оружие Lineage 2</h1>
 </div>
-<div class="col-md-6">
+<div class="col-md-4">
+    <select class="form-control input-sm gradefilter" autocomplete="off">
+        <option>Выберите грейд</option>';
+
+        foreach ($sets as $grade => $list) {
+            $content .= '<option>' . ucfirst($grade) . '-грейд</option>';
+        }
+
+        $content .= '</select>
+</div>
+<div class="col-md-4">
     <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
 <div class="col-md-12"><hr class="dbhr"></div>
@@ -83,7 +94,7 @@ class WeaponsController extends Controller
             $content .= '<div class="dbsets"><h2 class="dbsetsheader">' . ucfirst($grade) . '-грейд</h2>';
 
             for ($i = 0; $i < count($list); $i++) {
-                $content .= '<a href="/items/' . $list[$i]->id . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . $list[$i]->rutype . '"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_crystal_white_i00_0.bmp"> x ' . $list[$i]->ccount . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_spirit_bullet_white_i00_0.bmp"> x ' . $list[$i]->shots . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0249_0.bmp"> ' . $list[$i]->patk . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0146_0.bmp"> ' . $list[$i]->matk . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</span></a>';
+                $content .= '<a href="/items/' . $list[$i]->id . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . Helper::mb_ucfirst($list[$i]->rutype ) . '" data-grade="' . ucfirst($grade) . '-грейд"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_crystal_white_i00_0.bmp"> x ' . $list[$i]->ccount . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_spirit_bullet_white_i00_0.bmp"> x ' . $list[$i]->shots . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0249_0.bmp"> ' . $list[$i]->patk . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill0146_0.bmp"> ' . $list[$i]->matk . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</span></a>';
             }
 
             $content .= '</div>';

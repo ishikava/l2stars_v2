@@ -54,6 +54,7 @@
                 <a href="/commands" class="mainmenulink"><img src="/icons/etc_piece_of_paper_white_i00_0.bmp">Список команд чата</a>
                 <a href="/worldmap" class="mainmenulink"><img src="/icons/skill4299_0.bmp">Карта респауна РБ</a>
                 <a href="/tattoo" class="mainmenulink"><img src="/icons/etc_con_hena_i02_0.bmp">Татуировки</a>
+                <a href="/map" class="mainmenulink"><img src="/icons/skill4416_castleguard_0.bmp">Территории</a>
                 <a href="/manor" class="mainmenulink"><img src="/icons/etc_great_coba_i00_0.bmp">Манор</a>
             </div>
         </div>

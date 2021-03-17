@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\Helper;
 use Illuminate\Support\Facades\DB;
 
 class AccessoryController extends Controller
@@ -63,10 +64,20 @@ class AccessoryController extends Controller
         }
 
         $content = '
-<div class="col-md-6">
+<div class="col-md-4">
                     <h1 class="pageh1">Бижутерия Lineage 2</h1>
 </div>
-<div class="col-md-6">
+<div class="col-md-4">
+    <select class="form-control input-sm gradefilter" autocomplete="off">
+        <option>Выберите грейд</option>';
+
+        foreach ($sets as $grade => $list) {
+            $content .= '<option>' . ucfirst($grade) . '-грейд</option>';
+        }
+
+        $content .= '</select>
+</div>
+<div class="col-md-4">
     <input class="form-control dbfilter input-sm" placeholder="Фильтр по названию" autocomplete="off">
 </div>
 <div class="col-md-12"><hr class="dbhr"></div>
@@ -83,7 +94,7 @@ class AccessoryController extends Controller
             $content .= '<div class="dbsets"><h2 class="dbsetsheader">' . ucfirst($grade) . '-грейд</h2>';
 
             for ($i = 0; $i < count($list); $i++) {
-                $content .= '<a href="/items/' . $list[$i]->id . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . $list[$i]->rutype . '"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_crystal_white_i00_0.bmp"> x ' . $list[$i]->ccount . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill1035_0.bmp"> x ' . $list[$i]->mdef . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</a>';
+                $content .= '<a href="/items/' . $list[$i]->id . '" class="dbcont" data-name="' . $list[$i]->ru_name . ' ' . $list[$i]->name . '" data-type="' . Helper::mb_ucfirst($list[$i]->rutype ) . '" data-grade="' . ucfirst($grade) . '-грейд"><img src="/icons/' . $list[$i]->icon . '"><div>' . $list[$i]->ru_name . ' [ ' . $list[$i]->name . ' ]</div><span class="dbwhite">' . $list[$i]->rudesc . '</span><span class="dbinfo"><img src="/icons/etc_crystal_white_i00_0.bmp"> x ' . $list[$i]->ccount . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/skill1035_0.bmp"> x ' . $list[$i]->mdef . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/etc_adena_i00_0.bmp"> x ' . $list[$i]->price . '</a>';
             }
             $content .= '</div>';
 
