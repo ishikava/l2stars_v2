@@ -7,10 +7,11 @@ use Illuminate\Support\Facades\DB;
 class CatacombsController extends Controller
 {
     protected $meta = [
-        'title' => 'Катакомбы Lineage 2 ⭐⭐⭐ l2stars.com',
-        'keywords' => 'Катакомбы Lineage 2',
-        'description' => 'Катакомбы Lineage 2',
-        'seo' => 'Катакомбы Lineage 2'
+        'title' => 'Катакомбы и Некрополи Lineage 2 ⭐⭐⭐ l2stars.com',
+        'keywords' => 'Катакомбы и Некрополи Lineage 2',
+        'description' => 'Катакомбы и Некрополи Lineage 2',
+        'h1' => 'Катакомбы и Некрополи Lineage 2',
+        'seo' => 'Катакомбы и Некрополи Lineage 2'
     ];
 
     public function index()

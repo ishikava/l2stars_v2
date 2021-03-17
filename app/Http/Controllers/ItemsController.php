@@ -32,11 +32,14 @@ class ItemsController extends Controller
         $types = [];
         $res = DB::select("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `subtype` != ''");
         foreach ($res as $item) {
-            if (!in_array($item->subtype, $types)) {
-                $types[] = $item->subtype;
+            if($item->subtype != 'Ресурсы' && $item->subtype != 'Рыбалка' && $item->subtype != 'Краска') {
+                if (!in_array($item->subtype, $types)) {
+                    $types[] = $item->subtype;
+                }
+                $items[] = $item;
             }
-            $items[] = $item;
         }
+
 
         $content = '
 <div class="col-md-6">
@@ -48,7 +51,7 @@ class ItemsController extends Controller
 <div class="col-md-12"><hr></div>
 ';
 
-        for ($i = 0; $i < count($types) - 1; $i++) {
+        for ($i = 0; $i < count($types); $i++) {
             $content .= '<div class="btn btn-default dbfilterbtn" data-type="' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '">' . mb_convert_case($types[$i], MB_CASE_TITLE, 'UTF-8') . '</div>';
         }
 

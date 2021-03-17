@@ -31,6 +31,10 @@ Route::get('/specialshops', 'App\Http\Controllers\SpecialshopsController@index')
 Route::get('/sa', 'App\Http\Controllers\SaController@index');
 Route::get('/commands', 'App\Http\Controllers\CommandsController@index');
 Route::get('/manor', 'App\Http\Controllers\ManorController@index');
+Route::get('/clanskills', 'App\Http\Controllers\ClanskillsController@index');
+Route::get('/enchantskills', 'App\Http\Controllers\EnchantskillsController@index');
+Route::get('/fishing', 'App\Http\Controllers\FishingController@index');
+Route::get('/tattoo', 'App\Http\Controllers\TattooController@index');
 
 Route::get('/skills/{id}', 'App\Http\Controllers\SkillsController@index');
 Route::get('/items/{id}', 'App\Http\Controllers\ItemsController@items');

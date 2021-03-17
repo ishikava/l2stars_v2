@@ -1198,6 +1198,10 @@ table.statcalc tr td {
     padding: 5px;
 }
 
+.tabtext{
+    padding: 10px;
+}
+
 .classgrp {
     margin-bottom: 30px;
 }
@@ -1440,6 +1444,11 @@ table.statcalc tr td {
     color: #ccc;
 }
 
+.tabh2{
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+}
 
 .iteminfo {
     padding: 15px;
@@ -1897,9 +1906,9 @@ table.statcalc tr td {
 }
 
 .artlink{
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: underline;
-    color: #ffb400;
+    color: #ffb935;
 }
 .artlink:hover, .artlink:focus {
     color: #ffb400;

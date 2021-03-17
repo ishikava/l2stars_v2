@@ -70,7 +70,7 @@ class WorldmapController extends Controller
                 $y = round((260000 + (int)$raids[$i]['Y']) / 200) - 10;
 
                 $content .= '
-<div class="raidcontainer"  data-name="' . $raids[$i]['runame'] . '" data-lvl="' . $raids[$i]['lvl'] . '" style="top:' . $y . 'px;left:' . $x . 'px;">';
+<div class="raidcontainer monstercont"  data-name="' . $raids[$i]['runame'] . '" data-lvl="' . $raids[$i]['lvl'] . '" style="top:' . $y . 'px;left:' . $x . 'px;">';
 
                 if (isset($killed[$raids[$i]['id']])) {
                     $content .= '<img class="killed" src="/img/killed.png">';
@@ -133,7 +133,7 @@ class WorldmapController extends Controller
                 $y = round((260000 + (int)$epics[$i]['Y']) / 200) - 10;
 
                 $content .= '
-<div class="raidcontainer"  data-name="' . $epics[$i]['runame'] . '" data-lvl="' . $epics[$i]['lvl'] . '" style="top:' . $y . 'px;left:' . $x . 'px;">';
+<div class="raidcontainer monstercont"  data-name="' . $epics[$i]['runame'] . '" data-lvl="' . $epics[$i]['lvl'] . '" style="top:' . $y . 'px;left:' . $x . 'px;">';
 
                 if (isset($killed[$epics[$i]['id']])) {
                     $content .= '<img class="killed" src="/img/killed.png">';
