@@ -56,9 +56,9 @@
 </div>
 
 <div class="col-md-4">
-<a href="/" class="footerlink">Добавить сервер в анонс</a>
-<a data-href="/" class="footerlink">Политика конфиденциальности</a>
-<a data-href="/" class="footerlink">Пользовательское соглашение и возврат средств</a>
+<a href="/advert" class="footerlink">Реклама</a>
+<a data-href="/policy" class="footerlink">Политика конфиденциальности</a>
+<a data-href="/agreement" class="footerlink">Пользовательское соглашение и возврат средств</a>
 </div>
 <div class="col-md-4">
 <p class="footertext">По всем возникшим вопросам, пожалуйста обращайтесь в техподдержку по почте: <a class="linkpointer" data-href="mailto:support@l2stars.com">support@l2stars.com</a> или

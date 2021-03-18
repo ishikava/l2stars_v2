@@ -43,14 +43,6 @@ class SearchController extends Controller
 
         $res_count = 0;
 
-        $content .= '<br><hr><div class="searchheader"><span>Предметы</span></div><br>';
-
-        $res_items = DB::select("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `name` LIKE ? OR `runame` LIKE ?", ["%$requested_text%", "%$requested_text%"]);
-        foreach ($res_items as $item) {
-            $content .= '<a href="/items/' . $item->id . '" class="dbcont" data-name="' . $item->ru_name . ' ' . $item->name . '" data-type="' . $item->subtype . '"><img class="itemicon" src="/icons/' . $item->icon . '"><div>' . $item->ru_name . ' [ ' . $item->name . ' ]</div><span class="dbwhite">' . $item->rudesc . '</span><span><img class="itemparam" src="/icons/etc_adena_i00_0.bmp"> x ' . $item->price . '</span></a>';
-            $res_count++;
-        }
-
         $content .= '<br><hr><div class="searchheader"><span>Рейд-Боссы</span></div><br>';
 
         $res_raids = DB::select("SELECT * FROM `db`.`raids` JOIN `old_db`.`npcnames` ON `db`.`raids`.`id` = `old_db`.`npcnames`.`id` WHERE `name` LIKE ? OR `ru_name` LIKE ? ORDER BY `lvl`", ["%$requested_text%", "%$requested_text%"]);
@@ -80,6 +72,14 @@ class SearchController extends Controller
                 $content .= ' <span> [ ' . $npc->titles . ' ] </span> ';
             }
             $content .= '<div class="clearfix"></div></a>';
+            $res_count++;
+        }
+
+        $content .= '<br><hr><div class="searchheader"><span>Предметы</span></div><br>';
+
+        $res_items = DB::select("SELECT * FROM `db`.`items` JOIN `old_db`.`itemnames` ON `db`.`items`.`id` = `old_db`.`itemnames`.`id` WHERE `name` LIKE ? OR `runame` LIKE ?", ["%$requested_text%", "%$requested_text%"]);
+        foreach ($res_items as $item) {
+            $content .= '<a href="/items/' . $item->id . '" class="dbcont" data-name="' . $item->ru_name . ' ' . $item->name . '" data-type="' . $item->subtype . '"><img class="itemicon" src="/icons/' . $item->icon . '"><div>' . $item->ru_name . ' [ ' . $item->name . ' ]</div><span class="dbwhite">' . $item->rudesc . '</span><span><img class="itemparam" src="/icons/etc_adena_i00_0.bmp"> x ' . $item->price . '</span></a>';
             $res_count++;
         }
 

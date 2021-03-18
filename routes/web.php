@@ -36,6 +36,10 @@ Route::get('/enchantskills', 'App\Http\Controllers\EnchantskillsController@index
 Route::get('/fishing', 'App\Http\Controllers\FishingController@index');
 Route::get('/tattoo', 'App\Http\Controllers\TattooController@index');
 Route::get('/map', 'App\Http\Controllers\MapController@index');
+Route::get('/policy', 'App\Http\Controllers\MiscController@policy');
+Route::get('/agreement', 'App\Http\Controllers\MiscController@agreement');
+Route::get('/en', 'App\Http\Controllers\IndexController@index');
+Route::get('/advert', 'App\Http\Controllers\AdvertController@index');
 
 Route::get('/skills/{id}', 'App\Http\Controllers\SkillsController@index');
 Route::get('/items/{id}', 'App\Http\Controllers\ItemsController@items');
@@ -50,6 +54,7 @@ Route::get('cat/quest_1', function () {return redirect('quest_1_prof');});
 Route::get('cat/quest_2', function () {return redirect('quest_2_prof');});
 Route::get('cat/quest_3', function () {return redirect('quest_3_prof');});
 Route::get('articles', function () {return redirect('quests');});
+Route::get('add_server', function () {return redirect('advert');});
 Route::get('l2top', function () {return redirect('');});
 Route::get('files', function () {return redirect('');});
 Route::get('adv', function () {return redirect('');});

@@ -219,6 +219,14 @@ nav {
     margin-right: 10px;
 }
 
+.mainmenulink2{
+    display: block;
+}
+
+.mainmenulink2 img{
+    margin: 7px;
+}
+
 .cat {
     width: 100%;
     padding: 5px;
@@ -539,6 +547,21 @@ hr {
     border-top: solid 1px rgba(128, 183, 226, 0.15);
 }
 
+.indeximg{
+    float: right;
+    padding: 20px;
+    max-width: 40%;
+}
+
+.indexh2{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.details{
+    display: none;
+}
+
 .info {
     padding: 15px;
     margin: 30px;
@@ -549,6 +572,17 @@ hr {
 .infoimg{
     float: left;
     margin-right: 15px;
+    max-width: 30%;
+}
+
+.infoimg2{
+    float: right;
+    padding: 10px;
+    max-width: 40%;
+}
+
+.infotext{
+    padding: 15px;
 }
 
 .profcontinfo {
@@ -571,7 +605,7 @@ hr {
     border-top: solid 1px rgba(128, 183, 226, 0.15);
     border-bottom: solid 1px rgba(128, 183, 226, 0.15);
     background-color: rgba(128, 183, 226, 0.03);
-    margin-top: 0;
+    margin-top: 7px;
     margin-bottom: 0;
 }
 
@@ -1321,7 +1355,7 @@ table.statcalc tr td {
     color: #f7f7f7;
 }
 
-.dbfilter, .monsterlvl, .dbskill, .gradefilter {
+.dbfilter, .monsterlvl, .dbskill, .gradefilter, .setfilter {
     margin-top: 11px;
     margin-bottom: 10px;
     border-radius: 0;
@@ -1926,7 +1960,10 @@ table.statcalc tr td {
 
 @media (max-width: 1200px) {
     .menuiteminner {
-        left: 30px;
+        left: 220px;
+    }
+    .menuitem {
+        width: 220px;
     }
 }
 
@@ -1951,6 +1988,7 @@ table.statcalc tr td {
     .menuitem {
         display: block;
         padding: 12px;
+        width: 100%;
     }
 
     .menuitemright {
@@ -1974,6 +2012,22 @@ table.statcalc tr td {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
+    }
+
+    .mainmenulink2{
+        padding: 10px;
+    }
+
+    .indexquests li{
+        padding: 10px;
+    }
+
+    .sb_vk {
+        width: 100%;
+    }
+
+    .sb_banner {
+        width: 100%;
     }
 
 }
@@ -2092,5 +2146,33 @@ table.statcalc tr td {
     .news_item_content{
         width: 100%;
     }
+
+    #search_form{
+        width: 100%;
+    }
+    #search_form input{
+        width: 70%;
+        float: left;
+        margin-left: 20px;
+    }
+    #search_form button{
+        width: 20%;
+        float: left;
+    }
+
+    .logocont{
+        bottom: 40px;
+    }
+
+    .menuiteminner {
+        left: 0;
+    }
+
+    .slidercont{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
 
 }

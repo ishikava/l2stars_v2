@@ -473,7 +473,15 @@ $(document).ready(function () {
         $(this).removeClass('wmzindex');
         $('.raidcontainerinner').hide();
     });
-
+    $('.raidcontainer').bind('click', function () {
+        if($(this).hasClass('wmzindex')){
+            $(this).removeClass('wmzindex');
+            $('.raidcontainerinner').hide();
+        } else {
+            $('.raidcontainerinner').hide();
+            $(this).addClass('wmzindex').find('.raidcontainerinner').show();
+        }
+    });
 
     //rbslider
     $("#rbslider").slider({
@@ -526,6 +534,11 @@ $(document).ready(function () {
     //catacombslink
     $('.catacombslink').bind('click', function () {
         $('.catacombsrow').hide().eq($('.catacombslink').index(this)).show(500);
-    })
+    });
+
+    //details
+    $('.detailsbtn').bind('click', function () {
+        $('.details').toggle();
+    });
 
 });

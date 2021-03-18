@@ -70,25 +70,24 @@
     <div>
         <br>
     </div>
-
+{{--
     <div class="sb_vk">
-        {{-- <div id="vk_groups"></div>--}}
-</div>
+        <div id="vk_groups"></div>
+    </div>
 
-<div class="sb_banner">
+    <div class="sb_banner">
 
- {{--
- <div class="sb_adv">
-     <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-1634828634862162"
-          data-ad-slot="3427487461"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
- </div>
- --}}
+        <div class="sb_adv">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-1634828634862162"
+                 data-ad-slot="3427487461"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
 
         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>
+--}}
 </div>

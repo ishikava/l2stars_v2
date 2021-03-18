@@ -10,7 +10,42 @@ class SetsController extends Controller
         'title' => 'Сеты Lineage 2 ⭐⭐⭐ l2stars.com',
         'keywords' => 'Сеты Lineage 2',
         'description' => 'Сеты Lineage 2',
-        'seo' => 'Сеты Lineage 2'
+        'seo' => 'Сеты Lineage 2',
+        'info' => '
+<p>Заточка всех частей сета на +6 и выше не только дает различные баф-эффекты, но и повышает ваши статы, в зависимости от типа брони: тяжелая, легкая или роба.</p>
+<ul>
+<li> Регенерация МР работает только в спокойном состоянии и не активна во время боя.</li>
+<li> P. Def. и M. Def. просто добавляются к вашим статам, другими словами они статически увеличвают показатели, и никакие бафы на них не влияют.</li>
+</ul>
+
+<a class="detailsbtn">Подробнее [ развернуть ]</a>
+<br>
+<div class="details">
+<h3><strong>Heavy Armor Sets</strong> – увеличивает P. Def. и MP регенерацию</h3>
+<ul>
+<li> <em>D-Grade:</em> +25 P. Def., +1-2 MP</li>
+<li> <em>C-Grade:</em> +38 P. Def., +2~3 MP</li>
+<li> <em>B-Grade:</em> +44 P. Def., +2~3 MP</li>
+<li> <em>A-Grade:</em> +50 P. Def., +2~3 MP</li>
+<li> <em>S/S80-Grade:</em> +68 P. Def., +2~3 MP</li>
+</ul>
+<h3><strong>Ligh Armor Sets</strong> – увеличивает M. Def. and уворот</h3>
+<ul>
+<li> <em>D-Grade:</em> +14 M. Def., +2 Evasion</li>
+<li> <em>C-Grade:</em> +20 M. Def., +2 Evasion</li>
+<li> <em>B-Grade:</em> +24 M. Def., +3 Evasion</li>
+<li> <em>A-Grade:</em> +27 M. Def., +3 Evasion</li>
+<li> <em>S/S80-Grade:</em> +33 M. Def., +3 Evasion</li>
+</ul>
+<h3><strong>Robe Armor Sets</strong> – увеличивает P. Def. и переносимый вес</h3>
+<ul>
+<li> <em>D-Grade:</em> +16 P. Def., +30% Weigth Gauge</li>
+<li> <em>C-Grade:</em> +26 P. Def., +30% Weigth Gauge</li>
+<li> <em>B-Grade:</em> +28 P. Def., +30% Weigth Gauge</li>
+<li> <em>A-Grade:</em> +32 P. Def., +30% Weigth Gauge</li>
+<li> <em>S/S80-Grade:</em> +38 P. Def., +30% Weigth Gauge</li>
+</ul>
+</div>'
     ];
 
     public function index()

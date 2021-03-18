@@ -2,457 +2,481 @@
     strong {
         color: #f2db9f;
     }
-    td{
+
+    td {
         padding: 5px !important;
     }
-    .cb1 td img{
+
+    .cb1 td img {
         width: 25px;
     }
-    .cb1cont{
+
+    .cb1cont {
         max-width: 130px;
         max-height: 20px;
         overflow: hidden;
         white-space: nowrap;
     }
+    img{
+        max-width: 100%;
+    }
 </style>
-<br><ul id="tabberTab" class="nav nav-tabs">
+<br>
+<ul id="tabberTab" class="nav nav-tabs">
     <li class="nav-item"><a class="nav-link active" href="#tabs-0">Что такое Манор</a></li>
     <li class="nav-item"><a class="nav-link" href="#tabs-1">Таблица манора</a></li>
-</ul><div id="tabs" class="tab-content" style="border-left: none !important; border-right: none !important;"><div class="tabber activetab" data-tab="Что такое Манор">
-    <div class="itemFullText">
-        <h2>Общая информация о маноре</h2>
-        <p>Манор необходим для объемного крафта и продажи ресурсов в большом количестве.<br>Для того чтобы начать манорить необходимо купить у <strong>Манор менеджера</strong> (Manor Manager) нужные семена и <img title="Harvester" src="/images/armor_weapon/weapon/NG/harvester.jpg" alt="Harvester" width="32" height="32"> Harvester (покупается разово). Менеджеры находятся во всех городах возле фургонов. <span style="text-decoration: underline;"><strong>Внимание!</strong></span> Семена имеют территориальную принадлежность. Например, если Вы купили семена в Орене, то и манорить вы сможете только на территории Орена.<br>Если разница между Вашим персонажем и убитым монстром превышает 5 уровней, то за каждый уровень разницы шанс успеха уменьшается на 15%</p>
-        <table>
-            <tbody>
-            <tr>
-                <td style="width: 280px; border: 0px; vertical-align: top;">
-                    <p><strong>Диалоговое окно с Манор менеджером</strong></p>
-                    <p><span style="text-decoration: underline;">Purchase seed</span> - Покупка семян</p>
-                    <p><span style="text-decoration: underline;">Tally up indigenous</span> - Сдача урожая</p>
-                    <p><span style="text-decoration: underline;">View the Manor Status</span> - Настройки продажи семян и скупки урожая</p>
-                    <p><span style="text-decoration: underline;">View the Basic Seed Information</span> - Общая информация о маноре</p>
-                    <p><span style="text-decoration: underline;">Purchase harvester</span> - Купить харвестер</p>
-                </td>
-                <td style="border: 0px;"><img src=" /images/manor/manor_1.jpg" alt="" width="90%"></td>
-            </tr>
-            </tbody>
-        </table>
-        <h2>Семена</h2>
-        <p>Каждый тип семян делится на обычный и альтернативный. <br><em><strong>Обычные семена (Seed)</strong></em><br>Шанс посева 100%. При посеве обычного семени, кроме адены и камней печати, дропа с моба не будет.<br><span style="font-size: 12.16px;"><em><strong>Альтернативные семена (Alternative Seed)</strong></em><br></span>Шанс посева 10-20%. Посеев альтернативу Вы будите получать дроп, но количество урожая получите на порядок меньше. Ее берут только когда с моба жирный дроп.<br>Альтернативу часто используют дестры в Primeval Island при фарме ТОП ЛСов, чтобы никто не испортил дроп простой семечкой :)</p>
-        <p>На каждом семени указан оптимальный уровень монстров. Если уровень монстра больше максимального, то шанс посева снижается, но количество урожая увеличивается.</p>
-        <h2>Процесс</h2>
-        <p>Для удобства лучше всего вынести семена и харвестр на панель.</p>
-        <p><img src=" /images/manor/panel_manor.jpg" alt=""></p>
-        <p>Выбираем монстра и жмем на семя</p>
-        <p><img src=" /images/manor/manor_5.jpg" alt="" width="350"></p>
-        <p>Проверяем в систем чате успех манора</p>
-        <p><img src=" /images/manor/manor_3.jpg" alt=""></p>
-        <p>После убийства монстра жмём на харвестер и получаем урожай</p>
-        <p><img src=" /images/manor/manor_4.jpg" alt=""></p>
-        <p>Спойлить можно с любым видом семян. Сначала забираем спойл, потом уже манор, иначе труп монстра пропадет.</p>
-        <h2>Сдача манора</h2>
-        <p>Сдать урожай Манор менеджеру можно в любом городе, а также посмотреть, где, в каком количестве и по какой цене скупают. Количество урожая можно сдать не больше, чем лорд замка выставил на скупку.</p>
-        <p>Обычно на серверах сдача манора открывается в 20:06 по МСК. Для этого лучше сверить свои часы и часы сервера. Для этого отправляйтесь к любому замку и найдите НПЦ, у которого регистрироваться на осаду. На вкладке "Дата осады" есть текущее время.</p>
-        <p><img src=" /images/manor/manor_6.jpg" alt="" width="400"></p>
-        <p>Подгоняем своё время с серверным и увеличиваем свои шансы на сдачу. </p>
+</ul>
+<div id="tabs" class="tab-content" style="border-left: none !important; border-right: none !important;">
+    <div class="tabber activetab" data-tab="Что такое Манор">
+        <div class="itemFullText">
+            <h2>Общая информация о маноре</h2>
+            <p>Манор необходим для объемного крафта и продажи ресурсов в большом количестве.<br>Для того чтобы начать манорить необходимо купить у <strong>Манор менеджера</strong> (Manor Manager)
+                нужные семена и <img title="Harvester" src="/images/armor_weapon/weapon/NG/harvester.jpg" alt="Harvester" width="32" height="32"> Harvester (покупается разово). Менеджеры находятся во
+                всех городах возле фургонов. <span style="text-decoration: underline;"><strong>Внимание!</strong></span> Семена имеют территориальную принадлежность. Например, если Вы купили семена в
+                Орене, то и манорить вы сможете только на территории Орена.<br>Если разница между Вашим персонажем и убитым монстром превышает 5 уровней, то за каждый уровень разницы шанс успеха
+                уменьшается на 15%</p>
+            <table class="table table-bordered custom-border">
+                <tbody>
+                <tr>
+                    <td>
+                        <p><strong>Диалоговое окно с Манор менеджером</strong></p>
+                        <p><span style="text-decoration: underline;">Purchase seed</span> - Покупка семян</p>
+                        <p><span style="text-decoration: underline;">Tally up indigenous</span> - Сдача урожая</p>
+                        <p><span style="text-decoration: underline;">View the Manor Status</span> - Настройки продажи семян и скупки урожая</p>
+                        <p><span style="text-decoration: underline;">View the Basic Seed Information</span> - Общая информация о маноре</p>
+                        <p><span style="text-decoration: underline;">Purchase harvester</span> - Купить харвестер</p>
+                    </td>
+                    <td><img src="/images/manor/manor_1.jpg"></td>
+                </tr>
+                </tbody>
+            </table>
+            <h2>Семена</h2>
+            <p>Каждый тип семян делится на обычный и альтернативный. <br><em><strong>Обычные семена (Seed)</strong></em><br>Шанс посева 100%. При посеве обычного семени, кроме адены и камней печати,
+                дропа с моба не будет.<br><span style="font-size: 12.16px;"><em><strong>Альтернативные семена (Alternative Seed)</strong></em><br></span>Шанс посева 10-20%. Посеев альтернативу Вы
+                будите получать дроп, но количество урожая получите на порядок меньше. Ее берут только когда с моба жирный дроп.<br>Альтернативу часто используют дестры в Primeval Island при фарме ТОП
+                ЛСов, чтобы никто не испортил дроп простой семечкой :)</p>
+            <p>На каждом семени указан оптимальный уровень монстров. Если уровень монстра больше максимального, то шанс посева снижается, но количество урожая увеличивается.</p>
+            <h2>Процесс</h2>
+            <p>Для удобства лучше всего вынести семена и харвестр на панель.</p>
+            <p><img src=" /images/manor/panel_manor.jpg" alt=""></p>
+            <p>Выбираем монстра и жмем на семя</p>
+            <p><img src=" /images/manor/manor_5.jpg" alt="" width="350"></p>
+            <p>Проверяем в систем чате успех манора</p>
+            <p><img src=" /images/manor/manor_3.jpg" alt=""></p>
+            <p>После убийства монстра жмём на харвестер и получаем урожай</p>
+            <p><img src=" /images/manor/manor_4.jpg" alt=""></p>
+            <p>Спойлить можно с любым видом семян. Сначала забираем спойл, потом уже манор, иначе труп монстра пропадет.</p>
+            <h2>Сдача манора</h2>
+            <p>Сдать урожай Манор менеджеру можно в любом городе, а также посмотреть, где, в каком количестве и по какой цене скупают. Количество урожая можно сдать не больше, чем лорд замка выставил
+                на скупку.</p>
+            <p>Обычно на серверах сдача манора открывается в 20:06 по МСК. Для этого лучше сверить свои часы и часы сервера. Для этого отправляйтесь к любому замку и найдите НПЦ, у которого
+                регистрироваться на осаду. На вкладке "Дата осады" есть текущее время.</p>
+            <p><img src=" /images/manor/manor_6.jpg" alt="" width="400"></p>
+            <p>Подгоняем своё время с серверным и увеличиваем свои шансы на сдачу. </p>
 
+        </div>
     </div>
-</div><div class="tabber monsterstab" data-tab="Таблица манора">
-    <table class="table table-bordered custom-border cb1">
-        <h2 class="tabh2"><strong>Таблица манора</strong></h2>
-        <tbody>
-        <tr>
-            <td>Название</td>
-            <td>Уровень</td>
-            <td>Награда 1</td>
-            <td>Награда 2</td>
-            <td>Glud</td>
-            <td>Dion</td>
-            <td>Giran</td>
-            <td>Oren</td>
-            <td>Aden</td>
-            <td>Innad</td>
-            <td>Godd</td>
-            <td>Rune</td>
-        </tr>
-        <tr>
-            <td>Seed: Dark Coda</td>
-            <td style="text-align: center;">10</td>
-            <td><img src="/images/resource/Stem.jpg"> <a href="">Stem</a></td>
-            <td><img src="/images/resource/Braided_Hemp.jpg"> <a href="">Braided Hemp</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Red Coda</td>
-            <td style="text-align: center;">13</td>
-            <td><img src="/images/resource/Varnish.jpg"> <a href="">Varnish</a></td>
-            <td><img src="/images/resource/Cokes.jpg"> <a href="">Cokes</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Chilly Coda</td>
-            <td style="text-align: center;">16</td>
-            <td><img src="/images/resource/Suede.jpg"> <a href="">Suede</a></td>
-            <td><img src="/images/resource/Oriharukon_Ore.jpg"> <a href="">Oriharukon Ore</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Blue Coda</td>
-            <td style="text-align: center;">19</td>
-            <td><img src="/images/resource/Animal_Skin.jpg"> <a href="">Animal Skin</a></td>
-            <td><img src="/images/resource/Crafted_Leather.jpg"> <a href="">Crafted Leather</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Golden Coda</td>
-            <td style="text-align: center;">22</td>
-            <td><img src="/images/resource/Thread.jpg"> <a href="">Thread</a></td>
-            <td><img src="/images/resource/Mithril_Ore.jpg"> <a href="">Mithril Ore</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Lute Coda</td>
-            <td style="text-align: center;">25</td>
-            <td><img src="/images/resource/Iron_Ore.jpg"> <a href="">Iron Ore</a></td>
-            <td><img src="/images/resource/Metallic_Fiber.jpg"> <a href="">Metallic Fiber</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Desert Coda</td>
-            <td style="text-align: center;">28</td>
-            <td><img src="/images/resource/Coal.jpg"> <a href="">Coal</a></td>
-            <td><img src="/images/resource/Adamantite_Nugget.jpg"> <a href="">Adamantite Nugget</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Red Cobol</td>
-            <td style="text-align: center;">31</td>
-            <td><img src="/images/resource/Charcoal.jpg"> <a href="">Charcoal</a></td>
-            <td><img src="/images/resource/Enria.jpg"> <a href="">Enria</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Chilly Cobol</td>
-            <td style="text-align: center;">34</td>
-            <td><img src="/images/resource/Animal_Bone.jpg"> <a href="">Animal Bone</a></td>
-            <td><img src="/images/resource/Steel.jpg"> <a href="">Steel</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Blue Cobol</td>
-            <td style="text-align: center;">37</td>
-            <td><img src="/images/resource/Silver_Nugget.jpg"> <a href="">Silver Nugget</a></td>
-            <td><img src="/images/resource/Thons.jpg"> <a href="">Thons</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Thorn Cobol</td>
-            <td style="text-align: center;">40</td>
-            <td><img src="/images/resource/Stem.jpg"> <a href="">Stem</a></td>
-            <td><img src="/images/resource/Metallic_Thread.jpg"> <a href="">Metallic Thread</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Golden Cobol</td>
-            <td style="text-align: center;">43</td>
-            <td><img src="/images/resource/Varnish.jpg"> <a href="">Varnish</a></td>
-            <td><img src="/images/resource/Mold_Glue.jpg"> <a href="">Mold Glue</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Great Cobol</td>
-            <td style="text-align: center;">46</td>
-            <td><img src="/images/resource/Suede.jpg"> <a href="">Suede</a></td>
-            <td><img src="/images/resource/High-grade_Suede.jpg"> <a href="">High grade Suede</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Red Codran</td>
-            <td style="text-align: center;">49</td>
-            <td><img src="/images/resource/Animal_Skin.jpg"> <a href="">Animal Skin</a></td>
-            <td><img src="/images/resource/Asofe.jpg"> <a href="">Asofe</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Sea Codran</td>
-            <td style="text-align: center;">50</td>
-            <td><img src="/images/resource/Thread.jpg"> <a href="">Thread</a></td>
-            <td><img src="/images/resource/Cord.jpg"> <a href="">Cord</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Chilly Codran</td>
-            <td style="text-align: center;">52</td>
-            <td><img src="/images/resource/Iron_Ore.jpg"> <a href="">Iron Ore</a></td>
-            <td><img src="/images/resource/Mold_Hardener.jpg"> <a href="">Mold Hardener</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Blue Codran</td>
-            <td style="text-align: center;">55</td>
-            <td><img src="/images/resource/Coal.jpg"> <a href="">Coal</a></td>
-            <td><img src="/images/resource/Leather.jpg"> <a href="">Leather</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Twin Codran</td>
-            <td style="text-align: center;">58</td>
-            <td><img src="/images/resource/Charcoal.jpg"> <a href="">Charcoal</a></td>
-            <td><img src="/images/resource/Mold_Lubricant.jpg"> <a href="">Mold Lubricant</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Great Codran</td>
-            <td style="text-align: center;">61</td>
-            <td><img src="/images/resource/Animal_Bone.jpg"> <a href="">Animal Bone</a></td>
-            <td><img src="/images/resource/Coarse_Bone_Powder.jpg"> <a href="">Coarse Bone Powder</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Desert Codran</td>
-            <td style="text-align: center;">64</td>
-            <td><img src="/images/resource/Silver_Nugget.jpg"> <a href="">Silver Nugget</a></td>
-            <td><img src="/images/resource/Durable_Metal_Plate.jpg"> <a href="">Durable Metal Plate</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Blue Coba</td>
-            <td style="text-align: center;">67</td>
-            <td><img src="/images/resource/Crafted_Leather.jpg"> <a href="">Crafted Leather</a></td>
-            <td><img src="/images/resource/Mold_Glue.jpg"> <a href="">Mold Glue</a></td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-        </tr>
-        <tr>
-            <td>Seed: Red Coba</td>
-            <td style="text-align: center;">70</td>
-            <td><img src="/images/resource/Synthetic_Cokes.jpg"> <a href="">Synthetic Cokes</a></td>
-            <td><img src="/images/resource/Mold_Lubricant.jpg"> <a href="">Mold Lubricant</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-        </tr>
-        <tr>
-            <td>Seed: Golden Coba</td>
-            <td style="text-align: center;">73</td>
-            <td><img src="/images/resource/Varnish_of_Purity.jpg"> <a href="">Varnish of Purity</a></td>
-            <td><img src="/images/resource/Mold_Hardener.jpg"> <a href="">Mold Hardener</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-        </tr>
-        <tr>
-            <td>Seed: Desert Coba</td>
-            <td style="text-align: center;">76</td>
-            <td><img src="/images/resource/Asofe.jpg"> <a href="">Asofe</a></td>
-            <td><img src="/images/resource/Mithril_Alloy.jpg"> <a href="">Mithril Alloy</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;">+</td>
-        </tr>
-        <tr>
-            <td>Seed: Sea Coba</td>
-            <td style="text-align: center;">79</td>
-            <td><img src="/images/resource/Thons.jpg"> <a href="">Thons</a></td>
-            <td><img src="/images/resource/Enria.jpg"> <a href="">Enria</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+</td>
-            <td style="text-align: center;"> +</td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> +</td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td>Seed: Twin Coba</td>
-            <td style="text-align: center;">82</td>
-            <td><img src="/images/resource/High-grade_Suede.jpg"> <a href="">High grade Suede</a></td>
-            <td><img src="/images/resource/Oriharukon.jpg"> <a href="">Oriharukon</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> +</td>
-            <td style="text-align: center;"> </td>
-        </tr>
-        <tr>
-            <td><div class="cb1cont"><img src="/icons/etc_twin_coba_seed_i00_0.bmp"> - King Coba</div></td>
-            <td style="text-align: center;">85</td>
-            <td><img src="/images/resource/Metallic_Thread.jpg"> <a href="">Metallic Thread</a></td>
-            <td><img src="/images/resource/Durable_Metal_Plate.jpg"> <a href="">Durable Metal Plate</a></td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;"> </td>
-            <td style="text-align: center;">+ </td>
-        </tr>
-        </tbody>
-    </table>
-</div></div>
+    <div style="overflow: auto;">
+        <div class="tabber monsterstab" data-tab="Таблица манора">
+            <table class="table table-bordered custom-border cb1">
+                <h2 class="tabh2"><strong>Таблица манора</strong></h2>
+                <tbody>
+                <tr>
+                    <td>Название</td>
+                    <td>Уровень</td>
+                    <td>Награда 1</td>
+                    <td>Награда 2</td>
+                    <td>Glud</td>
+                    <td>Dion</td>
+                    <td>Giran</td>
+                    <td>Oren</td>
+                    <td>Aden</td>
+                    <td>Innad</td>
+                    <td>Godd</td>
+                    <td>Rune</td>
+                </tr>
+                <tr>
+                    <td>Seed: Dark Coda</td>
+                    <td style="text-align: center;">10</td>
+                    <td><img src="/images/resource/Stem.jpg"> <a href="">Stem</a></td>
+                    <td><img src="/images/resource/Braided_Hemp.jpg"> <a href="">Braided Hemp</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Red Coda</td>
+                    <td style="text-align: center;">13</td>
+                    <td><img src="/images/resource/Varnish.jpg"> <a href="">Varnish</a></td>
+                    <td><img src="/images/resource/Cokes.jpg"> <a href="">Cokes</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Chilly Coda</td>
+                    <td style="text-align: center;">16</td>
+                    <td><img src="/images/resource/Suede.jpg"> <a href="">Suede</a></td>
+                    <td><img src="/images/resource/Oriharukon_Ore.jpg"> <a href="">Oriharukon Ore</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Blue Coda</td>
+                    <td style="text-align: center;">19</td>
+                    <td><img src="/images/resource/Animal_Skin.jpg"> <a href="">Animal Skin</a></td>
+                    <td><img src="/images/resource/Crafted_Leather.jpg"> <a href="">Crafted Leather</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Golden Coda</td>
+                    <td style="text-align: center;">22</td>
+                    <td><img src="/images/resource/Thread.jpg"> <a href="">Thread</a></td>
+                    <td><img src="/images/resource/Mithril_Ore.jpg"> <a href="">Mithril Ore</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Lute Coda</td>
+                    <td style="text-align: center;">25</td>
+                    <td><img src="/images/resource/Iron_Ore.jpg"> <a href="">Iron Ore</a></td>
+                    <td><img src="/images/resource/Metallic_Fiber.jpg"> <a href="">Metallic Fiber</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Desert Coda</td>
+                    <td style="text-align: center;">28</td>
+                    <td><img src="/images/resource/Coal.jpg"> <a href="">Coal</a></td>
+                    <td><img src="/images/resource/Adamantite_Nugget.jpg"> <a href="">Adamantite Nugget</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Red Cobol</td>
+                    <td style="text-align: center;">31</td>
+                    <td><img src="/images/resource/Charcoal.jpg"> <a href="">Charcoal</a></td>
+                    <td><img src="/images/resource/Enria.jpg"> <a href="">Enria</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Chilly Cobol</td>
+                    <td style="text-align: center;">34</td>
+                    <td><img src="/images/resource/Animal_Bone.jpg"> <a href="">Animal Bone</a></td>
+                    <td><img src="/images/resource/Steel.jpg"> <a href="">Steel</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Blue Cobol</td>
+                    <td style="text-align: center;">37</td>
+                    <td><img src="/images/resource/Silver_Nugget.jpg"> <a href="">Silver Nugget</a></td>
+                    <td><img src="/images/resource/Thons.jpg"> <a href="">Thons</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Thorn Cobol</td>
+                    <td style="text-align: center;">40</td>
+                    <td><img src="/images/resource/Stem.jpg"> <a href="">Stem</a></td>
+                    <td><img src="/images/resource/Metallic_Thread.jpg"> <a href="">Metallic Thread</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Golden Cobol</td>
+                    <td style="text-align: center;">43</td>
+                    <td><img src="/images/resource/Varnish.jpg"> <a href="">Varnish</a></td>
+                    <td><img src="/images/resource/Mold_Glue.jpg"> <a href="">Mold Glue</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Great Cobol</td>
+                    <td style="text-align: center;">46</td>
+                    <td><img src="/images/resource/Suede.jpg"> <a href="">Suede</a></td>
+                    <td><img src="/images/resource/High-grade_Suede.jpg"> <a href="">High grade Suede</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Red Codran</td>
+                    <td style="text-align: center;">49</td>
+                    <td><img src="/images/resource/Animal_Skin.jpg"> <a href="">Animal Skin</a></td>
+                    <td><img src="/images/resource/Asofe.jpg"> <a href="">Asofe</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Sea Codran</td>
+                    <td style="text-align: center;">50</td>
+                    <td><img src="/images/resource/Thread.jpg"> <a href="">Thread</a></td>
+                    <td><img src="/images/resource/Cord.jpg"> <a href="">Cord</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Chilly Codran</td>
+                    <td style="text-align: center;">52</td>
+                    <td><img src="/images/resource/Iron_Ore.jpg"> <a href="">Iron Ore</a></td>
+                    <td><img src="/images/resource/Mold_Hardener.jpg"> <a href="">Mold Hardener</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Blue Codran</td>
+                    <td style="text-align: center;">55</td>
+                    <td><img src="/images/resource/Coal.jpg"> <a href="">Coal</a></td>
+                    <td><img src="/images/resource/Leather.jpg"> <a href="">Leather</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Twin Codran</td>
+                    <td style="text-align: center;">58</td>
+                    <td><img src="/images/resource/Charcoal.jpg"> <a href="">Charcoal</a></td>
+                    <td><img src="/images/resource/Mold_Lubricant.jpg"> <a href="">Mold Lubricant</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Great Codran</td>
+                    <td style="text-align: center;">61</td>
+                    <td><img src="/images/resource/Animal_Bone.jpg"> <a href="">Animal Bone</a></td>
+                    <td><img src="/images/resource/Coarse_Bone_Powder.jpg"> <a href="">Coarse Bone Powder</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Desert Codran</td>
+                    <td style="text-align: center;">64</td>
+                    <td><img src="/images/resource/Silver_Nugget.jpg"> <a href="">Silver Nugget</a></td>
+                    <td><img src="/images/resource/Durable_Metal_Plate.jpg"> <a href="">Durable Metal Plate</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Blue Coba</td>
+                    <td style="text-align: center;">67</td>
+                    <td><img src="/images/resource/Crafted_Leather.jpg"> <a href="">Crafted Leather</a></td>
+                    <td><img src="/images/resource/Mold_Glue.jpg"> <a href="">Mold Glue</a></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td>Seed: Red Coba</td>
+                    <td style="text-align: center;">70</td>
+                    <td><img src="/images/resource/Synthetic_Cokes.jpg"> <a href="">Synthetic Cokes</a></td>
+                    <td><img src="/images/resource/Mold_Lubricant.jpg"> <a href="">Mold Lubricant</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td>Seed: Golden Coba</td>
+                    <td style="text-align: center;">73</td>
+                    <td><img src="/images/resource/Varnish_of_Purity.jpg"> <a href="">Varnish of Purity</a></td>
+                    <td><img src="/images/resource/Mold_Hardener.jpg"> <a href="">Mold Hardener</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td>Seed: Desert Coba</td>
+                    <td style="text-align: center;">76</td>
+                    <td><img src="/images/resource/Asofe.jpg"> <a href="">Asofe</a></td>
+                    <td><img src="/images/resource/Mithril_Alloy.jpg"> <a href="">Mithril Alloy</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td>Seed: Sea Coba</td>
+                    <td style="text-align: center;">79</td>
+                    <td><img src="/images/resource/Thons.jpg"> <a href="">Thons</a></td>
+                    <td><img src="/images/resource/Enria.jpg"> <a href="">Enria</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"> +</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"> +</td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>Seed: Twin Coba</td>
+                    <td style="text-align: center;">82</td>
+                    <td><img src="/images/resource/High-grade_Suede.jpg"> <a href="">High grade Suede</a></td>
+                    <td><img src="/images/resource/Oriharukon.jpg"> <a href="">Oriharukon</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"> +</td>
+                    <td style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cb1cont"><img src="/icons/etc_twin_coba_seed_i00_0.bmp"> - King Coba</div>
+                    </td>
+                    <td style="text-align: center;">85</td>
+                    <td><img src="/images/resource/Metallic_Thread.jpg"> <a href="">Metallic Thread</a></td>
+                    <td><img src="/images/resource/Durable_Metal_Plate.jpg"> <a href="">Durable Metal Plate</a></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

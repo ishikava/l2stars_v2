@@ -7,7 +7,7 @@ class WorldmapController extends Controller
 
     protected $meta = [
         'title' => 'Карта респауна рейд-боссов Lineage 2 ⭐⭐⭐ l2stars.com',
-        'h1' => 'Карта респауна рейд-боссов Lineage 2',
+        'h1' => 'Карта респауна рейд-боссов Lineage 2 Interlude',
         'keywords' => 'Карта респауна рейд-боссов Lineage 2',
         'description' => 'Карта респауна рейд-боссов Lineage 2',
         'seo' => 'Карта респауна рейд-боссов Lineage 2'
