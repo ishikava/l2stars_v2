@@ -547,6 +547,26 @@ hr {
     border-top: solid 1px rgba(128, 183, 226, 0.15);
 }
 
+.panel {
+    background-color: rgba(128, 183, 226, 0.05);
+    border: solid 1px rgba(128, 183, 226, 0.1) !important;
+    border-radius: initial !important;
+    color: #fff;
+}
+
+.faqa{
+    color: #f2db9f;
+}
+
+.panel-heading, .panel-body {
+    border: none !important;
+    border-radius: initial !important;
+}
+
+.panel-heading{
+    background-color: rgba(128, 183, 226, 0.1);
+}
+
 .indeximg{
     float: right;
     padding: 20px;
@@ -628,6 +648,17 @@ hr {
     font-size: 14px;
     padding: 30px;
     border-top: solid 1px rgba(128, 183, 226, 0.15);
+}
+
+.caption{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left;
+}
+
+.advertul li{
+    padding: 5px;
 }
 
 .supervipserver {
@@ -1484,6 +1515,12 @@ table.statcalc tr td {
     font-size: 18px;
 }
 
+.tabh3{
+    margin: 0;
+    font-size: 17px;
+}
+
+
 .iteminfo {
     padding: 15px;
     margin-top: 15px;
@@ -1778,6 +1815,10 @@ table.statcalc tr td {
 .size-full {
     width: 100%;
     padding: 20px;
+}
+
+.size-full2 {
+    width: 100%;
 }
 
 .noborder{

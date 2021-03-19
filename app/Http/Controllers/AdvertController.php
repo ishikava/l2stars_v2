@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 class AdvertController extends Controller
 {
     protected $meta = [
-        'title' => 'Реклама на ⭐⭐⭐ l2stars.com',
-        'h1' => 'Реклама на l2stars.com и linedia.ru',
-        'keywords' => 'Реклама на ⭐⭐⭐ l2stars.com',
-        'description' => 'Реклама на ⭐⭐⭐ l2stars.com',
-        'seo' => 'Реклама на ⭐⭐⭐ l2stars.com'
+        'title' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru',
+        'keywords' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru',
+        'description' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru',
+        'h1' => 'Заказ рекламы на l2stars.com и linedia.ru',
+        'seo' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru'
     ];
 
     public function index()
@@ -20,8 +20,13 @@ class AdvertController extends Controller
             'current_date' => date('d.m.Y', time()),
             'dates' => $this->dates,
             'meta' => $this->meta,
-            'content' => '123'
+            'content' => $this->content()
         ]);
+    }
+
+    private function content()
+    {
+        return view('layouts.advert', []);
     }
 
 }

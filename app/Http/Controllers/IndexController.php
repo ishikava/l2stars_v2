@@ -119,7 +119,7 @@ class IndexController extends Controller
                 'opening soon',
                 'already opened',
                 'Show more servers',
-                'To add a server to the site, please follow the link: <a href="/server">add a new server</a>'
+                'Please read the prices and terms of advertising on our website: <a href="/advert">Here</a>'
             ];
         } else {
             $lang = [
