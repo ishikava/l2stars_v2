@@ -62,3 +62,4 @@ Route::get('tournament', function () {return redirect('');});
 
 
 Route::post('/search', 'App\Http\Controllers\SearchController@index');
+Route::post('/api', 'App\Http\Controllers\Api@index');

@@ -9,7 +9,7 @@ class AdvertController extends Controller
         'keywords' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru',
         'description' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru',
         'h1' => 'Заказ рекламы на l2stars.com и linedia.ru',
-        'seo' => 'Реклама на ⭐⭐⭐ l2stars.com и linedia.ru'
+        'seo' => 'Реклама на l2stars.com и linedia.ru'
     ];
 
     public function index()

@@ -3,7 +3,11 @@
 
 @include('layouts.head')
 
+{{--
 <body style="background-image: url('/brand/{{$brand->image}}')">
+--}}
+
+<body>
 
 @include('layouts.topmenu')
 

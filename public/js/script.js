@@ -13,6 +13,12 @@ $(document).ready(function () {
     //data-href
     $("[data-href]").bind("click", function () {
         window.open($(this).attr("data-href"), '_blank');
+        if ($(this).attr('data-sid') !== typeof undefined) {
+            $.post('/api', {method: 'add_click', param: parseInt($(this).attr('data-sid')), token: $('input[name="_token"]').val()});
+            if (Math.floor(Math.random() * 2) === 0) {
+                $.post('/api', {method: 'add_like', param: parseInt($(this).attr('data-sid')), token: $('input[name="_token"]').val()});
+            }
+        }
         return false;
     });
 
@@ -29,6 +35,7 @@ $(document).ready(function () {
     //         //window.location = 'https://l2op.ru/#linedia';
     //         window.location = 'https://ketrawars.net/page/x1ru';
     //         window.open(this.href);
+    //            $.post('/api', {method: 'add_click_under', param: parseInt($(this).attr('data-sid')), token: $('input[name="_token"]').val()});
     //         return false;
     //     });
     // }
@@ -41,6 +48,7 @@ $(document).ready(function () {
         let id = $('.countercont').index(this);
         $span.eq(id).numberAnimate('set', parseInt($span.eq(id).attr('data-numberanimate-value')) + 1);
         $(this).unbind('click');
+        $.post('/api', {method: 'add_like', param: parseInt($(this).attr('data-sid')), token: $('input[name="_token"]').val()});
     });
 
     //scroll top
@@ -474,7 +482,7 @@ $(document).ready(function () {
         $('.raidcontainerinner').hide();
     });
     $('.raidcontainer').bind('click', function () {
-        if($(this).hasClass('wmzindex')){
+        if ($(this).hasClass('wmzindex')) {
             $(this).removeClass('wmzindex');
             $('.raidcontainerinner').hide();
         } else {

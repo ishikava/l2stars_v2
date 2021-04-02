@@ -14,18 +14,17 @@
                 <div class="supervipserverscont">
 
                     @foreach ($supervipservers as $supervipserver)
-                        <div class="vipserver supervipserver" style="background-image: url('/background/{{$supervipserver->background}}')" data-chronicle="{{$supervipserver->chronicles}}" data-rates="{{$supervipserver->rates}}" data-month="{{$supervipserver->month}}" data-day="{{$supervipserver->day}}"
-                             data-sid="{{$supervipserver->id}}">
+                        <div class="vipserver supervipserver" style="background-image: url('/background/{{$supervipserver->background}}')" data-chronicle="{{$supervipserver->chronicles}}" data-rates="{{$supervipserver->rates}}" data-month="{{$supervipserver->month}}" data-day="{{$supervipserver->day}}">
                             <div class="vipserverinner">
                                 <div class="logoimgcont"><img src="/logo/{{$supervipserver->logo}}" alt="{{$supervipserver->host}}"></div>
                                 <div class="countercontwrapper">
-                                    <div class="countercont">
+                                     <div class="countercont" data-sid="{{$supervipserver->id}}">
                                         <div class="counterlike">👍</div>
                                         <span class="counter">{{$supervipserver->likes}}</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vipserverouter" data-href="{{$supervipserver->url}}"
+                            <div class="vipserverouter" data-href="{{$supervipserver->url}}" data-sid="{{$supervipserver->id}}"
                                  title="&#11088; {{$supervipserver->host}} &#11088;  [ {{$supervipserver->chronicles}} {{$supervipserver->rates}} ] Дата открытия : {{$supervipserver->day}} {{$supervipserver->loc_month}} {{$supervipserver->year}}
                                      &#10;Статистика переходов : за 24 часа : {{$supervipserver->day_vis}} | за неделю : {{$supervipserver->week_vis}} | за все время : {{$supervipserver->all_vis}}">
                                 <span class="vipservertext">{{$supervipserver->text}}</span>
@@ -64,18 +63,17 @@
                 <div class="vipserverscont">
 
                     @foreach ($vipservers as $vipserver)
-                        <div class="vipserver" data-chronicle="{{$vipserver->chronicles}}" data-rates="{{$vipserver->rates}}" data-month="{{$vipserver->month}}" data-day="{{$vipserver->day}}"
-                             data-sid="{{$vipserver->id}}">
+                        <div class="vipserver" data-chronicle="{{$vipserver->chronicles}}" data-rates="{{$vipserver->rates}}" data-month="{{$vipserver->month}}" data-day="{{$vipserver->day}}">
                             <div class="vipserverinner">
                                 <div class="logoimgcont"><img src="/img/cropped-logo-192x192.png" alt="{{$vipserver->host}}"></div>
                                 <div class="countercontwrapper">
-                                    <div class="countercont">
+                                     <div class="countercont" data-sid="{{$vipserver->id}}">
                                         <div class="counterlike">👍</div>
                                         <span class="counter">{{$vipserver->likes}}</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vipserverouter" data-href="{{$vipserver->url}}"
+                            <div class="vipserverouter" data-href="{{$vipserver->url}}" data-sid="{{$vipserver->id}}"
                                  title="&#11088; {{$vipserver->host}} &#11088;  [ {{$vipserver->chronicles}} {{$vipserver->rates}} ] Дата открытия : {{$vipserver->day}} {{$vipserver->loc_month}} {{$vipserver->year}}
                                      &#10;Статистика переходов : за 24 часа : {{$vipserver->day_vis}} | за неделю : {{$vipserver->week_vis}} | за все время : {{$vipserver->all_vis}}">
                                 <span class="vipservertext">{{$vipserver->text}}</span>
@@ -145,18 +143,17 @@
                     <div class="supervipserverscont">
 
                         @foreach ($old_supervipservers as $old_supervipserver)
-                            <div class="vipserver supervipserver" style="background-image: url('/background/{{$old_supervipserver->background}}')" data-chronicle="{{$old_supervipserver->chronicles}}" data-rates="{{$old_supervipserver->rates}}" data-month="{{$old_supervipserver->month}}" data-day="{{$old_supervipserver->day}}"
-                                 data-sid="{{$old_supervipserver->id}}">
+                            <div class="vipserver supervipserver" style="background-image: url('/background/{{$old_supervipserver->background}}')" data-chronicle="{{$old_supervipserver->chronicles}}" data-rates="{{$old_supervipserver->rates}}" data-month="{{$old_supervipserver->month}}" data-day="{{$old_supervipserver->day}}">
                                 <div class="vipserverinner">
                                     <div class="logoimgcont"><img src="/logo/{{$old_supervipserver->logo}}" alt="{{$old_supervipserver->host}}"></div>
                                     <div class="countercontwrapper">
-                                        <div class="countercont">
+                                         <div class="countercont" data-sid="{{$old_supervipserver->id}}">
                                             <div class="counterlike">👍</div>
                                             <span class="counter">{{$old_supervipserver->likes}}</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vipserverouter" data-href="{{$old_supervipserver->url}}"
+                                <div class="vipserverouter" data-href="{{$old_supervipserver->url}}" data-sid="{{$old_supervipserver->id}}"
                                      title="&#11088; {{$old_supervipserver->host}} &#11088;  [ {{$old_supervipserver->chronicles}} {{$old_supervipserver->rates}} ] Дата открытия : {{$old_supervipserver->day}} {{$old_supervipserver->loc_month}} {{$old_supervipserver->year}}
                                          &#10;Статистика переходов : за 24 часа : {{$old_supervipserver->day_vis}} | за неделю : {{$old_supervipserver->week_vis}} | за все время : {{$old_supervipserver->all_vis}}">
                                     <span class="vipservertext">{{$old_supervipserver->text}}</span>
@@ -195,18 +192,17 @@
                 <div class="vipserverscont">
 
                     @foreach ($old_vipservers as $old_vipserver)
-                        <div class="vipserver" data-chronicle="{{$old_vipserver->chronicles}}" data-rates="{{$old_vipserver->rates}}" data-month="{{$old_vipserver->month}}" data-day="{{$old_vipserver->day}}"
-                             data-sid="{{$old_vipserver->id}}">
+                        <div class="vipserver" data-chronicle="{{$old_vipserver->chronicles}}" data-rates="{{$old_vipserver->rates}}" data-month="{{$old_vipserver->month}}" data-day="{{$old_vipserver->day}}">
                             <div class="vipserverinner">
                                 <div class="logoimgcont"><img src="/img/cropped-logo-192x192.png" alt="{{$old_vipserver->host}}"></div>
                                 <div class="countercontwrapper">
-                                    <div class="countercont">
+                                     <div class="countercont" data-sid="{{$old_vipserver->id}}">
                                         <div class="counterlike">👍</div>
                                         <span class="counter">{{$old_vipserver->likes}}</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vipserverouter" data-href="{{$old_vipserver->url}}"
+                            <div class="vipserverouter" data-href="{{$old_vipserver->url}}" data-sid="{{$old_vipserver->id}}"
                                  title="&#11088; {{$old_vipserver->host}} &#11088;  [ {{$old_vipserver->chronicles}} {{$old_vipserver->rates}} ] Дата открытия : {{$old_vipserver->day}} {{$old_vipserver->loc_month}} {{$old_vipserver->year}}
                                      &#10;Статистика переходов : за 24 часа : {{$old_vipserver->day_vis}} | за неделю : {{$old_vipserver->week_vis}} | за все время : {{$old_vipserver->all_vis}}">
                                 <span class="vipservertext">{{$old_vipserver->text}}</span>

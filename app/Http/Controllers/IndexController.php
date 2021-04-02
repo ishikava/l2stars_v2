@@ -34,10 +34,9 @@ class IndexController extends Controller
 
         //servers
         $servers = DB::select("SELECT *,
- (SELECT COUNT(`id`) FROM `likes` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles`) as `likes`,
- (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24) . ")) as `day_vis`,
- (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24 * 7) . ")) as `week_vis`,
- (SELECT COUNT(`id`) FROM `views` WHERE `host` = `orders`.`host` AND `rates` = `orders`.`rates` AND `chronicles` = `orders`.`chronicles` ) as `all_vis`
+ (SELECT COUNT(`id`) FROM `views` WHERE `id` = `orders`.`id` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24) . ")) as `day_vis`,
+ (SELECT COUNT(`id`) FROM `views` WHERE `id` = `orders`.`id` AND `date` > FROM_UNIXTIME(" . (time() - 3600 * 24 * 7) . ")) as `week_vis`,
+ (SELECT COUNT(`id`) FROM `views` WHERE `id` = `orders`.`id`) as `all_vis`
  FROM `orders` WHERE `status` = 'published' ORDER BY `open_date` DESC LIMIT 0, " . $this->max_servers);
 
         foreach ($servers as $server) {
@@ -131,7 +130,8 @@ class IndexController extends Controller
 <h2 class="indexh2">L2stars.com</h2>
 <p>Офигенный, самый лучший, умопомрачительный, непревзойденный, единственный в своем роде, сказочно-чудесный, невероятныо красивый, незабываемый, легендарный супер мега анонс серверов Lineage 2 л2старс.
 Анонсирует, анонсирует, да не выанонсирует открытие самых новых, уникальных, супер VIP без доната лучших серверов однодневок и есть даже норм сервера на которых можно погамать чуть больше чем пару дней.
-Специально для любителей тру ПВП "я твой мама делал" есть на верху зачетная кнопочка по которой можно клацнуть и ( неожиданно ) увидеть список новых пвп серверов Л2.
+</p>
+<p>Специально для любителей тру ПВП "я твой мама делал" есть на верху зачетная кнопочка по которой можно клацнуть и ( неожиданно ) увидеть список новых пвп серверов Л2.
 Для тех-же игорьков, которые находятся в замешательстве относительно выбора рейтов своего будущего супер мега сервера на котором они собираются играть... Во что?
 Да, именно в неё - в Lineage 2 разных хроник и типа рейты чтобы не x1.</p>
 <p>
